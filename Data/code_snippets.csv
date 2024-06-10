@@ -1,113 +1,107 @@
-Code,Output,Obfuscate
-"const celsius = 25;
-const fahrenheit = celsius * 9/10 + 32;
-console.log(`${celsius}°C is ${fahrenheit}°F`);",,
+code,output,obfuscate,obfuscate output
 "const radius = 5;
 const area = Math.PI * radius * radius;
-console.log(`Area of circle: ${area}`);",,
+console.log(`Area of circle: ${area}`);",,,
 "const kilometers = 10;
 const miles = kilometers * 0.621371;
-console.log(`10 kilometers is ${miles} miles`);",,
+console.log(`10 kilometers is ${miles} miles`);",,,
 "const string1 = ""Hello"";
 const string2 = ""World"";
 const concatenated = string1 + "" "" + string2;
-console.log(concatenated);",,
+console.log(concatenated);",,,
 "const str = ""JavaScript"";
 const length = str.length;
-console.log(`Length: ${length}`);",,
+console.log(`Length: ${length}`);",,,
 "const str = ""hello world"";
 const upperStr = str.toUpperCase();
-console.log(upperStr);",,
+console.log(upperStr);",,,
 "const number = 16;
 const sqrt = Math.sqrt(number);
-console.log(`Square root: ${sqrt}`);",,
+console.log(`Square root: ${sqrt}`);",,,
 "const person = { name: ""Alice"", age: 30 };
-console.log(`Name: ${person.name}, Age: ${person.age}`);",,
+console.log(`Name: ${person.name}, Age: ${person.age}`);",,,
 "const now = new Date();
-console.log(`Current date and time: ${now}`);",,
+console.log(`Current date and time: ${now}`);",,,
 "const a = 5, b = 10, c = 8;
 const max = Math.max(a, b, c);
-console.log(`Maximum: ${max}`);",,
+console.log(`Maximum: ${max}`);",,,
 "const kilometers = 10;
 const miles = kilometers * 0.621371;
-console.log(`10 kilometers is ${miles} miles`);",,
+console.log(`10 kilometers is ${miles} miles`);",,,
 "const a = 3, b = 4;
 const hypotenuse = Math.sqrt(a*a + b*b);
-console.log(`Hypotenuse: ${hypotenuse}`);",,
+console.log(`Hypotenuse: ${hypotenuse}`);",,,
 "const number = 3.141592653589793;
 const fixedNumber = number.toFixed(2);
-console.log(`Fixed number: ${fixedNumber}`);",,
+console.log(`Fixed number: ${fixedNumber}`);",,,
 "const str = ""JavaScript"";
 const firstChar = str.charAt(0);
-console.log(`First character: ${firstChar}`);",,
-"const fahrenheit = 77;
-const celsius = (fahrenheit - 32) * 5/9;
-console.log(`${fahrenheit}°F is ${celsius}°C`);",,
+console.log(`First character: ${firstChar}`);",,,
 "const length = 10;
 const width = 5;
 const perimeter = 2 * (length + width);
-console.log(`Perimeter of rectangle: ${perimeter}`);",,
+console.log(`Perimeter of rectangle: ${perimeter}`);",,,
 "const numbers = [10, 20, 30, 40, 50];
-console.log(`Array of numbers: ${numbers}`);",,
+console.log(`Array of numbers: ${numbers}`);",,,
 "const str = ""Hello, JavaScript!"";
 const contains = str.includes(""JavaScript"");
-console.log(`Contains 'JavaScript': ${contains}`);",,
+console.log(`Contains 'JavaScript': ${contains}`);",,,
 "const str = ""HELLO WORLD"";
 const lowerStr = str.toLowerCase();
-console.log(lowerStr);",,
+console.log(lowerStr);",,,
 "const num = 7.5;
 const rounded = Math.round(num);
-console.log(`Rounded number: ${rounded}`);",,
+console.log(`Rounded number: ${rounded}`);",,,
 "const fruits = [""Apple"", ""Banana"", ""Cherry""];
-console.log(fruits);",,
+console.log(fruits);",,,
 "const arr = [1, 2, 3, 4, 5];
 const length = arr.length;
-console.log(`Array length: ${length}`);",,
+console.log(`Array length: ${length}`);",,,
 "const now = new Date();
 const year = now.getFullYear();
-console.log(`Current year: ${year}`);",,
+console.log(`Current year: ${year}`);",,,
 "const x = 15, y = 10, z = 20;
 const min = Math.min(x, y, z);
-console.log(`Minimum: ${min}`);",,
+console.log(`Minimum: ${min}`);",,,
 "const myBirthday = new Date('2000-01-01');
-console.log(`My birthday: ${myBirthday}`);",,
+console.log(`My birthday: ${myBirthday}`);",,,
 "const base = 2;
 const exponent = 3;
 const result = Math.pow(base, exponent);
-console.log(`${base}^${exponent} = ${result}`);",,
+console.log(`${base}^${exponent} = ${result}`);",,,
 "const str = ""123"";
 const int = parseInt(str, 10);
-console.log(`Parsed integer: ${int}`);",,
+console.log(`Parsed integer: ${int}`);",,,
 "const str = ""JavaScript"";
 const lastChar = str.charAt(str.length - 1);
-console.log(`Last character: ${lastChar}`);",,
+console.log(`Last character: ${lastChar}`);",,,
 "const str = ""I love JavaScript"";
 const newStr = str.replace(""love"", ""like"");
-console.log(newStr);",,
+console.log(newStr);",,,
 "const num = 123;
 const str = num.toString();
-console.log(`Converted to string: ${str}`);",,
+console.log(`Converted to string: ${str}`);",,,
 "const radius = 3;
 const volume = (4/3) * Math.PI * Math.pow(radius, 3);
-console.log(`Volume of sphere: ${volume}`);",,
+console.log(`Volume of sphere: ${volume}`);",,,
 "const number = -5;
 const isPositive = number > 0;
-console.log(`${number} is positive: ${isPositive}`);",,
+console.log(`${number} is positive: ${isPositive}`);",,,
 "const str = ""Hello World"";
 const arr = str.split("" "");
-console.log(arr);",,
+console.log(arr);",,,
 "const arr = [""JavaScript"", ""is"", ""fun""];
 const str = arr.join("" "");
-console.log(str);",,
+console.log(str);",,,
 "const days = [""Sunday"", ""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday"", ""Saturday""];
 const currentDay = days[2]; // Assuming today is Tuesday
-console.log(`Today is: ${currentDay}`);",,
+console.log(`Today is: ${currentDay}`);",,,
 "const num = -42;
 const absValue = Math.abs(num);
-console.log(`Absolute value: ${absValue}`);",,
+console.log(`Absolute value: ${absValue}`);",,,
 "const str = ""JavaScript"";
 const startsWithJ = str.startsWith(""J"");
-console.log(`Starts with 'J': ${startsWithJ}`);",,
+console.log(`Starts with 'J': ${startsWithJ}`);",,,
 "const car = {
     make: ""Toyota"",
     model: ""Corolla"",
@@ -115,423 +109,459 @@ console.log(`Starts with 'J': ${startsWithJ}`);",,
         return `${this.make} ${this.model}`;
     }
 };
-console.log(car.getCarInfo());",,
+console.log(car.getCarInfo());",,,
 "const num = 10;
 const log = Math.log(num);
-console.log(`Natural logarithm: ${log}`);",,
+console.log(`Natural logarithm: ${log}`);",,,
 "const arr = [1, 2, 3, 4, 5];
 const includesThree = arr.includes(3);
-console.log(`Array includes 3: ${includesThree}`);",,
+console.log(`Array includes 3: ${includesThree}`);",,,
 "const specificDate = new Date('2024-01-01');
-console.log(`Specific date: ${specificDate}`);",,
+console.log(`Specific date: ${specificDate}`);",,,
 "const str = ""3.14"";
 const float = parseFloat(str);
-console.log(`Parsed float: ${float}`);",,
+console.log(`Parsed float: ${float}`);",,,
 "const str = ""JavaScript"";
 const index = str.indexOf(""S"");
-console.log(`Index of 'S': ${index}`);",,
+console.log(`Index of 'S': ${index}`);",,,
 "const str = ""Banana Banana Banana"";
 const newStr = str.split(""Banana"").join(""Apple"");
-console.log(newStr);",,
+console.log(newStr);",,,
 "const radius = 4;
 const circumference = 2 * Math.PI * radius;
-console.log(`Circumference of circle: ${circumference}`);",,
+console.log(`Circumference of circle: ${circumference}`);",,,
 "const str = ""123"";
 const paddedStr = str.padStart(5, '0');
-console.log(`Padded string: ${paddedStr}`);",,
+console.log(`Padded string: ${paddedStr}`);",,,
 "const r = 255, g = 99, b = 71;
 const hex = `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
-console.log(`Hex color: ${hex}`);",,
+console.log(`Hex color: ${hex}`);",,,
 "function factorial(n) {
     return n === 0 ? 1 : n * factorial(n - 1);
 }
 const num = 5;
-console.log(`Factorial of ${num}: ${factorial(num)}`);",,
+console.log(`Factorial of ${num}: ${factorial(num)}`);",,,
 "const year = 2024;
 const isLeapYear = year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
-console.log(`${year} is a leap year: ${isLeapYear}`);",,
-"console.log('Carlos'.substring(3, 7))",,
-'let x=';console.log(x);,,
+console.log(`${year} is a leap year: ${isLeapYear}`);",,,
+"console.log('Carlos'.substring(3, 7))",,,
 "let nums = [1, 2, 3, 4, 5];
-console.log(nums[Math.floor(Math.random() * nums.length)]);",,
-"let adjective = ""cool""; let noun = ""dude""; console.log(`The ${adjective} ${noun} walked by me.`)",,
-console.log(typeof (null + 12.5)),,
-"let items = [""apple"", ""banana"", ""cherry""];console.log(items[1]);",,
-"let triangle = [[],[],[]]; console.log(triangle);",,
-"let a = Symbol(""a""), b = Symbol(""b""), c = Symbol(""c"");console.log(a+b+c)",,
-"const greet = ""Hello, World!"";console.log(greet);",,
-'console.log(Math.abs(0-4))',,
-[]+[]+{},,
-let greeting = 'Hello World'; console.log(greeting);,,
+console.log(nums[Math.floor(Math.random() * nums.length)]);",,,
+"let adjective = ""cool""; let noun = ""dude""; console.log(`The ${adjective} ${noun} walked by me.`)",,,
+console.log(typeof (null + 12.5)),,,
+"let items = [""apple"", ""banana"", ""cherry""];console.log(items[1]);",,,
+"let triangle = [[],[],[]]; console.log(triangle);",,,
+"const greet = ""Hello, World!"";console.log(greet);",,,
+'console.log(Math.abs(0-4))',,,
+[]+[]+{},,,
+let greeting = 'Hello World'; console.log(greeting);,,,
 "let speech = 'Hello World'
-console.log(speech)",,
-const alphabet = 'abcdefghijklmnopqrstuvwxyz'; console.log(alphabet[1]);,,
-let result = 2+3*4;console.log(result);,,
-'abcd'.includes('c')&&'abcd'.includes('d')&&'abcd'.includes('a')&&'abcd'.includes('b')&&console.log(true),,
-"let msg = 'Hello, my name is Carlo'; console.log(msg);",,
-let firstName = 'Eric';let lastName = 'Carter';console.log(firstName+''+lastName);,,
-let name = 'Carlo';console.log(name);console.log(name.length);,,
-console.log('(((((1+2))*(3+4)))'),,
-let name = 'Amelia'; console.log(name);,,
-console.log(1==true||0==false);,,
-"[1,2,3].map(i=>i+1).forEach(console.log)",,
-"let fruit = ""Apple"";console.log(fruit, ""Banana"", ""Orange"");",,
-"let city =""Frisco"";console.log(city)",,
-"console.log([0, 1, 2, 3, 4].join("",""))",,
-console.log(eval('console'));,,
-let n =1+1+1+1;console.log(n);,,
-"let array = [12, 34, 567, 1, 89];console.log(array);",,
-let bird = 'humming';console.log(`The sound the ${bird} makes`);,,
-console.log(Array.from(Array(101).keys()).every(el=>el**2%3==1||el%2===0)),,
-console.log('Alonso Alejandro Rivera Picos');,,
-console.log(55+22+(-139));,,
+console.log(speech)",,,
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'; console.log(alphabet[1]);,,,
+let result = 2+3*4;console.log(result);,,,
+'abcd'.includes('c')&&'abcd'.includes('d')&&'abcd'.includes('a')&&'abcd'.includes('b')&&console.log(true),,,
+"let msg = 'Hello, my name is Carlo'; console.log(msg);",,,
+let firstName = 'Eric';let lastName = 'Carter';console.log(firstName+''+lastName);,,,
+let name = 'Carlo';console.log(name);console.log(name.length);,,,
+console.log('(((((1+2))*(3+4)))'),,,
+let name = 'Amelia'; console.log(name);,,,
+console.log(1==true||0==false);,,,
+"[1,2,3].map(i=>i+1).forEach(console.log)",,,
+"let fruit = ""Apple"";console.log(fruit, ""Banana"", ""Orange"");",,,
+"let city =""Frisco"";console.log(city)",,,
+"console.log([0, 1, 2, 3, 4].join("",""))",,,
+console.log(eval('console'));,,,
+let n =1+1+1+1;console.log(n);,,,
+"let array = [12, 34, 567, 1, 89];console.log(array);",,,
+let bird = 'humming';console.log(`The sound the ${bird} makes`);,,,
+console.log(Array.from(Array(101).keys()).every(el=>el**2%3==1||el%2===0)),,,
+console.log('Alonso Alejandro Rivera Picos');,,,
+console.log(55+22+(-139));,,,
 "let names = ['John', 'Doe', 'Bob', 'Jane'];
 let favoriteFruit = 'banana';
 console.log(names[0], names[1], names[2], names[3]);
-console.log(favoriteFruit);",,
-Number.isInteger(10000999),,
-"let hello = 'Hello, World!';console.log(hello);",,
-"let msg = ""Hello, world!"";console.log(msg);",,
-console.log('Hello' + ' ' + 'World' + '!'),,
-console.log('hello'+'world'+'!');,,
-"console.log(new Array(25).fill(""🎉"").join(""""));",,
+console.log(favoriteFruit);",,,
+Number.isInteger(10000999),,,
+"let hello = 'Hello, World!';console.log(hello);",,,
+"let msg = ""Hello, world!"";console.log(msg);",,,
+console.log('Hello' + ' ' + 'World' + '!'),,,
+console.log('hello'+'world'+'!');,,,
 "String.prototype.repeater = function(n) { return new Array(n + 1).join(this); };
-console.log('Kai'.repeater(3));",,
-"""let weekDay = new Date().getDay();console.log((weekDay == 0 || weekDay == 6) ? 'weekend' : 'weekday');""",,
-"console.log([1, 2, 3] * ""a"")",,
-console.log(((!![]+[])[+!![]]+[+(+[]+[]+[][[]]+[+([]+[])])]+[!![]+!![]])[+!![]]+[!![]+!![]]),,
+console.log('Kai'.repeater(3));",,,
+"""let weekDay = new Date().getDay();console.log((weekDay == 0 || weekDay == 6) ? 'weekend' : 'weekday');""",,,
+"console.log([1, 2, 3] * ""a"")",,,
+console.log(((!![]+[])[+!![]]+[+(+[]+[]+[][[]]+[+([]+[])])]+[!![]+!![]])[+!![]]+[!![]+!![]]),,,
 "let one = [1, 2, 3];
 let two = one.slice();
 two[2] = 7;
-console.log(one + ',' + two);",,
-console.log(Math.PI);,,
-"console.log(typeof 1+""2""===typeof""12"")",,
-"let name = ""Carlo"";console.log(name.length)",,
-let arg = process.argv;console.log(arg);,,
-"let a = [[1,2],[3,4]];console.log(a[0][1])",,
-console.log(1+2*3+4),,
-"let a = [1,2,3,4,5];console.log(a[Math.floor(Math.random()*a.length)]);",,
-"(function(x){console.log(x.join(','))})(['a','b','c','d','e','f','g','h','i'])",,
-let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; console.log(letters.charCodeAt(14));,,
-"let numbers = [1,2,3,4,5];console.log(numbers[3]);",,
+console.log(one + ',' + two);",,,
+console.log(Math.PI);,,,
+"console.log(typeof 1+""2""===typeof""12"")",,,
+"let name = ""Carlo"";console.log(name.length)",,,
+let arg = process.argv;console.log(arg);,,,
+"let a = [[1,2],[3,4]];console.log(a[0][1])",,,
+console.log(1+2*3+4),,,
+"let a = [1,2,3,4,5];console.log(a[Math.floor(Math.random()*a.length)]);",,,
+"(function(x){console.log(x.join(','))})(['a','b','c','d','e','f','g','h','i'])",,,
+let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; console.log(letters.charCodeAt(14));,,,
+"let numbers = [1,2,3,4,5];console.log(numbers[3]);",,,
 "let string1 = 'Hello'
 let string2 = 'World'
-console.log(string1+string2)",,
-console.log((26 + 44).toString().repeat(2)[1]);,,
-"console.log(Math.min(73, 86, 90, 91, 100, 58))",,
-"[1, 2, 3].map(n => console.log(n * n))",,
-console.log(0-false+~~true+2*![]),,
-"let name = ""Alexa""; console.log(name.slice(0, 2).toUpperCase(), name.slice(2).toLowerCase());",,
-[42+24]*2^2,,
-let a = {};a.a = a;console.log(a.a.a.a.a.a.a.a.a),,
-"[1, 2, 3, 4].map(n => n + 1).forEach(i => console.log(i));",,
-console.log(0+0===0);,,
-"[1,+1,'1',true,null,{},[],undefined,'hello',Symbol()].forEach(console.log)",,
-console.log('sdrawkcab eht no si eman elihw esreveR'),,
-let a=4; let b=6; let s=a*b; console.log(s),,
-let name = 'Ada'; console.log(`Hello ${name}!`);,,
-"[""hi"",""bye"",""peace""].forEach(e=>console.log(e))",,
-"let name = ""Carlo""; let sentence = ""My name is "" + name; console.log(sentence)",,
-"const name = ""Graciela""; console.log(name.length + name);",,
-console.log('My favorite name is Carlo'),,
-"const x = {a:42,b:43};console.log(x.a+x.b);",,
-"const toggle = true ? console.log(""Heads"") : console.log(""Tails"");",,
-let a = '5'; let b = 9; console.log(a * b),,
-let str = 'true'console.log(typeof str),,
-let name = 'JaneDoe';console.log(`JaneDoe`);,,
-let num = 5 * 10;console.log(num);,,
+console.log(string1+string2)",,,
+console.log((26 + 44).toString().repeat(2)[1]);,,,
+"console.log(Math.min(73, 86, 90, 91, 100, 58))",,,
+"[1, 2, 3].map(n => console.log(n * n))",,,
+console.log(0-false+~~true+2*![]),,,
+"let name = ""Alexa""; console.log(name.slice(0, 2).toUpperCase(), name.slice(2).toLowerCase());",,,
+[42+24]*2^2,,,
+let a = {};a.a = a;console.log(a.a.a.a.a.a.a.a.a),,,
+"[1, 2, 3, 4].map(n => n + 1).forEach(i => console.log(i));",,,
+console.log(0+0===0);,,,
+"[1,+1,'1',true,null,{},[],undefined,'hello',Symbol()].forEach(console.log)",,,
+console.log('sdrawkcab eht no si eman elihw esreveR'),,,
+let a=4; let b=6; let s=a*b; console.log(s),,,
+let name = 'Ada'; console.log(`Hello ${name}!`);,,,
+"[""hi"",""bye"",""peace""].forEach(e=>console.log(e))",,,
+"let name = ""Carlo""; let sentence = ""My name is "" + name; console.log(sentence)",,,
+"const name = ""Graciela""; console.log(name.length + name);",,,
+console.log('My favorite name is Carlo'),,,
+"const x = {a:42,b:43};console.log(x.a+x.b);",,,
+"const toggle = true ? console.log(""Heads"") : console.log(""Tails"");",,,
+let a = '5'; let b = 9; console.log(a * b),,,
+let name = 'JaneDoe';console.log(`JaneDoe`);,,,
+let num = 5 * 10;console.log(num);,,,
 "let num = 15 * 20 - 5
-console.log(num)",,
-let num = 4 + 2; console.log(num);,,
-"let list = [0,1,2,3,4,5,6,7,8,9];console.log(list[0]+list[1]+list[2]+list[3]+list[4]+list[5]+list[6]+list[7]+list[8]+list[9])",,
-let example = 'This is a JavaScript program.';console.log(example),,
-let name = 'Carlo';console.log(name);console.log(name);console.log(name);,,
-"JSON.stringify({name:'Carlo',age:30,cities:['NYC','SF','LA']})",,
-console.log(((([]+[])+[[]]+[]) +[])[2][1][5]),,
-console.log((function(str){return str.repeat(4)})(('x'))),,
-console.log((((42**3)%22)+'')**2),,
-let string = 'Hello World!';console.log(string);,,
-let num = 10;let result = (num % 2) ? 'odd' : 'even';console.log(result);,,
-let answer = ((5*2)/3)+(4-1);console.log(answer);,,
-`Infinity===Infinity; console.log(Infinity===Infinity);`,,
-"console.log(Object.keys(process.env).join(','))",,
-let num = 12345678901234567890n; console.log(num);,,
-"let name = 'Carlo', surname = 'Rossi'; console.log(name + surname);",,
-let sum = (1+2+3+4+5+6+7+8+9+10)*(11+12+13+14+15);console.log(sum);,,
+console.log(num)",,,
+let num = 4 + 2; console.log(num);,,,
+"let list = [0,1,2,3,4,5,6,7,8,9];console.log(list[0]+list[1]+list[2]+list[3]+list[4]+list[5]+list[6]+list[7]+list[8]+list[9])",,,
+let example = 'This is a JavaScript program.';console.log(example),,,
+let name = 'Carlo';console.log(name);console.log(name);console.log(name);,,,
+"JSON.stringify({name:'Carlo',age:30,cities:['NYC','SF','LA']})",,,
+console.log((function(str){return str.repeat(4)})(('x'))),,,
+console.log((((42**3)%22)+'')**2),,,
+let string = 'Hello World!';console.log(string);,,,
+let num = 10;let result = (num % 2) ? 'odd' : 'even';console.log(result);,,,
+let answer = ((5*2)/3)+(4-1);console.log(answer);,,,
+`Infinity===Infinity; console.log(Infinity===Infinity);`,,,
+"console.log(Object.keys(process.env).join(','))",,,
+let num = 12345678901234567890n; console.log(num);,,,
+"let name = 'Carlo', surname = 'Rossi'; console.log(name + surname);",,,
+let sum = (1+2+3+4+5+6+7+8+9+10)*(11+12+13+14+15);console.log(sum);,,,
 "let num = 123 * 456;
 let result = num + 789;
-console.log(result);",,
-"""Hello World""",,
-let a=9;let b=3;console.log(a+b),,
+console.log(result);",,,
+"""Hello World""",,,
+let a=9;let b=3;console.log(a+b),,,
 "let str = ""abracadabra"";
-console.log(str.charAt(5));",,
-"console.log(Math.pow(2, 8));",,
+console.log(str.charAt(5));",,,
+"console.log(Math.pow(2, 8));",,,
 "const firstNames = [""Tom"", ""Dick"", ""Harry""];
-console.log(firstNames[Math.floor(Math.random()*3)]);",,
-thistextshouldnotexceedtenwordswithnovariablesorconditionalsandshouldconsole.log,,
-"let palindrome = ""anna""; console.log(palindrome === palindrome.split('').reverse().join(''));",,
+console.log(firstNames[Math.floor(Math.random()*3)]);",,,
+"let palindrome = ""anna""; console.log(palindrome === palindrome.split('').reverse().join(''));",,,
 "let name = 'example';
-console.log(name+' '+name)",,
-let a = 5; let b = 3; let c = a + b; console.log(c);,,
-console.log(1||2&&3),,
+console.log(name+' '+name)",,,
+let a = 5; let b = 3; let c = a + b; console.log(c);,,,
+console.log(1||2&&3),,,
 "let x = 15;
 let y = 17;
 let z = x + y;
-console.log(z);",,
+console.log(z);",,,
 "let famousComposer = ""Beethoven""
-console.log(famousComposer)",,
+console.log(famousComposer)",,,
 "let n = 123;
 let r1 = n % 10;
 let r2 = (n % 100) - r1;
 n /= 100;
 let r3 = n;
-console.log(r1,r2,r3);",,
-"let great=""Great""; let job=""Job"";console.log(great + "" "" + job);",,
-"let name = ""Carlo"";console.log(name.toUpperCase());",,
-console.log(0 instanceof Number);,,
-"let name = ""Carlo"";console.log(name)",,
-let name='Jane';console.log('Hello '+`${name}`);,,
-let a = 20 + 20;console.log(a);,,
-console.log(('x'*3)+('o'*3)+('x'*3));,,
-"let name = ""Carlo""; console.log(name);",,
-console.log(([]+[]).length),,
-"console.log((0,1),(2,""a""), (3,true)[[2]]);",,
-"let result = 'Hello, world!';console.log(result);",,
+console.log(r1,r2,r3);",,,
+"let great=""Great""; let job=""Job"";console.log(great + "" "" + job);",,,
+"let name = ""Carlo"";console.log(name.toUpperCase());",,,
+console.log(0 instanceof Number);,,,
+"let name = ""Carlo"";console.log(name)",,,
+let name='Jane';console.log('Hello '+`${name}`);,,,
+let a = 20 + 20;console.log(a);,,,
+console.log(('x'*3)+('o'*3)+('x'*3));,,,
+"let name = ""Carlo""; console.log(name);",,,
+console.log(([]+[]).length),,,
+"console.log((0,1),(2,""a""), (3,true)[[2]]);",,,
+"let result = 'Hello, world!';console.log(result);",,,
 "let name = 'Carlo'
 name = 'Juana'
-console.log(name)",,
-"console.log('let name = ""Carlo"";')",,
-"let str = ""Hello World"";console.log(str)",,
-"console.log((true ? true : false) === true ? ""True"" : ""False"")",,
-"let result = ""Hello"" + "" "" + ""World""; console.log(result);",,
-let name=Carlo;console.log(name);,,
-let n = 64; console.log(n.toString(2));,,
-"`let name = ""Dog""; let dog = ""Cat""; console.log(name, dog)`",,
-"console.log('sum',(Math.pow(10,3)+Math.pow(2,2)-Math.pow(3,2))*(1/2))",,
-"let a = [3, 6, 8, 2, 7, 9];console.log(a)",,
-let name = 'Carlo';let age = '21';console.log(name +'is' +age +'years old.');,,
-let digits = '123456789'; digits.split('').forEach(i => console.log(i));,,
-"`let n=""Carlo""; console.log(n+n+n);`",,
-"let name = ""Carlo""; console.log(name + "" plays basketball"");",,
-console.log('()()^(()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()'),,
-"let color = 'red';console.log(color.length, color.toUpperCase(), color.includes('e'));",,
-"let word = 'JavaScript';console.log(word.substr(3,2));",,
-let adore = adore|| adore^ (adore|=2),,
-let answer = 'yes' || 'no'; console.log(answer);,,
-"let a = true; let b = 12; let c = 'World'; console.log(a, b, c);",,
-"const ch =""A"" console.log(ch.charCodeAt(0))",,
-let word = 'hello'; let world = 'world'; console.log(word + ' ' + world);,,
-console.log(((([]+undefined)+'')+[])[1][0][0][0]),,
-"[8, 1, 7, 4, 3, 2, 5, 6].filter(x => x > 3).sort().reduce((a,b) => a + b)",,
-console.log('Hello ' + 'there ' + 'world!'),,
-let str = 1 + (2 + 3); console.log(str);,,
-"let name1=""Carlo""; let name2=""Petrucci""; console.log(name1, name2)",,
-"let name = ""carlo"";name += "" is very tired"";console.log(name)",,
-console.log(('1'==='1'&&('0'==='0'))+(1===1)+(0===0)),,
-console.log(typeof [typeof true]);,,
-"let array = [1,2,3,4,5];console.log(array[array.length - 1]);",,
-let num = 1000;console.log(num.toString(2));,,
-let a=1;console.log(typeof(a===3));,,
-"(function(){console.log(""Hello World"");})();",,
-"console.log([""ROCK"", ""PAPER"", ""SCISSORS""][Math.floor(Math.random() * 3)]);",,
-let num = 1 + 2 * 3;console.log(num);,,
-let name='Freddy';console.log(name.toLowerCase().toUpperCase()),,
+console.log(name)",,,
+"console.log('let name = ""Carlo"";')",,,
+"let str = ""Hello World"";console.log(str)",,,
+"console.log((true ? true : false) === true ? ""True"" : ""False"")",,,
+"let result = ""Hello"" + "" "" + ""World""; console.log(result);",,,
+let n = 64; console.log(n.toString(2));,,,
+"`let name = ""Dog""; let dog = ""Cat""; console.log(name, dog)`",,,
+"console.log('sum',(Math.pow(10,3)+Math.pow(2,2)-Math.pow(3,2))*(1/2))",,,
+"let a = [3, 6, 8, 2, 7, 9];console.log(a)",,,
+let name = 'Carlo';let age = '21';console.log(name +'is' +age +'years old.');,,,
+let digits = '123456789'; digits.split('').forEach(i => console.log(i));,,,
+"`let n=""Carlo""; console.log(n+n+n);`",,,
+"let name = ""Carlo""; console.log(name + "" plays basketball"");",,,
+console.log('()()^(()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()'),,,
+"let color = 'red';console.log(color.length, color.toUpperCase(), color.includes('e'));",,,
+"let word = 'JavaScript';console.log(word.substr(3,2));",,,
+let answer = 'yes' || 'no'; console.log(answer);,,,
+"let a = true; let b = 12; let c = 'World'; console.log(a, b, c);",,,
+let word = 'hello'; let world = 'world'; console.log(word + ' ' + world);,,,
+console.log(((([]+undefined)+'')+[])[1][0][0][0]),,,
+"[8, 1, 7, 4, 3, 2, 5, 6].filter(x => x > 3).sort().reduce((a,b) => a + b)",,,
+console.log('Hello ' + 'there ' + 'world!'),,,
+let str = 1 + (2 + 3); console.log(str);,,,
+"let name1=""Carlo""; let name2=""Petrucci""; console.log(name1, name2)",,,
+"let name = ""carlo"";name += "" is very tired"";console.log(name)",,,
+console.log(('1'==='1'&&('0'==='0'))+(1===1)+(0===0)),,,
+console.log(typeof [typeof true]);,,,
+"let array = [1,2,3,4,5];console.log(array[array.length - 1]);",,,
+let num = 1000;console.log(num.toString(2));,,,
+let a=1;console.log(typeof(a===3));,,,
+"(function(){console.log(""Hello World"");})();",,,
+"console.log([""ROCK"", ""PAPER"", ""SCISSORS""][Math.floor(Math.random() * 3)]);",,,
+let num = 1 + 2 * 3;console.log(num);,,,
+let name='Freddy';console.log(name.toLowerCase().toUpperCase()),,,
 "function greet(person) {
   console.log(""Hello"" + person + ""!"");
 }
 greet(""John"");
-greet(""Jane"");",,
-"let arr = [1,2,3,4];console.log(arr[3]);",,
-let n = 123; let sum = (n % 10) + ((n % 100) / 10) + ((n % 1000) / 100); console.log(sum);,,
-"let a=""a""; let b=""b""; console.log(a+b+a+b+a)",,
-let answer = (() => true)() ? 1 : 0;console.log(answer),,
-console.log('012345678901234567'),,
-"console.log('evens');[2,4,6,8,10].forEach(e => console.log(e));console.log('odds');[1,3,5,7,9].forEach(e => console.log(e))",,
-"console.log([[[[[""a""]]]]]);",,
-"console.log(typeof(100+""20""));",,
+greet(""Jane"");",,,
+"let arr = [1,2,3,4];console.log(arr[3]);",,,
+let n = 123; let sum = (n % 10) + ((n % 100) / 10) + ((n % 1000) / 100); console.log(sum);,,,
+"let a=""a""; let b=""b""; console.log(a+b+a+b+a)",,,
+let answer = (() => true)() ? 1 : 0;console.log(answer),,,
+console.log('012345678901234567'),,,
+"console.log('evens');[2,4,6,8,10].forEach(e => console.log(e));console.log('odds');[1,3,5,7,9].forEach(e => console.log(e))",,,
+"console.log([[[[[""a""]]]]]);",,,
+"console.log(typeof(100+""20""));",,,
 "console.log(sum(1, 2, 3, 4, 5))
 
 function sum(...nums) {
     return nums.reduce((a, b) => a + b, 0);
-}",,
-"let name = ""John"";console.log(name.slice(0, 2));",,
+}",,,
+"let name = ""John"";console.log(name.slice(0, 2));",,,
 "let zen = 'Sometimes the quietest thing is the loudest'
-console.log(zen)",,
+console.log(zen)",,,
 "let str = ""HeLlo WoRLd"".toLowerCase().split("""").reverse().join("""").toUpperCase()
-console.log(str)",,
-"let x='butterfly';y='flower';console.log(x.includes('fly'),y.includes('fly'))",,
-let unique = 123456789;console.log(unique);,,
-let a = 15; let b =15; console.log(a==b);,,
-"let sentence = ""JavaScript is a great language"";console.log(sentence)",,
+console.log(str)",,,
+"let x='butterfly';y='flower';console.log(x.includes('fly'),y.includes('fly'))",,,
+let unique = 123456789;console.log(unique);,,,
+let a = 15; let b =15; console.log(a==b);,,,
+"let sentence = ""JavaScript is a great language"";console.log(sentence)",,,
 "console.log(
   +(
     ""e"" * +""0""
   ) + ""r"" + ""r"" + ""o"" + ""r""
-);",,
-"let array = [1,2,3];let object = {n:1,two:2,three:3};console.log(array[0]+object.n)",,
-"let arr = [1,2,3,4,5];console.log(arr.reduce((a,b) => a + b));",,
-let x = 3 * 2 + 2 * 4;console.log(x);,,
-let message = `Codewars is so cool`; console.log(message),,
-"const sentence = ""Hello, I'm here"";console.log(sentence);",,
-"[3,4,5].map(v=>console.log(v))",,
-let n = 'Chris'; console.log(n.repeat(n.length)),,
-let response = (5 + 10) * (5 / 5) ** (3 - 2); console.log(response);,,
-let name = 'Hex';console.log('My name is '+name+'!');,,
-"console.log([1, 2, 3, 4, 5].reduce((a, b) => a * b, 1))",,
-const simpleLog = () => console.log(`The simplest program I can run!`);,,
-"let array = [1, 2, 3, 4, 5]; console.log(array[2]);",,
-let num = 3 ** 4; console.log(num);,,
+);",,,
+"let array = [1,2,3];let object = {n:1,two:2,three:3};console.log(array[0]+object.n)",,,
+"let arr = [1,2,3,4,5];console.log(arr.reduce((a,b) => a + b));",,,
+let x = 3 * 2 + 2 * 4;console.log(x);,,,
+let message = `Codewars is so cool`; console.log(message),,,
+"const sentence = ""Hello, I'm here"";console.log(sentence);",,,
+"[3,4,5].map(v=>console.log(v))",,,
+let n = 'Chris'; console.log(n.repeat(n.length)),,,
+let response = (5 + 10) * (5 / 5) ** (3 - 2); console.log(response);,,,
+let name = 'Hex';console.log('My name is '+name+'!');,,,
+"console.log([1, 2, 3, 4, 5].reduce((a, b) => a * b, 1))",,,
+const simpleLog = () => console.log(`The simplest program I can run!`);,,,
+"let array = [1, 2, 3, 4, 5]; console.log(array[2]);",,,
+let num = 3 ** 4; console.log(num);,,,
 "let a = 5 ** 5
-console.log(a + a)",,
-"let name = ""Carlo""; console.log(name)",,
+console.log(a + a)",,,
+"let name = ""Carlo""; console.log(name)",,,
 "const emoji = [""💣"",""😎"",""💨"",""👍"",""✊"",""🖖"",""🤘"",""👌"",""👏"",""😁""]
-console.log(emoji)",,
-"let i = - ~0 < 10 ? ""less"":""more""; console.log(i)",,
-"""123#abc$456&xyz!789@""",,
-let num = 42;console.log(num);,,
-"'(function(){return""Hello, world!""})()'",,
-console.log('Life is like a box of chocolates'),,
+console.log(emoji)",,,
+"let i = - ~0 < 10 ? ""less"":""more""; console.log(i)",,,
+"""123#abc$456&xyz!789@""",,,
+let num = 42;console.log(num);,,,
+"'(function(){return""Hello, world!""})()'",,,
+console.log('Life is like a box of chocolates'),,,
 "const isRainy = true;
 const isSunny = !isRainy;
-console.log(isSunny);",,
-let name = 'Carlo';console.log(name);console.log(name);console.log(name);console.log(name);console.log(name);,,
-const x = ((3+1)*5)*2+1;console.log(x);,,
-"`[1,2,3].map(x=>x*x). forEach(x=>console.log(x));`",,
+console.log(isSunny);",,,
+let name = 'Carlo';console.log(name);console.log(name);console.log(name);console.log(name);console.log(name);,,,
+const x = ((3+1)*5)*2+1;console.log(x);,,,
+"`[1,2,3].map(x=>x*x). forEach(x=>console.log(x));`",,,
 "const evens = [2,4,6,8,10];
 const result = evens.map(x=>x*x).map(x=>x/2);
-console.log(result);",,
-"console.log([[[2],[5]],[[8],[7]]][0][0]+[[[2],[5]],[[8],[7]]][1][0]);",,
-console.log(typeof undefined===undefined);,,
-'let a = Boolean(5); console.log( a);',,
-"console.log(Math.min(10,10,10,10,10,10,10,10,10,10))",,
-let sum = 2 + 2 + 2 + 2 + 2;console.log(sum);,,
-"[1,2,3,4].map(i=>console.log(i))",,
-let name = 'Carlo';console.log(name + ' ' + 'Rossi');,,
-"let result = '1,2,3,4,5'; console.log(result);",,
-"let emoji = 'a&#x1f600;b&#x1f604;';console.log(emoji.replace(/[a-z]/g, ''));",,
-"console.log(!!{}.length?""truthy"":""falsy"")",,
-console.log(1+4/2*5-10),,
-"let name = 'Cookie';console.log(""The dogs name is"", name);",,
-"let array = [""example"", ""array"", ""list""];console.log(array[2]);",,
-let name = 'Jane';console.log('Her name is ' + name);,,
-let a = 1; let b = 2; let c = 3; console.log(a + b + c);,,
-"""Hello World!""; console.log(""Hello World!"");",,
-"let testArray = ['a', 'b', 'c']; console.log(testArray[1]); console.log(testArray[0]);",,
-let sum = 3+5;console.log(sum);,,
-let num = 3;let total = 0;for (let i = 0; i < num; i++) { total += i + 1; };console.log(total);,,
-"let name = ""Adam"";console.log(name + "" West"");",,
-"let array = [1, 5, 2];console.log(array[2]);",,
-"""use strict"";console.log((4+4)*3-4);",,
-let answer = 2 + 2;console.log(answer);,,
-let x = Math.sin(0);console.log(x);,,
-"let word = ""hello""; console.log(word);",,
-'Test: Good';console.log('Test: Good');,,
-let str1 = 'Hello';let str2 = 'World';console.log(str1 + ' ' + str2);,,
-let course = 'javascript';console.log(course),,
-let favoriteFood = 'Pizza';  console.log(favoriteFood);,,
-let x = 1; let y = 2; let z = x + y;console.log(z);,,
-console.log(1 + 2 + 3 - 4 * 5 + 6 / 3);,,
-let a = 5; let b = 7; console.log(a * b);,,
-let firstName = 'Jet';let lastName = 'Set';console.log(firstName + ' ' + lastName);,,
-console.log('apple' + 'banana' + 'cherry');,,
-"console.log(1 === 2,2 === 2,3 === 2);",,
-function ping() { return 'pong'; } ;console.log(ping());,,
-"let greeting = ""Hello, world!""; console.log(greeting);",,
+console.log(result);",,,
+"console.log([[[2],[5]],[[8],[7]]][0][0]+[[[2],[5]],[[8],[7]]][1][0]);",,,
+console.log(typeof undefined===undefined);,,,
+'let a = Boolean(5); console.log( a);',,,
+"console.log(Math.min(10,10,10,10,10,10,10,10,10,10))",,,
+let sum = 2 + 2 + 2 + 2 + 2;console.log(sum);,,,
+"[1,2,3,4].map(i=>console.log(i))",,,
+let name = 'Carlo';console.log(name + ' ' + 'Rossi');,,,
+"let result = '1,2,3,4,5'; console.log(result);",,,
+"let emoji = 'a&#x1f600;b&#x1f604;';console.log(emoji.replace(/[a-z]/g, ''));",,,
+"console.log(!!{}.length?""truthy"":""falsy"")",,,
+console.log(1+4/2*5-10),,,
+"let name = 'Cookie';console.log(""The dogs name is"", name);",,,
+"let array = [""example"", ""array"", ""list""];console.log(array[2]);",,,
+let name = 'Jane';console.log('Her name is ' + name);,,,
+let a = 1; let b = 2; let c = 3; console.log(a + b + c);,,,
+"""Hello World!""; console.log(""Hello World!"");",,,
+"let testArray = ['a', 'b', 'c']; console.log(testArray[1]); console.log(testArray[0]);",,,
+let sum = 3+5;console.log(sum);,,,
+let num = 3;let total = 0;for (let i = 0; i < num; i++) { total += i + 1; };console.log(total);,,,
+"let name = ""Adam"";console.log(name + "" West"");",,,
+"let array = [1, 5, 2];console.log(array[2]);",,,
+"""use strict"";console.log((4+4)*3-4);",,,
+let answer = 2 + 2;console.log(answer);,,,
+let x = Math.sin(0);console.log(x);,,,
+"let word = ""hello""; console.log(word);",,,
+'Test: Good';console.log('Test: Good');,,,
+let str1 = 'Hello';let str2 = 'World';console.log(str1 + ' ' + str2);,,,
+let course = 'javascript';console.log(course),,,
+let favoriteFood = 'Pizza';  console.log(favoriteFood);,,,
+let x = 1; let y = 2; let z = x + y;console.log(z);,,,
+console.log(1 + 2 + 3 - 4 * 5 + 6 / 3);,,,
+let a = 5; let b = 7; console.log(a * b);,,,
+let firstName = 'Jet';let lastName = 'Set';console.log(firstName + ' ' + lastName);,,,
+console.log('apple' + 'banana' + 'cherry');,,,
+"console.log(1 === 2,2 === 2,3 === 2);",,,
+function ping() { return 'pong'; } ;console.log(ping());,,,
+"let greeting = ""Hello, world!""; console.log(greeting);",,,
 "let name = ""Gary"";
 let city = ""NYC"";
 let age = 25;
 let country = ""USA"";
-console.log(`My name is ${name}, age is ${age}, and I live in ${city}, and from country ${country}.`);",,
-let name = 'John';console.log(name);,,
-'let _2 = 3 + 4;let _3 = 6 * 7;console.log(_2);console.log(_3);',,
-let name = 'Carlo'; console.log(name);,,
-let v = '!';console.log(v.repeat(12));,,
-let result = (10 * 5) + 10;console.log(result);,,
-let eight = 8;console.log(eight);,,
+console.log(`My name is ${name}, age is ${age}, and I live in ${city}, and from country ${country}.`);",,,
+let name = 'John';console.log(name);,,,
+'let _2 = 3 + 4;let _3 = 6 * 7;console.log(_2);console.log(_3);',,,
+let name = 'Carlo'; console.log(name);,,,
+let v = '!';console.log(v.repeat(12));,,,
+let result = (10 * 5) + 10;console.log(result);,,,
+let eight = 8;console.log(eight);,,,
 "let one = 1;
 let two = 2;
 let three = one + two;
 console.log(one);
 console.log(two);
-console.log(three);",,
-'let str = 'hello world';console.log(str.toUpperCase());,,
-"let name = ""Carlo""; console.log(name + "" is a great example."");",,
+console.log(three);",,,
+"let name = ""Carlo""; console.log(name + "" is a great example."");",,,
 "let string = ""JavaScript"";console.log(string);
-",,
-"let sentence = ""This is a simple javascript statement.""; console.log(sentence);",,
-"'console.log(1 + 2 + ""45"" + 6 + 7);';",,
-"let greetings = 'Hello, World!';console.log(greetings);",,
-'let name = 'Mario';console.log(name + ' Bros.;'console.log('1985';,,
-let number = 9; console.log(number + number);,,
-const name = 'Carlo'; console.log(name);,,
-let x = 1; let y = 2; console.log(x + y);,,
-let sum = 5+5;console.log(sum);,,
-"let name = 'Carlo';console.log(name);console.log('Hello', name + '!');",,
-'let num1 = 1;let num2 = 2;console.log(num1 + num2);',,
-let name = 'Ada';console.log(name);,,
-"let greeting = ""Hello World!"";console.log(greeting);",,
+",,,
+"let sentence = ""This is a simple javascript statement.""; console.log(sentence);",,,
+"'console.log(1 + 2 + ""45"" + 6 + 7);';",,,
+"let greetings = 'Hello, World!';console.log(greetings);",,,
+let number = 9; console.log(number + number);,,,
+const name = 'Carlo'; console.log(name);,,,
+let x = 1; let y = 2; console.log(x + y);,,,
+let sum = 5+5;console.log(sum);,,,
+"let name = 'Carlo';console.log(name);console.log('Hello', name + '!');",,,
+'let num1 = 1;let num2 = 2;console.log(num1 + num2);',,,
+let name = 'Ada';console.log(name);,,,
+"let greeting = ""Hello World!"";console.log(greeting);",,,
 "let x = 5;
 let y = 10;
-console.log(x+y);",,
-"let name = ""Carlo"";console.log(name);",,
-"'let friends = [""john"", ""jacob"", ""jingle"", ""heimer"", ""smith""];console.log(friends[Math.floor(Math.random()*friends.length)]);",,
-"let name = ""William Afton""; console.log(name + "" is a fictional character."");",,
-let name = 'Carlo';console.log(name);console.log('Carlo');console.log(`Carlo`),,
-let age = 18;console.log(age >= 18 ? 'adult' : 'child');,,
-'console.log(5 * (1 + 2));',,
-"console.log(""This is a string literal;"")",,
-"console.log('This','is','a','simple','javascript','program');",,
-console.log('Hello Coders!');,,
-"let name = 'Carlo'; console.log(name + ', ' + 'Marlo');",,
-"function greet(name) {console.log(""Hello,""+name+""!"");}greet(""John"")",,
-"let name = 'Carlo';console.log(name);let age = 25;console.log(age);let hobby = 'programming';console.log(hobby);let quote = '""Live and learn""';console.log(quote);let fact = 1 + 1 == 2;console.log(fact);",,
-"let name = ""Carlo"";console.log(name);",,
-let wow = 'HOLA';console.log(wow);,,
-"let x = 10, y = 5, sum = x + y; console.log(sum);",,
-const input = prompt('Enter a number:'); console.log(parseInt(input) + 10);,,
-"let x = -2, y = 0, z = 2; console.log(x+y+z);",,
-let number = 16; console.log(number + 9);,,
-"let name = ""Carlo""; console.log(name);",,
-let name = 'Carlo'; console.log(name);,,
-let a = 10; b = 20; console.log(a * b - 1),,
-'let value = (3 + 7) * 2;console.log(value);',,
-const num1 = 1; const num2 = 2; console.log(num1 + num2);,,
+console.log(x+y);",,,
+"let name = ""Carlo"";console.log(name);",,,
+"let name = ""William Afton""; console.log(name + "" is a fictional character."");",,,
+let name = 'Carlo';console.log(name);console.log('Carlo');console.log(`Carlo`),,,
+let age = 18;console.log(age >= 18 ? 'adult' : 'child');,,,
+'console.log(5 * (1 + 2));',,,
+"console.log(""This is a string literal;"")",,,
+"console.log('This','is','a','simple','javascript','program');",,,
+console.log('Hello Coders!');,,,
+"let name = 'Carlo'; console.log(name + ', ' + 'Marlo');",,,
+"function greet(name) {console.log(""Hello,""+name+""!"");}greet(""John"")",,,
+"let name = 'Carlo';console.log(name);let age = 25;console.log(age);let hobby = 'programming';console.log(hobby);let quote = '""Live and learn""';console.log(quote);let fact = 1 + 1 == 2;console.log(fact);",,,
+"let name = ""Carlo"";console.log(name);",,,
+let wow = 'HOLA';console.log(wow);,,,
+"let x = 10, y = 5, sum = x + y; console.log(sum);",,,
+"let x = -2, y = 0, z = 2; console.log(x+y+z);",,,
+let number = 16; console.log(number + 9);,,,
+"let name = ""Carlo""; console.log(name);",,,
+let name = 'Carlo'; console.log(name);,,,
+let a = 10; b = 20; console.log(a * b - 1),,,
+'let value = (3 + 7) * 2;console.log(value);',,,
+const num1 = 1; const num2 = 2; console.log(num1 + num2);,,,
 """let pi = 3.14159;"";
-""console.log(pi);"";",,
-"let msg = ""Hello""; console. log(msg + "" World!"");",,
-"let name = ""John Doe""; console.log(`Name: ${name}`);",,
-"let a = new Array(1,2,3);a.push(4);a.push(5);a.pop();console.log(a);",,
-typeof(false);console.log(arguments.callee.name);,,
-"let name = ""Carlo""; console.log(name);",,
-"let name = ""Carlo"";console.log(name);",,
-let num = 12345;console.log(num + 1);,,
-"let name = ""Carlo""; console.log(name); console.log(name.length); console.log(name.length+5);",,
-console.log(50*.5-30/2+1);,,
-"let hello=""Hello,""; let world = ""World!""; console.log(hello, world);",,
-"const arr = [1, 2, 3];console.log(arr.map(x => x * x));",,
-let num = 4*5;console.log(num);,,
-let name = 'Eric';console.log(name);console.log(name + ' Ortiz');,,
-"let name = ""Carlo"";console.log(name + "", oh, "" + name);",,
-"""Hello JavaScript""; console.log(""Hello JavaScript"");",,
-console.log('Hello World!');,,
-let name = 'Carlo'; console.log(name); let age = 34; console.log(age);,,
-let total = 100 - 20; console.log(total),,
-let name = 'Carlo';console.log(name + '!'),,
-let number = 8;console.log(number);,,
-"`let name =""john"";let age = 35; console.log(name + "" is "" + age);`",,
-let num = 100;console.log(num);,,
-let name = 'Carlo'; console.log(name);,,
-'console.log(4*4);',,
-console.log('JavaScript');console.log('is');console.log('fun');,,
-"console.log(Math.pow(2,10));",,
-let number = 5;console.log(number + 10);,,
-const a = 1 + 5;console.log(a);,,
-"let allNames = ['John', 'Susan', 'Jack', 'Jill'];console.log(allNames);",,
-"let name = ""John""; let age = 21; console.log(name + "", "" + age);",,
-"let greetings = 'Hello, world!';console.log(greetings);",,
-let str = 'This string will be printed';console.log(str);,,
-"console.log(""Hello World"")",,
-"let name = ""Carlo""; console.log(""Hi, "" + name + ""!"");",,
-"let arr = [1,2,3,4,5,6,7,8,9,10]; console.log(arr.length);",,
-let x = 5; let y = 12.5; console.log(x / y);,,
-"'console.log(""Hello World"");'",,
+""console.log(pi);"";",,,
+"let msg = ""Hello""; console. log(msg + "" World!"");",,,
+"let name = ""John Doe""; console.log(`Name: ${name}`);",,,
+"let a = new Array(1,2,3);a.push(4);a.push(5);a.pop();console.log(a);",,,
+"let name = ""Carlo""; console.log(name);",,,
+"let name = ""Carlo"";console.log(name);",,,
+let num = 12345;console.log(num + 1);,,,
+"let name = ""Carlo""; console.log(name); console.log(name.length); console.log(name.length+5);",,,
+console.log(50*.5-30/2+1);,,,
+"let hello=""Hello,""; let world = ""World!""; console.log(hello, world);",,,
+"const arr = [1, 2, 3];console.log(arr.map(x => x * x));",,,
+let num = 4*5;console.log(num);,,,
+let name = 'Eric';console.log(name);console.log(name + ' Ortiz');,,,
+"let name = ""Carlo"";console.log(name + "", oh, "" + name);",,,
+"""Hello JavaScript""; console.log(""Hello JavaScript"");",,,
+console.log('Hello World!');,,,
+let name = 'Carlo'; console.log(name); let age = 34; console.log(age);,,,
+let total = 100 - 20; console.log(total),,,
+let name = 'Carlo';console.log(name + '!'),,,
+let number = 8;console.log(number);,,,
+"`let name =""john"";let age = 35; console.log(name + "" is "" + age);`",,,
+let num = 100;console.log(num);,,,
+let name = 'Carlo'; console.log(name);,,,
+'console.log(4*4);',,,
+console.log('JavaScript');console.log('is');console.log('fun');,,,
+"console.log(Math.pow(2,10));",,,
+let number = 5;console.log(number + 10);,,,
+"""use strict"";
+let name;
+name = 'Carlo';
+console.log(name);
+console.log(name + '!');",,,
+let one = 1;let two = 2;console.log(one + two);,,,
+let greeting = 'Hello'; let name = 'Carlo'; console.log(greeting + ' ' + name + '!');,,,
+let name = 'Sparkle'; console.log('My name is ' + name + ' and I am an AI');,,,
+"let first = ""Anna"";let last = ""Johnson"";console.log(first + "" "" + last);",,,
+"const square = (x) => x**2;
+console.log(square(3));
+console.log(square(9));
+console.log(square(15));",,,
+let name = 'Carlo'; console.log('The name is: ' + name + '!'); name = 'Sam'; console.log('Now the name is: ' + name + '!');,,,
+let name = 'Carlo'; console.log(name); let age = 30; console.log(age);,,,
+"let myArray = [1,2,3,4,5];
+let ArraySumming = myArray.reduce((a,b) => a + b, 0);
+console.log(ArraySumming);",,,
+'Hi';console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');,,,
+"let age = 61;
+let firstName = ""Carlo"";
+let height = 71;
+console.log(age);
+console.log(firstName);
+console.log(height);",,,
+"""use strict"";console.log(!""true""&&!!null&&!undefined);",,,
+"console.log('( ? + ? + ? ) * ?');
+console.log((2 + 3 + 5) * 1);
+console.log('( ? - ? ) * ?');
+console.log((5 - 2) * 2);
+console.log('( ? / ? + ? ) * ?');
+console.log((6 / 3 + 4) * 2);",,,
+"const add = (num1, num2) => num1 + num2; console.log(add(5, 6));",,,
+"const names = ['John', 'Jane', 'Bob', 'Alice']; console.log(names[2]); console.log(names);",,,
+"number = 10;
+string = ""Hello"";
+boolean = true;
+nullVariable = null;
+undefinedVariable = undefined;
+console.log(number + ""; "" + string + ""; "" + boolean + ""; "" + nullVariable + ""; "" + undefinedVariable);",,,
+let name = 'John'; let age = 20; let result = name + ' is ' + age; console.log(result);,,,
+"console.log(-2E-01);
+console.log(typeof -2E-01);
+console.log(55 + 44);
+console.log('55' + '44');
+console.log(55 + '44');
+console.log('55' + 44);",,,
+let x = 10;let y = 5;console.log(x + y);,,,
+console.log(Array.isArray([]));console.log(Array.isArray({})),,,
+let name = 'Carlo'; let age = 28; console.log(name + ' ' + age);,,,
+"let a = 5, b = 10, c = a + b; console.log(c);",,,
+"let test = ""Test"";
+let number = 3;
+let total = test + number;
+console.log(total);",,,
+"let result; result = ""Hello world!""; console.log(result);",,,
+"console.log('This is a simple string without quotes or slashes. It is under 10 lines, and it does not use control flows, loops, randomness, dates, or variables that can change depending on when called.');",,,
+"let name = ""Mocha"";
+let greeting = ""Hello, "";
+console.log(greeting + name);",,,

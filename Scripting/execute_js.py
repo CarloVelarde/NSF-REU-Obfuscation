@@ -1,3 +1,4 @@
+import re
 import pandas as pd
 import subprocess
 import os
@@ -16,6 +17,9 @@ def execute_code(js_code):
         
     except subprocess.CalledProcessError as e:
         return f"Error: {e}"
+    
+def has_bad_characters(s):
+    return bool(re.search(r'[^\x00-\x7F]', s))
 
 
 if __name__ == "__main__":
@@ -26,8 +30,13 @@ if __name__ == "__main__":
 
     df = pd.read_csv(csv_path)
 
-    df['Output'] = df['Code'].apply(execute_code)
+    df['output'] = df['code'].apply(execute_code)
 
+    # Filter bad data
+    df = df[~df["output"].str.contains("Error: Command")]
+
+    df = df[~df["output"].apply(has_bad_characters)]
+    
     df.to_csv(f"{data_dir}/code_snippets_with_output.csv", index = False)
 
 
