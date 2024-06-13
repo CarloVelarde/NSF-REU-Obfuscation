@@ -1,0 +1,903 @@
+code,output,obfuscate code,obfuscate output,obfuscation type
+"const radius = 5;
+const area = Math.PI * radius * radius;
+console.log(`Area of circle: ${area}`);",,"""const radius=5;const area=Math.PI*radius*radius;console.log(`Area of circle: ${area}`);const foo='bar';const bar='foo';console.log(foo+bar);""
+",,Dead Code Obfuscation
+"const kilometers = 10;
+const miles = kilometers * 0.621371;
+console.log(`10 kilometers is ${miles} miles`);",,"""const kilometers=10;const foo='bar';const miles=kilometers*0.621371;const baz='qux';console.log(`10 kilometers is ${miles} miles`);""
+",,Dead Code Obfuscation
+"const string1 = ""Hello"";
+const string2 = ""World"";
+const concatenated = string1 + "" "" + string2;
+console.log(concatenated);",,"""const string1=\""Hello\"";const string2=\""World\"";const concatenated=string1+\"" \""+string2;const unused=2*3;console.log(concatenated);""
+",,Dead Code Obfuscation
+"const str = ""JavaScript"";
+const length = str.length;
+console.log(`Length: ${length}`);",,"""const str=\""JavaScript\"";const length=str.length;function dummy(){let a=1;a++;a=a*2;return a;}console.log(`Length: ${length}`);""
+",,Dead Code Obfuscation
+"const str = ""hello world"";
+const upperStr = str.toUpperCase();
+console.log(upperStr);",,"""const str=\""hello world\"";const upperStr=str.toUpperCase();console.log(upperStr);const foo=1;const bar=foo+2;const baz=bar*foo;console.log(baz);""
+",,Dead Code Obfuscation
+"const number = 16;
+const sqrt = Math.sqrt(number);
+console.log(`Square root: ${sqrt}`);",,"""const number=16;const sqrt=Math.sqrt(number);console.log(`Square root: ${sqrt}`);const _0xabc123 = 10; const _0xdef456 = 20; const _0xghi789 = _0xabc123 + _0xdef456;  if (_0xghi789 > 30) { console.log('This is dead code'); } else {  console.log('This is also dead code'); }""
+",,Dead Code Obfuscation
+"const person = { name: ""Alice"", age: 30 };
+console.log(`Name: ${person.name}, Age: ${person.age}`);",,"""const person={name:\""Alice\"",age:30};function foo(){let x=10;x++;x*=2;}foo();console.log(`Name: ${person.name}, Age: ${person.age}`);foo();""
+",,Dead Code Obfuscation
+"const now = new Date();
+console.log(`Current date and time: ${now}`);",,"""const now=new Date();Date.prototype.xyz=function(){return 'dummy'};console.log(`Current date and time: ${now}`);""
+",,Dead Code Obfuscation
+"const a = 5, b = 10, c = 8;
+const max = Math.max(a, b, c);
+console.log(`Maximum: ${max}`);",,"""const _0x5a43=['log'];(function(_0x25a722,_0x2e8b64){const _0x3d593d=function(_0x4e5f40){while(--_0x4e5f40){_0x25a722['push'](_0x25a722['shift']());}};_0x3d593d(++_0x2e8b64);}(_0x5a43,0x16c));const _0x365e=function(_0x3968c7,_0x100f18){_0x3968c7=_0x3968c7-0x0;let _0x410851=_0x5a43[_0x3968c7];return _0x410851;};const a=0x5,b=0xa,c=0x8;const max=Math['max'](a,b,c);const _0x569388=0x12;console[_0x365e('0x0')](`Maximum: ${max}`);""
+",,Dead Code Obfuscation
+"const kilometers = 10;
+const miles = kilometers * 0.621371;
+console.log(`10 kilometers is ${miles} miles`);",,"""const kilometers=10;const a=10;const b=20;a+b;const miles=kilometers*0.621371;console.log(`10 kilometers is ${miles} miles`);""
+",,Dead Code Obfuscation
+"const a = 3, b = 4;
+const hypotenuse = Math.sqrt(a*a + b*b);
+console.log(`Hypotenuse: ${hypotenuse}`);",,"""const a = 3, b = 4;const _a_ = 10;const __a = _a_ * 2;const hypotenuse = Math.sqrt(a*a + b*b);const ____a = __a * _a_;console.log(`Hypotenuse: ${hypotenuse}`);""
+",,Dead Code Obfuscation
+"const number = 3.141592653589793;
+const fixedNumber = number.toFixed(2);
+console.log(`Fixed number: ${fixedNumber}`);",,"""const number=3.141592653589793;const a=10;const b=a+5;const fixedNumber=number.toFixed(2);console.log(`Fixed number: ${fixedNumber}`);""
+",,Dead Code Obfuscation
+"const str = ""JavaScript"";
+const firstChar = str.charAt(0);
+console.log(`First character: ${firstChar}`);",,"""const str='JavaScript';const firstChar=str.charAt(0);console.log(`First character: ${firstChar}`);function dummy(){let a=1;let b=2;let c=a+b;return c;}dummy();""
+",,Dead Code Obfuscation
+"const length = 10;
+const width = 5;
+const perimeter = 2 * (length + width);
+console.log(`Perimeter of rectangle: ${perimeter}`);",,"""const length=10;const width=5;const perimeter=2*(length+width);const dummy='this is a dummy';console.log(`Perimeter of rectangle: ${perimeter}`);""
+",,Dead Code Obfuscation
+"const numbers = [10, 20, 30, 40, 50];
+console.log(`Array of numbers: ${numbers}`);",,"""const numbers=[10,20,30,40,50];function dummy(){let a=10;a++;a--;};dummy();console.log(`Array of numbers: ${numbers}`);""
+",,Dead Code Obfuscation
+"const str = ""Hello, JavaScript!"";
+const contains = str.includes(""JavaScript"");
+console.log(`Contains 'JavaScript': ${contains}`);",,"""const str=\""Hello, JavaScript!\"";const contains=str.includes(\""JavaScript\"");const foo=25;let bar=foo*2;console.log(`Contains 'JavaScript': ${contains}`);bar+=foo;""
+",,Dead Code Obfuscation
+"const str = ""HELLO WORLD"";
+const lowerStr = str.toLowerCase();
+console.log(lowerStr);",,"""const str = \""HELLO WORLD\"";const lowerStr = str.toLowerCase();console.log(lowerStr);const foo = 10;const bar = foo * 2;console.log(bar);""
+",,Dead Code Obfuscation
+"const num = 7.5;
+const rounded = Math.round(num);
+console.log(`Rounded number: ${rounded}`);",,"""const num=7.5;const rounded=Math.round(num);console.log(`Rounded number: ${rounded}`);function dummy(){let a=1;let b=2;let c=a+b;return c;};dummy();""
+",,Dead Code Obfuscation
+"const fruits = [""Apple"", ""Banana"", ""Cherry""];
+console.log(fruits);",,"""const fruits=[\""Apple\"",\""Banana\"",\""Cherry\""];let foo=10;foo+=5;console.log(fruits);""
+",,Dead Code Obfuscation
+"const arr = [1, 2, 3, 4, 5];
+const length = arr.length;
+console.log(`Array length: ${length}`);",,"""const arr=[1,2,3,4,5];const length=arr.length;function dummy(){let a=1;a++;a=a*2;}dummy();console.log(`Array length: ${length}`);""
+",,Dead Code Obfuscation
+"const now = new Date();
+const year = now.getFullYear();
+console.log(`Current year: ${year}`);",,"""const now=new Date();const year=now.getFullYear();console.log(`Current year: ${year}`);const foo='bar';const bar=foo;if(foo===bar){console.log('This is dead code');}""
+",,Dead Code Obfuscation
+"const x = 15, y = 10, z = 20;
+const min = Math.min(x, y, z);
+console.log(`Minimum: ${min}`);",,"""const x=15,y=10,z=20;const _0x3d90=['log'];(function(_0x40763f,_0x4d0c1d){const _0x36229a=function(_0x45c1d1){while(--_0x45c1d1){_0x40763f['push'](_0x40763f['shift']());}};_0x36229a(++_0x4d0c1d);}(_0x3d90,0x189));const _0x32c3=function(_0x1a494c,_0x32408d){_0x1a494c=_0x1a494c-0x0;let _0x16f851=_0x3d90[_0x1a494c];return _0x16f851;};const min=Math['min'](x,y,z);console[_0x32c3('0x0')](`Minimum: ${min}`);""",,Dead Code Obfuscation
+"const myBirthday = new Date('2000-01-01');
+console.log(`My birthday: ${myBirthday}`);",,"""const myBirthday=new Date('2000-01-01');Date.prototype.xyz=function(){};let zzz=1+1;console.log(`My birthday: ${myBirthday}`);""
+",,Dead Code Obfuscation
+"const base = 2;
+const exponent = 3;
+const result = Math.pow(base, exponent);
+console.log(`${base}^${exponent} = ${result}`);",,"""const base=2;const exponent=3;const result=Math.pow(base,exponent);const foo='bar';console.log(`${base}^${exponent} = ${result}`);""
+",,Dead Code Obfuscation
+"const str = ""123"";
+const int = parseInt(str, 10);
+console.log(`Parsed integer: ${int}`);",,"""const str=\""123\"";const int=parseInt(str,10);function dummy(){let a=1;let b=2;console.log(a+b);}console.log(`Parsed integer: ${int}`);""
+",,Dead Code Obfuscation
+"const str = ""JavaScript"";
+const lastChar = str.charAt(str.length - 1);
+console.log(`Last character: ${lastChar}`);",,"""const str=\""JavaScript\"";const lastChar=str.charAt(str.length-1);function dummy(){let a=1;let b=2;return a+b;}console.log(`Last character: ${lastChar}`);""
+",,Dead Code Obfuscation
+"const str = ""I love JavaScript"";
+const newStr = str.replace(""love"", ""like"");
+console.log(newStr);",,"""const str=\""I love JavaScript\"";const newStr=str.replace(\""love\"",\""like\"");const foo='bar';console.log(newStr);function add(a,b){return a+b;}add(1,2);""
+",,Dead Code Obfuscation
+"const num = 123;
+const str = num.toString();
+console.log(`Converted to string: ${str}`);",,"""const num=123;const a=10;const b=20;const c=a+b;console.log(c);const str=num.toString();console.log(`Converted to string: ${str}`);""
+",,Dead Code Obfuscation
+"const radius = 3;
+const volume = (4/3) * Math.PI * Math.pow(radius, 3);
+console.log(`Volume of sphere: ${volume}`);",,"""const radius=3;const _0x3c2a=['log','pow'];(function(_0x3098ea,_0x1f824a){const _0x1336f9=_0x3979;while(!![]){try{const _0x366269=-parseInt(_0x1336f9(0x78))/0x1+parseInt(_0x1336f9(0x79))/0x2+parseInt(_0x1336f9(0x7c))/0x3+-parseInt(_0x1336f9(0x7b))/0x4+parseInt(_0x1336f9(0x7d))/0x5*(-parseInt(_0x1336f9(0x7a))/0x6)+parseInt(_0x1336f9(0x7e))/0x7+parseInt(_0x1336f9(0x7f))/0x8;if(_0x366269===_0x1f824a)break;else _0x3098ea['push'](_0x3098ea['shift']());}catch(_0x5972c9){_0x3098ea['push'](_0x3098ea['shift']());}}}(_0x3c2a,0xe11a2));function _0x3979(_0x283238,_0x16b018){const _0x3c2a4c=_0x3c2a;return _0x3c2a4c[_0x283238];}const volume=0x4/0x3*Math['PI']*Math[_0x3979(0x80)](radius,0x3);console[_0x3979(0x77)](`Volume of sphere: ${volume}`);""
+",,Dead Code Obfuscation
+"const number = -5;
+const isPositive = number > 0;
+console.log(`${number} is positive: ${isPositive}`);",,"""const number=-5;const foo='bar';const isPositive=number>0;console.log(`${number} is positive: ${isPositive}`);""
+",,Dead Code Obfuscation
+"const str = ""Hello World"";
+const arr = str.split("" "");
+console.log(arr);",,"""const str='Hello World';const foo=()=>{let a=10;a++;a*=2;return;};foo();const arr=str.split(' ');console.log(arr);""
+",,Dead Code Obfuscation
+"const arr = [""JavaScript"", ""is"", ""fun""];
+const str = arr.join("" "");
+console.log(str);",,"""const arr=['JavaScript','is','fun'];const str=arr.join(' ');console.log(str);function dummy(){let a=1;a++;return a;}dummy();""
+",,Dead Code Obfuscation
+"const days = [""Sunday"", ""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday"", ""Saturday""];
+const currentDay = days[2]; // Assuming today is Tuesday
+console.log(`Today is: ${currentDay}`);",,"""const days=[\""Sunday\"",\""Monday\"",\""Tuesday\"",\""Wednesday\"",\""Thursday\"",\""Friday\"",\""Saturday\""];const currentDay=days[2];console.log(`Today is: ${currentDay}`);const _0xabc123=['log'];(function(_0x456,_0x789){const _0xdef=_0x456();while(!![]){try{const _0xghi=parseInt(_0xdef/0x2)*(-0x1)+-parseInt(_0xdef/0x5)*(-0x1)+parseInt(_0xdef/0xa)*0x1+-parseInt(_0xdef/0xe)*0x1+parseInt(_0xdef/0x14)*0x1+-parseInt(_0xdef/0x1e)*0x1+parseInt(_0xdef/0x28)*0x1;if(_0xghi===_0x789)break;else _0xdef['push'](_0xdef['shift']());}catch(_0xjkl){_0xdef['push'](_0xdef['shift']());}}}(_0xabc123,0x82));function _0x1234(_0x5678,_0x9abc){_0x5678=+_0x5678;const _0xdef9=_0xabc123[0x0];return _0x5678+_0xdef9;};""
+",,Dead Code Obfuscation
+"const num = -42;
+const absValue = Math.abs(num);
+console.log(`Absolute value: ${absValue}`);",,"""const num=-42;const unused=12;const absValue=Math.abs(num);console.log(`Absolute value: ${absValue}`);""
+",,Dead Code Obfuscation
+"const str = ""JavaScript"";
+const startsWithJ = str.startsWith(""J"");
+console.log(`Starts with 'J': ${startsWithJ}`);",,"""const str='JavaScript';const a=10;const b=a*2;const startsWithJ=str.startsWith('J');console.log(`Starts with 'J': ${startsWithJ}`);""
+",,Dead Code Obfuscation
+"const car = {
+    make: ""Toyota"",
+    model: ""Corolla"",
+    getCarInfo: function() {
+        return `${this.make} ${this.model}`;
+    }
+};
+console.log(car.getCarInfo());",,"""const car={make:\""Toyota\"",model:\""Corolla\"",getCarInfo:function(){var _0xabc123=123;_0xabc123++;console.log(_0xabc123);return `${this.make} ${this.model}`}};console.log(car.getCarInfo());""
+",,Dead Code Obfuscation
+"const num = 10;
+const log = Math.log(num);
+console.log(`Natural logarithm: ${log}`);",,"""const num=10;const log=Math.log(num);console.log(`Natural logarithm: ${log}`);function dummy(){let a=1;let b=2;return a+b;};dummy();""
+",,Dead Code Obfuscation
+"const arr = [1, 2, 3, 4, 5];
+const includesThree = arr.includes(3);
+console.log(`Array includes 3: ${includesThree}`);",,"""const arr=[1,2,3,4,5];const unused=10;const includesThree=arr.includes(3);console.log(`Array includes 3: ${includesThree}`);""
+",,Dead Code Obfuscation
+"const specificDate = new Date('2024-01-01');
+console.log(`Specific date: ${specificDate}`);",,"""const specificDate=new Date('2024-01-01');const unused=123;console.log(`Specific date: ${specificDate}`);""
+",,Dead Code Obfuscation
+"const str = ""3.14"";
+const float = parseFloat(str);
+console.log(`Parsed float: ${float}`);",,"""const str=\""3.14\"";const float=parseFloat(str);console.log(`Parsed float: ${float}`);;const foo='bar';;if(foo==='baz'){console.log('This should not happen');};""
+",,Dead Code Obfuscation
+"const str = ""JavaScript"";
+const index = str.indexOf(""S"");
+console.log(`Index of 'S': ${index}`);",,"""const str=\""JavaScript\"";const index=str.indexOf(\""S\"");console.log(`Index of 'S': ${index}`);const foo=function(){let a=1;let b=2;return a+b;};foo();""
+",,Dead Code Obfuscation
+"const str = ""Banana Banana Banana"";
+const newStr = str.split(""Banana"").join(""Apple"");
+console.log(newStr);",,"""const str = \""Banana Banana Banana\"";const a = 1;const newStr = str.split(\""Banana\"").join(\""Apple\"");a = 2;console.log(newStr);""
+",,Dead Code Obfuscation
+"const radius = 4;
+const circumference = 2 * Math.PI * radius;
+console.log(`Circumference of circle: ${circumference}`);",,"""const radius=4;const _0xabc123=2*Math.PI*radius;console['log'](`Circumference of circle: ${_0xabc123}`);const foo=function(){};const bar=function(){};const baz=function(){};foo();bar();baz();""
+",,Dead Code Obfuscation
+"const str = ""123"";
+const paddedStr = str.padStart(5, '0');
+console.log(`Padded string: ${paddedStr}`);",,"""const str=\""123\"";const a=10;const b=a+5;const c=b*2;const paddedStr=str.padStart(5,'0');console.log(`Padded string: ${paddedStr}`);""
+",,Dead Code Obfuscation
+"const r = 255, g = 99, b = 71;
+const hex = `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
+console.log(`Hex color: ${hex}`);",,"""const r=255;const g=99;const b=71;const _0x3d0a=['log'];(function(_0x4144cb,_0x29f293){const _0x370b87=_0x48d3,_0x1c278f=_0x4144cb();while(!![]){try{const _0x31f32d=parseInt(_0x370b87(0x16d))/0x1*(-parseInt(_0x370b87(0x16f))/0x2)+-parseInt(_0x370b87(0x170))/0x3*(-parseInt(_0x370b87(0x172))/0x4)+-parseInt(_0x370b87(0x171))/0x5*(-parseInt(_0x370b87(0x16e))/0x6)+-parseInt(_0x370b87(0x174))/0x7+parseInt(_0x370b87(0x173))/0x8+-parseInt(_0x370b87(0x176))/0x9*(-parseInt(_0x370b87(0x175))/0xa)+parseInt(_0x370b87(0x177))/0xb;if(_0x31f32d===_0x29f293)break;else _0x1c278f['push'](_0x1c278f['shift']());}catch(_0x4e4363){_0x1c278f['push'](_0x1c278f['shift']());}}}(_0x54fa,0x93179));const hex=`#${((0x1<<0x18)+(r<<0x10)+(g<<0x8)+b)['toString'](0x10)['slice'](0x1)}`;console[_0x3d0a[0]](`Hex color: ${hex}`);function _0x48d3(_0x53f716,_0x262578){const _0x3d0a64=_0x3d0a;return _0x48d3=function(_0x54fa6f,_0x2e4d51){_0x54fa6f=_0x54fa6f-0x16d;let _0x40a97d=_0x3d0a64[_0x54fa6f];return _0x40a97d;},_0x48d3(_0x53f716,_0x262578);};if(true){let x=10}else{let x=20};""use strict"";const foo='bar';for(let i=0;i<3;i++){console.log(i)};switch(foo){case 'bar':console.log('foo is bar');break;default:console.log('foo is not bar');}""",,Dead Code Obfuscation
+"function factorial(n) {
+    return n === 0 ? 1 : n * factorial(n - 1);
+}
+const num = 5;
+console.log(`Factorial of ${num}: ${factorial(num)}`);",,"""function factorial(n){return n===0?1:n*factorial(n-1);}const num=5;console.log(`Factorial of ${num}: ${factorial(num)}`);function _0xABC2(n){return n*2;}const _0x1234='This is a dummy string';console.log(_0x1234);""
+",,Dead Code Obfuscation
+"const year = 2024;
+const isLeapYear = year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
+console.log(`${year} is a leap year: ${isLeapYear}`);",,"""const year=2024;const isLeapYear=year%4===0&&(year%100!==0||year%400===0);const foo='bar';console.log(`${year} is a leap year: ${isLeapYear}`);""
+",,Dead Code Obfuscation
+"console.log('Carlos'.substring(3, 7))",,"""console.log('Carlos'.substring(3,7));for(var i=0;i<10;i++){console.log()};""
+",,Dead Code Obfuscation
+"let nums = [1, 2, 3, 4, 5];
+console.log(nums[Math.floor(Math.random() * nums.length)]);",,"""let nums=[1,2,3,4,5];let a=10;a++;console.log(nums[Math.floor(Math.random()*nums.length)]);a--;""
+",,Dead Code Obfuscation
+"let adjective = ""cool""; let noun = ""dude""; console.log(`The ${adjective} ${noun} walked by me.`)",,"""let adjective=\""cool\"";let noun=\""dude\"";let _0xabc123=123;_0xabc123++;console.log(`The ${adjective} ${noun} walked by me.`);_0xabc123--;""
+",,Dead Code Obfuscation
+console.log(typeof (null + 12.5)),,"""console.log(typeof(null+12.5));function obfuscate(){let a=10;a++;a*=2;return a};obfuscate();""
+",,Dead Code Obfuscation
+"let items = [""apple"", ""banana"", ""cherry""];console.log(items[1]);",,"""let items=[\""apple\"",\""banana\"",\""cherry\""];function dummy(){let a=1;let b=2;return a+b;}dummy();console.log(items[1]);""
+",,Dead Code Obfuscation
+"let triangle = [[],[],[]]; console.log(triangle);",,"""let triangle=[[],[],[]];function dummy(){let a=1;let b=2;return a+b;}console.log(triangle);""
+",,Dead Code Obfuscation
+"const greet = ""Hello, World!"";console.log(greet);",,"""const greet=\""Hello, World!\"";let x=10;x++;console.log(greet);""
+",,Dead Code Obfuscation
+'console.log(Math.abs(0-4))',,"""'console.log(Math.abs(0-4))';var _0xabc123 = 123;function _f(){console.log('This is dead code');};_f();""",,Dead Code Obfuscation
+[]+[]+{},,"""[]+[];[];+[];[]+{}""",,Dead Code Obfuscation
+let greeting = 'Hello World'; console.log(greeting);,,"""let greeting='Hello World';let foo=123+456;console.log(greeting);for(let i=0;i<10;i++){foo++;};""
+",,Dead Code Obfuscation
+"let speech = 'Hello World'
+console.log(speech)",,"""let speech='Hello World';console.log('This is a dummy statement');console.log(speech);console.log('More useless code here');""
+",,Dead Code Obfuscation
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'; console.log(alphabet[1]);,,"""const alphabet = 'abcdefghijklmnopqrstuvwxyz';const _0xabc123 = 123; console.log(alphabet[1]);""
+",,Dead Code Obfuscation
+let result = 2+3*4;console.log(result);,,"""let result=2+3*4;let foo='bar';console.log(result);for(let i=0;i<3;i++){console.log('This is dead code');};""
+",,Dead Code Obfuscation
+'abcd'.includes('c')&&'abcd'.includes('d')&&'abcd'.includes('a')&&'abcd'.includes('b')&&console.log(true),,"""'abcd'.includes('c')&&'abcd'.includes('d')&&'abcd'.includes('a')&&'abcd'.includes('b')&&console.log(true);function dummy(){let a=1+1;a=a+2;console.log(a)}dummy();""
+",,Dead Code Obfuscation
+"let msg = 'Hello, my name is Carlo'; console.log(msg);",,"""let msg='Hello, my name is Carlo';function dummy(){let a=1;a++;a*=2;}console.log(msg);""
+",,Dead Code Obfuscation
+let firstName = 'Eric';let lastName = 'Carter';console.log(firstName+''+lastName);,,"""let firstName='Eric';let lastName='Eric';console.log(firstName+''+lastName);let _0xabc123 = 123;function _dummy(){let _0x123abc = 'dummy';};_dummy();""
+",,Dead Code Obfuscation
+let name = 'Carlo';console.log(name);console.log(name.length);,,"""let name='Carlo';let foo=10;foo++;console.log(name);let bar='random';console.log(name.length);""
+",,Dead Code Obfuscation
+console.log('(((((1+2))*(3+4)))'),,"""console.log('(((((1+2))*(3+4)))');function _0xAB12(){return 100;}function _0xCD34(){return 'This is a dummy function';}_0xAB12();_0xCD34();""
+",,Dead Code Obfuscation
+let name = 'Amelia'; console.log(name);,,"""let name='Amelia';let _0xabc123=123;console['log'](name);for(let _0x456def=0;_0x456def<100;_0x456def++){};""
+",,Dead Code Obfuscation
+console.log(1==true||0==false);,,"""console.log(1==true||0==false);if(Math.random()<0.5){var a=1;}else{var b=2;};""
+",,Dead Code Obfuscation
+"[1,2,3].map(i=>i+1).forEach(console.log)",,"""var _0xabc123 = ['log'];[1, 2, 3].map(function(i) {
+    return i + 1;
+}).forEach(console[_0xabc123[0]]);""
+",,Dead Code Obfuscation
+"let fruit = ""Apple"";console.log(fruit, ""Banana"", ""Orange"");",,"""let fruit=\""Apple\"";let arr=[1,2,3,4];arr.push(5);console.log(fruit,\""Banana\"",\""Orange\"");""
+",,Dead Code Obfuscation
+"let city =""Frisco"";console.log(city)",,"""let city=\""Frisco\"";let _0xabc123=10;console.log(city);for(let i=_0xabc123;i<20;i++){};""
+",,Dead Code Obfuscation
+"console.log([0, 1, 2, 3, 4].join("",""))",,"""console.log([0,1,2,3,4].join(','));function dummy(){let a=1;a++;a=a*2;return a;}dummy();""
+",,Dead Code Obfuscation
+console.log(eval('console'));,,"""console.log(123);console.log(eval('console'));""
+",,Dead Code Obfuscation
+let n =1+1+1+1;console.log(n);,,"""let n=1+1+1+1;function dummy(){let a=1;a++;return a};dummy();console.log(n);""
+",,Dead Code Obfuscation
+"let array = [12, 34, 567, 1, 89];console.log(array);",,"""let array=[12,34,567,1,89];let unused=234;unused++;console.log(array);""
+",,Dead Code Obfuscation
+let bird = 'humming';console.log(`The sound the ${bird} makes`);,,"""let bird='humming';let _0xabc123=7;console.log(`The sound the ${bird} makes`);_0xabc123++;""
+",,Dead Code Obfuscation
+console.log(Array.from(Array(101).keys()).every(el=>el**2%3==1||el%2===0)),,"""console.log(Array.from(Array(101).keys()).every(el=>el**2%3==1||el%2===0));console.log('This is a dummy statement');console.log(1+1);""
+",,Dead Code Obfuscation
+console.log('Alonso Alejandro Rivera Picos');,,"""console.log('Alonso Alejandro Rivera Picos');function dummy(){let a=1;a++;return a;};dummy();""
+",,Dead Code Obfuscation
+console.log(55+22+(-139));,,"""console.log(55+22+(-139));function dummy(){let a=1;a++;return a;};dummy();""
+",,Dead Code Obfuscation
+"let names = ['John', 'Doe', 'Bob', 'Jane'];
+let favoriteFruit = 'banana';
+console.log(names[0], names[1], names[2], names[3]);
+console.log(favoriteFruit);",,"""let names=['John','Doe','Bob','Jane'];let favoriteFruit='banana';let foo=123;foo++;foo*=2;console.log(names[0],names[1],names[2],names[3]);console.log(favoriteFruit);""
+",,Dead Code Obfuscation
+Number.isInteger(10000999),,"""Number.isInteger(10000999);const _0xabc123=['log'];(function(_0x1234,_0xabc123){const _0x56789=function(_0x9876){while(--_0x9876){_0x1234['push'](_0x1234['shift']());}};_0x56789(++_0xabc123);}(_0xabc123,0x19c));const _0x5678=function(_0x1234,_0xabc123){_0x1234=_0x1234-0x0;let _0x56789=_0xabc123[_0x1234];return _0x56789;};console[_0x5678('0x0')](Number.isInteger(10000999));""
+",,Dead Code Obfuscation
+"let hello = 'Hello, World!';console.log(hello);",,"""let hello='Hello, World!';function dummy(){let a=1;let b=2;let c=a+b;return c;}dummy();console.log(hello);""
+",,Dead Code Obfuscation
+"let msg = ""Hello, world!"";console.log(msg);",,"""let msg='Hello, world!';function _0xabc123(){return 123;}console.log(msg);for(let i=0;i<Math.floor(Math.random()*10);i++){_0xabc123();}""
+",,Dead Code Obfuscation
+console.log('Hello' + ' ' + 'World' + '!'),,"""console.log('Hello'+' '+'World'+'!');function dummy(){return 10;}dummy();""
+",,Dead Code Obfuscation
+console.log('hello'+'world'+'!');,,"""console.log('hello'+'world'+'!');function obfuscate(){var a=10;a++;a=a*2;return a;};obfuscate();""
+",,Dead Code Obfuscation
+"String.prototype.repeater = function(n) { return new Array(n + 1).join(this); };
+console.log('Kai'.repeater(3));",,"""String.prototype.repeater=function(n){return new Array(n+1).join(this);};console.log('Kai'.repeater(3));var a=1;a++;a--;if(a==1){console.log('')}""
+",,Dead Code Obfuscation
+"""let weekDay = new Date().getDay();console.log((weekDay == 0 || weekDay == 6) ? 'weekend' : 'weekday');""",,"""let weekDay=new Date().getDay();let foo=function(){let bar=10;bar++;console.log(bar);};foo();console.log((weekDay==0||weekDay==6)?'weekend':'weekday');""
+",,Dead Code Obfuscation
+"console.log([1, 2, 3] * ""a"")",,"""console.log([1,2,3]*\""a\"");function obfuscate(){let a=10;a+=20;return a};obfuscate();""
+",,Dead Code Obfuscation
+console.log(((!![]+[])[+!![]]+[+(+[]+[]+[][[]]+[+([]+[])])]+[!![]+!![]])[+!![]]+[!![]+!![]]),,"""console.log(((!![]+[])[+!![]]+[+(+[]+[]+[][[]]+[+([]+[])])]+[!![]+!![]])[+!![]]+[!![]+!![]]);function dummy(){let a=1+1;let b='a'+'b';return a*b;};dummy();""
+",,Dead Code Obfuscation
+"let one = [1, 2, 3];
+let two = one.slice();
+two[2] = 7;
+console.log(one + ',' + two);",,"""let one=[1,2,3];let a=5;two=one.slice();a+=1;two[2]=7;console.log(one+','+two);a=one[1];""
+",,Dead Code Obfuscation
+console.log(Math.PI);,,"""console.log(Math.PI);function dummy(){let a=1;let b=2;let c=a+b;return c;}dummy();""
+",,Dead Code Obfuscation
+"console.log(typeof 1+""2""===typeof""12"")",,"""console.log(typeof 1+\""2\""===typeof\""12\"");;;;;;;;;;;;;;;;;;;;;;;console.log();""
+",,Dead Code Obfuscation
+"let name = ""Carlo"";console.log(name.length)",,"""let name=\""Carlo\"";let foo=10;foo++;foo--;console.log(name.length);""
+",,Dead Code Obfuscation
+let arg = process.argv;console.log(arg);,,"""let arg=process.argv;let foo='bar';function dummy(){let x=1;x++;return x;}console.log(arg);""
+",,Dead Code Obfuscation
+"let a = [[1,2],[3,4]];console.log(a[0][1])",,"""let a=[[1,2],[3,4]];let b=10;b++;b--;console.log(a[0][1]);""
+",,Dead Code Obfuscation
+console.log(1+2*3+4),,"""console.log(1+2*3+4);function _0xabc123(){return 100;}var _0xdef456=Math.random();if(_0xdef456===1){console.log(_0xabc123())}""
+",,Dead Code Obfuscation
+"let a = [1,2,3,4,5];console.log(a[Math.floor(Math.random()*a.length)]);",,"""let a=[1,2,3,4,5];let b=10;b++;console.log(a[Math.floor(Math.random()*a.length)]);""
+",,Dead Code Obfuscation
+"(function(x){console.log(x.join(','))})(['a','b','c','d','e','f','g','h','i'])",,"""var _0xabc123=['a','b','c','d','e','f','g','h','i'];(function(x){var z=10;z++;console.log(x.join(','))})(_0xabc123);""
+",,Dead Code Obfuscation
+let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; console.log(letters.charCodeAt(14));,,"""let letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';let _0xabc123 = 10;_0xabc123++;console.log(letters.charCodeAt(14));""
+",,Dead Code Obfuscation
+"let numbers = [1,2,3,4,5];console.log(numbers[3]);",,"""let numbers=[1,2,3,4,5];let _0xabc123=5;console.log(numbers[3]);for(let i=0;i<_0xabc123;i++){};""
+",,Dead Code Obfuscation
+"let string1 = 'Hello'
+let string2 = 'World'
+console.log(string1+string2)",,"""let string1='Hello';let string2='World';let _0xabc123=123;console.log(string1+string2);for(let i=0;i<_0xabc123;i++){};""
+",,Dead Code Obfuscation
+console.log((26 + 44).toString().repeat(2)[1]);,,"""console.log((26+44).toString().repeat(2)[1]);function dummy(){let a=1;a++;return a;};dummy();""
+",,Dead Code Obfuscation
+"console.log(Math.min(73, 86, 90, 91, 100, 58))",,"""console.log(Math.min(73,86,90,91,100,58));function dummy(){let a=1;let b=2;let c=a+b;console.log(c);}dummy();""
+",,Dead Code Obfuscation
+"[1, 2, 3].map(n => console.log(n * n))",,"""[1,2,3].map(n=>{let _0xabc123=0;_0xabc123++;_0xabc123--;console.log(n*n)});""
+",,Dead Code Obfuscation
+console.log(0-false+~~true+2*![]),,"""console.log(0-false+~~true+2*![]);if(void 0===1){var _0x873f=['log'];console[_0x873f[0]]('This is dead code');}""
+",,Dead Code Obfuscation
+"let name = ""Alexa""; console.log(name.slice(0, 2).toUpperCase(), name.slice(2).toLowerCase());",,"""let name=\""Alexa\"";console.log(name.slice(0,2).toUpperCase(),name.slice(2).toLowerCase());function dummy(){let x=1;let y=2;let z=x+y;console.log(z);}dummy();""
+",,Dead Code Obfuscation
+[42+24]*2^2,,"""var _0xabc123 = 12;[42+24]*2^2;_0xabc123++;""
+",,Dead Code Obfuscation
+let a = {};a.a = a;console.log(a.a.a.a.a.a.a.a.a),,"""let a={};a.a=a;let b=10;b++;b--;b+=10;b-=10;console.log(a.a.a.a.a.a.a.a.a);""
+",,Dead Code Obfuscation
+"[1, 2, 3, 4].map(n => n + 1).forEach(i => console.log(i));",,"""[1,2,3,4].map(n=>n+1).forEach(i=>{let a=5;a++;a--;a+=1;console.log(i);});""
+",,Dead Code Obfuscation
+console.log(0+0===0);,,"""console.log(0+0===0);if(console){console.log('This is dead code');}""
+",,Dead Code Obfuscation
+"[1,+1,'1',true,null,{},[],undefined,'hello',Symbol()].forEach(console.log)",,"""let a=0;const b=1;let c=2;[1,+1,'1',true,null,{},[],undefined,'hello',Symbol()].forEach(console.log);let d=3;const e=4;let f=5;""
+",,Dead Code Obfuscation
+console.log('sdrawkcab eht no si eman elihw esreveR'),,"""console.log('sdrawkcab eht no si eman elihw esreveR');function dummy(){let a=1;let b=2;let c=a+b;};dummy();""
+",,Dead Code Obfuscation
+let a=4; let b=6; let s=a*b; console.log(s),,"""let a=4;let b=6;let s=a*b;let z=10;z++;z--;console.log(s)""
+",,Dead Code Obfuscation
+let name = 'Ada'; console.log(`Hello ${name}!`);,,"""let name='Ada';let foo=10;foo++;foo--;console.log(`Hello ${name}!`);""
+",,Dead Code Obfuscation
+"[""hi"",""bye"",""peace""].forEach(e=>console.log(e))",,"""[\""hi\"",\""bye\"",\""peace\""].forEach(e=>{if(Math.random()>0.5){console.log(e)}else{return null}});""
+",,Dead Code Obfuscation
+"let name = ""Carlo""; let sentence = ""My name is "" + name; console.log(sentence)",,"""let name=\""Carlo\"";let sentence=\""My name is \""+name;console.log(\""This is a dummy code\"");console.log(sentence);console.log(\""This is also a dummy code\"")""
+",,Dead Code Obfuscation
+"const name = ""Graciela""; console.log(name.length + name);",,"""const name=\""Graciela\"";function dummy(){let a=1;a++;a*=2;};console.log(name.length+name);""
+",,Dead Code Obfuscation
+console.log('My favorite name is Carlo'),,"""console.log('My favorite name is Carlo');var _0xabc123=['xyz'];(function(_0x1234){var _0x5678=function(_0x90ab){while(--_0x90ab){_0x1234['push'](_0x1234['shift']());}};_0x5678(++_0x90ab);}(_0xabc123));var _0xdef456=function(_0x1234,_0x5678){_0x1234=_0x1234-0x0;var _0x90ab=_0xabc123[_0x1234];return _0x90ab;};""
+",,Dead Code Obfuscation
+"const x = {a:42,b:43};console.log(x.a+x.b);",,"""const x={a:42,b:43};const foo=function(){let z=10;z++;z--;};foo();console.log(x.a+x.b);""
+",,Dead Code Obfuscation
+"const toggle = true ? console.log(""Heads"") : console.log(""Tails"");",,"""const toggle = true ? console.log(\""Heads\"") : console.log(\""Tails\"");var _0xabc123 = 123;function _xyz456(){return false;};if (_xyz456()){console.log(_0xabc123);}else{null;};""
+",,Dead Code Obfuscation
+let a = '5'; let b = 9; console.log(a * b),,"""let a='5';let b=9;let c=10;c+=5;c--;console.log(a*b);""
+",,Dead Code Obfuscation
+let name = 'JaneDoe';console.log(`JaneDoe`);,,"""let name='JaneDoe';let fake='a';fake='b';fake='c';console.log(`JaneDoe`);""
+",,Dead Code Obfuscation
+let num = 5 * 10;console.log(num);,,"""let num=5*10;function dummy(){let a=1;let b=2;console.log(a+b);}dummy();console.log(num);""
+",,Dead Code Obfuscation
+"let num = 15 * 20 - 5
+console.log(num)",,"""let num=15*20-5;function dummy(){let a=1;let b=2;console.log(a+b);}dummy();console.log(num);""
+",,Dead Code Obfuscation
+let num = 4 + 2; console.log(num);,,"""let num=4+2;let foo='bar';console.log(num);for(let i=0;i<3;i++){foo+=i;};""",,Dead Code Obfuscation
+"let list = [0,1,2,3,4,5,6,7,8,9];console.log(list[0]+list[1]+list[2]+list[3]+list[4]+list[5]+list[6]+list[7]+list[8]+list[9])",,"""let list=[0,1,2,3,4,5,6,7,8,9];let a=10;let b=20;let c=a+b;console.log(c);console.log(list[0]+list[1]+list[2]+list[3]+list[4]+list[5]+list[6]+list[7]+list[8]+list[9])""
+",,Dead Code Obfuscation
+let example = 'This is a JavaScript program.';console.log(example),,"""let example='This is a JavaScript program.';function dummy(){let a=1;let b=2;return a+b;}console.log(example);""
+",,Dead Code Obfuscation
+let name = 'Carlo';console.log(name);console.log(name);console.log(name);,,"""let name='Carlo';console.log(name);console.log(4*(99/333));console.log(name);console.log(name);""
+",,Dead Code Obfuscation
+"JSON.stringify({name:'Carlo',age:30,cities:['NYC','SF','LA']})",,"""JSON.stringify({name:'Carlo',age:30,cities:['NYC','SF','LA']});function dummy(){let a=10;a++;console.log(a);};dummy();""
+",,Dead Code Obfuscation
+console.log((function(str){return str.repeat(4)})(('x'))),,"""console.log((function(str){let _0xabc123 = 5;return str.repeat(4);_0xabc123+=Math.random();})(('x')))""
+",,Dead Code Obfuscation
+console.log((((42**3)%22)+'')**2),,"""console.log((((42**3)%22)+'')**2);function dummy(){let x=10;x++;console.log(x)}dummy();""
+",,Dead Code Obfuscation
+let string = 'Hello World!';console.log(string);,,"""let string='Hello World!';;console.log(1234);;console.log(string);""
+",,Dead Code Obfuscation
+let num = 10;let result = (num % 2) ? 'odd' : 'even';console.log(result);,,"""let num=10;let result=(num%2)?'odd':'even';let foo='bar';console.log(result);foo.length;""
+",,Dead Code Obfuscation
+let answer = ((5*2)/3)+(4-1);console.log(answer);,,"""let answer=((5*2)/3)+(4-1);let foo='bar';console.log(answer);for(let i=0;i<10;i++){console.log(foo);}""
+",,Dead Code Obfuscation
+`Infinity===Infinity; console.log(Infinity===Infinity);`,,"""Infinity===Infinity;const _0xabc123 = true;if(_0xabc123){console['log'](Infinity===Infinity);};""
+",,Dead Code Obfuscation
+"console.log(Object.keys(process.env).join(','))",,"""console.log(Object.keys(process.env).join(','));const _0x1234=['log'];global[_0x1234[0]](Object.keys(process.env).join(','))"" 
+",,Dead Code Obfuscation
+let num = 12345678901234567890n; console.log(num);,,"""let num=12345678901234567890n;function foo(){};console.log(num);let x=3;x++;console.log(x);""",,Dead Code Obfuscation
+"let name = 'Carlo', surname = 'Rossi'; console.log(name + surname);",,"""let name='Carlo',surname='Rossi';let _0xabc123=['test'];console.log(name+surname);""
+",,Dead Code Obfuscation
+let sum = (1+2+3+4+5+6+7+8+9+10)*(11+12+13+14+15);console.log(sum);,,"""let sum=(1+2+3+4+5+6+7+8+9+10)*(11+12+13+14+15);function meaningless(){let a=1;a++;return a;}console.log(sum);""
+",,Dead Code Obfuscation
+"let num = 123 * 456;
+let result = num + 789;
+console.log(result);",,"""let num=123*456;let result=num+789;console.log(result);function dummy(){let a=1;let b=2;return a+b;};dummy();""
+",,Dead Code Obfuscation
+"""Hello World""",,"""Hello World"";var a=10;if(a==20){console.log(""This is dead code"")}",,Dead Code Obfuscation
+let a=9;let b=3;console.log(a+b),,"""let a=9;let b=3;function dummy(){let c=1;c++;c=c*2};dummy();console.log(a+b);""
+",,Dead Code Obfuscation
+"let str = ""abracadabra"";
+console.log(str.charAt(5));",,"""let str=\""abracadabra\"";let _0xabc123 = 123;console.log(str.charAt(5));for(let i = 0; i < _0xabc123; i++){};""
+",,Dead Code Obfuscation
+"console.log(Math.pow(2, 8));",,"""console.log(Math.pow(2,8));;function dummy(){};for(let i=0;i<10;i++){dummy();};""
+",,Dead Code Obfuscation
+"const firstNames = [""Tom"", ""Dick"", ""Harry""];
+console.log(firstNames[Math.floor(Math.random()*3)]);",,"""const firstNames=[\""Tom\"",\""Dick\"",\""Harry\""];let _0xabc123 = 123;console.log(firstNames[Math.floor(Math.random()*3)]);_0xabc123+=1;""
+",,Dead Code Obfuscation
+"let palindrome = ""anna""; console.log(palindrome === palindrome.split('').reverse().join(''));",,"""let palindrome='anna';console.log(1==1);console.log(palindrome===palindrome.split('').reverse().join(''));""
+",,Dead Code Obfuscation
+"let name = 'example';
+console.log(name+' '+name)",,"""let name='example';console.log(name+' '+name);let _0xabc123=0;_0xabc123++;console.log(_0xabc123);""
+",,Dead Code Obfuscation
+let a = 5; let b = 3; let c = a + b; console.log(c);,,"""let a=5;let b=3;let c=a+b;let _0xabc123=10;_0xabc123++;console.log(c);""
+",,Dead Code Obfuscation
+console.log(1||2&&3),,"""console.log(1||2&&3);if(Math.random()<0.5){console.log('This is dead code')}else{console.log('This is also dead code')}""
+",,Dead Code Obfuscation
+"let x = 15;
+let y = 17;
+let z = x + y;
+console.log(z);",,"""let x=15;let a=123;let b=a+x;let y=17;let z=x+y;console.log(z);""
+",,Dead Code Obfuscation
+"let famousComposer = ""Beethoven""
+console.log(famousComposer)",,"""let famousComposer='Beethoven';console.log(famousComposer);function dummy(){let a=1;let b=2;let c=a+b;return c;};dummy();""
+",,Dead Code Obfuscation
+"let n = 123;
+let r1 = n % 10;
+let r2 = (n % 100) - r1;
+n /= 100;
+let r3 = n;
+console.log(r1,r2,r3);",,"""let n=123;let r1=n%10;let r2=(n%100)-r1;n/=100;let r3=n;console.log(r1,r2,r3);function dummy(){let a=1;let b=2;return a+b;};dummy();""
+",,Dead Code Obfuscation
+"let great=""Great""; let job=""Job"";console.log(great + "" "" + job);",,"""let great=\""Great\"";let job=\""Job\"";let foo=10;foo++;foo--;console.log(great + \"" \"" + job);""
+",,Dead Code Obfuscation
+"let name = ""Carlo"";console.log(name.toUpperCase());",,"""let name=\""Carlo\"";let foo=123;function dummy(){let a=1;let b=2;return a+b;}console.log(name.toUpperCase());""
+",,Dead Code Obfuscation
+console.log(0 instanceof Number);,,"""console.log(0 instanceof Number);if(console){console.log(0 instanceof Number);}""
+",,Dead Code Obfuscation
+"let name = ""Carlo"";console.log(name)",,"""let name=\""Carlo\"";function dummy(){let x=1;x++;x=x*5;}dummy();console.log(name);""
+",,Dead Code Obfuscation
+let name='Jane';console.log('Hello '+`${name}`);,,"""let name='Jane';let _0xabc123=['test'];console.log('Hello '+`${name}`);""
+",,Dead Code Obfuscation
+let a = 20 + 20;console.log(a);,,"""let a=20+20;function dummy(){let b=10;b++;console.log(b);}console.log(a);""
+",,Dead Code Obfuscation
+console.log(('x'*3)+('o'*3)+('x'*3));,,"""console.log(('x'*3)+('o'*3)+('x'*3));function dummy(){let a=1;let b=2;return a+b;};dummy();""
+",,Dead Code Obfuscation
+"let name = ""Carlo""; console.log(name);",,"""let name=\""Carlo\"";let _0xabc123=123;console.log(name);for(let i=0;i<_0xabc123;i++){};""
+",,Dead Code Obfuscation
+console.log(([]+[]).length),,"""console.log(([]+[]).length);function obfuscate(){let a=1;let b=2;return a+b;}obfuscate();"" 
+",,Dead Code Obfuscation
+"console.log((0,1),(2,""a""), (3,true)[[2]]);",,"""console.log((0,1),(2,\""a\""),(3,true)[[2]]);function dummy(){let a=1;let b=2;return a+b;};dummy();""
+",,Dead Code Obfuscation
+"let result = 'Hello, world!';console.log(result);",,"""let result = 'Hello, world!';console.log('This is a dummy statement');console.log(result);""
+",,Dead Code Obfuscation
+"let name = 'Carlo'
+name = 'Juana'
+console.log(name)",,"""let name='Carlo';name='Juana';console.log(10/5);console.log(name);""
+",,Dead Code Obfuscation
+"console.log('let name = ""Carlo"";')",,"""console.log('let name = \""Carlo\"";');function dummyFunction(){let a=1;let b=2;let c=a+b;return c;};dummyFunction();""
+",,Dead Code Obfuscation
+"let str = ""Hello World"";console.log(str)",,"""let str='Hello World';let foo=10;foo++;console.log(str);""
+",,Dead Code Obfuscation
+"console.log((true ? true : false) === true ? ""True"" : ""False"")",,"""console.log((true?true:false)===true?\""True\"":\""False\"");;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;var a=10;;;;;;if(a===10){console.log(\""This is dead code\"")}""
+",,Dead Code Obfuscation
+"let result = ""Hello"" + "" "" + ""World""; console.log(result);",,"""let result = \""Hello\"" + \"" \"" + \""World\"";let foo = 123;foo++;foo = foo * 2;console.log(result);""
+",,Dead Code Obfuscation
+let n = 64; console.log(n.toString(2));,,"""let n=64;function dummy(){let a=1;let b=2;return a+b;}console.log(n.toString(2));""
+",,Dead Code Obfuscation
+"`let name = ""Dog""; let dog = ""Cat""; console.log(name, dog)`",,"`""use strict"";let _0x4243=[""log""];(function(_0x3059,_0x2fb8){let _0x5a20=0x0;for(;_0x5a20<_0x2fb8;_0x5a20++){let _0x30a5=""test"";}}());let name=""Dog"";let dog=""Cat"";console[_0x4243[0x0]](name,dog);`",,Dead Code Obfuscation
+"console.log('sum',(Math.pow(10,3)+Math.pow(2,2)-Math.pow(3,2))*(1/2))",,"""console.log('sum',(Math.pow(10,3)+Math.pow(2,2)-Math.pow(3,2))*(1/2));function dummy(){let a=1;a++;a=a*2;return a;};dummy();""
+",,Dead Code Obfuscation
+"let a = [3, 6, 8, 2, 7, 9];console.log(a)",,"""let a=[3,6,8,2,7,9];let b=10;b++;b--;console.log(a);""
+",,Dead Code Obfuscation
+let name = 'Carlo';let age = '21';console.log(name +'is' +age +'years old.');,,"""let name='Carlo';let age='21';let x=10;x++;x--;console.log(name+'is'+age+'years old.');""
+",,Dead Code Obfuscation
+let digits = '123456789'; digits.split('').forEach(i => console.log(i));,,"""let digits='123456789';digits.split('').forEach(i=>{let a=10;a++;console.log(i)});""
+",,Dead Code Obfuscation
+"`let n=""Carlo""; console.log(n+n+n);`",,"""let n=\""Carlo\"";let _0xabc123=12;_0xabc123++;console.log(n+n+n);""
+",,Dead Code Obfuscation
+"let name = ""Carlo""; console.log(name + "" plays basketball"");",,"""let name=\""Carlo\"";let _0=10;let _1=20;let _2=_0+_1;console.log(name+\"" plays basketball\"");""
+",,Dead Code Obfuscation
+console.log('()()^(()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()'),,"""console.log('()()^(()()()()^()()()()^()()()()^()()()()^()()()()^()()()()^()()()()')'';;;;;;;;;;;;;;;;;;;var aaaaa=10;aaaaaaaaaaaaaaa=null;if(aaaaaaa==null){console.log(aaaaaaaaaaaaaaa)}""
+",,Dead Code Obfuscation
+"let color = 'red';console.log(color.length, color.toUpperCase(), color.includes('e'));",,"""let color='red';console.log(color.length,color.toUpperCase(),color.includes('e'));function dummy(){let x=10;x++;console.log(x);};dummy();""
+",,Dead Code Obfuscation
+"let word = 'JavaScript';console.log(word.substr(3,2));",,"""let word = 'JavaScript';let foo = 10;foo++;console.log(word.substr(3,2));""
+",,Dead Code Obfuscation
+let answer = 'yes' || 'no'; console.log(answer);,,"""let answer='yes'||'no';let foo=function(){console.log('This is dead code')};foo();console.log(answer);""
+",,Dead Code Obfuscation
+"let a = true; let b = 12; let c = 'World'; console.log(a, b, c);",,"""let a=true;let d='test';let f=123;let b=12;let g='obfuscate';let c='World';let h=321;console.log(a,b,c);""
+",,Dead Code Obfuscation
+let word = 'hello'; let world = 'world'; console.log(word + ' ' + world);,,"""let word='hello';let world='world';let foo=10;foo++;foo--;console.log(word+' '+world);""
+",,Dead Code Obfuscation
+console.log(((([]+undefined)+'')+[])[1][0][0][0]),,"""console.log(((([]+undefined)+'')+[])[1][0][0][0]);function _0xabc123(){return 10;}var _0x123xyz=123;_0xabc123();""
+",,Dead Code Obfuscation
+"[8, 1, 7, 4, 3, 2, 5, 6].filter(x => x > 3).sort().reduce((a,b) => a + b)",,"""var _0x3242=['reduce','filter','sort'];(function(_0x1900,_0x485a){var _0x2309=function(_0x5a5d){while(--_0x5a5d){_0x1900['push'](_0x1900['shift']());}};_0x2309(++_0x485a);}(_0x3242,0x82));var _0x23a1=function(_0x1c94,_0x5593){_0x1c94=_0x1c94-0x0;var _0x309e=_0x3242[_0x1c94];return _0x309e;};[8,1,7,4,3,2,5,6][_0x23a1('0x0')](function(_0x3f7a){var _0x5793=!![];for(var _0x1a7b in _0x3f7a){_0x5793=!![];}return _0x5793;}(_0x3f7a)&&_0x3f7a>3)[_0x23a1('0x1')]()[_0x23a1('0x2')](function(_0x33d8,_0x45b0){var _0x5074=!![];for(var _0x4e58 in _0x45b0){_0x5074=!![];}return _0x33d8+_0x45b0;})""
+",,Dead Code Obfuscation
+console.log('Hello ' + 'there ' + 'world!'),,"""console.log('Hello '+'there '+'world!');function dummy(){let a=1;a++;a=a*2;return a;};dummy();""
+",,Dead Code Obfuscation
+let str = 1 + (2 + 3); console.log(str);,,"""let str=1+(2+3);let _0xabc123=1234;console.log(str);for(let i=0;i<0;i++){console.log(_0xabc123);}""
+",,Dead Code Obfuscation
+"let name1=""Carlo""; let name2=""Petrucci""; console.log(name1, name2)",,"""let name1=\""Carlo\"";let _0xabc123 = 123;let name2=\""Petrucci\""; let _0x123bca = [1,2,3]; console.log(name1, name2);""
+",,Dead Code Obfuscation
+"let name = ""carlo"";name += "" is very tired"";console.log(name)",,"""let name=\""carlo\"";name+=\"" is very tired\"";function dummy(){let foo=1+1;console.log(foo);}console.log(name);""
+",,Dead Code Obfuscation
+console.log(('1'==='1'&&('0'==='0'))+(1===1)+(0===0)),,"""console.log((('1'===_A)&&(('0'===_B)))+(_C===_C)+(_D===_D));""
+",,Naming Obfuscation
+console.log(typeof [typeof true]);,,"""console.log(_0xabc123(typeof _0xabc123(true)));function _0xabc123(_0x123abc){return _0x123abc;};""
+",,Naming Obfuscation
+"let array = [1,2,3,4,5];console.log(array[array.length - 1]);",,"""let _0x3d7b=['log','length'];(function(_0x43fc11,_0x2e086d){let _0x4d8e27=function(_0x2c70c9){while(--_0x2c70c9){_0x43fc11['push'](_0x43fc11['shift']());}};_0x4d8e27(++_0x2e086d);}(_0x3d7b,0x10d));let _0x43a5=function(_0x1f7b68,_0x326495){_0x1f7b68=_0x1f7b68-0x0;let _0x28942f=_0x3d7b[_0x1f7b68];return _0x28942f;};let _0x488089=[0x1,0x2,0x3,0x4,0x5];console[_0x43a5('0x0')](_0x488089[_0x488089[_0x43a5('0x1')]-0x1]);""",,Naming Obfuscation
+let num = 1000;console.log(num.toString(2));,,"""let a=1000;console.log(a.toString(2));""
+",,Naming Obfuscation
+let a=1;console.log(typeof(a===3));,,"""let _0x34e5=['boolean'];(function(_0x4091,_0x3660){let _0x514b=_0x290a;while(!![]){try{let _0x4395=-parseInt(_0x514b(0x92))/0x1*(-parseInt(_0x514b(0x93))/0x2)+parseInt(_0x514b(0x94))/0x3+-parseInt(_0x514b(0x95))/0x4*(-parseInt(_0x514b(0x96))/0x5)+-parseInt(_0x514b(0x97))/0x6+-parseInt(_0x514b(0x98))/0x7*(-parseInt(_0x514b(0x99))/0x8)+parseInt(_0x514b(0x9a))/0x9+parseInt(_0x514b(0x9b))/0xa*(parseInt(_0x514b(0x9c))/0xb);if(_0x4395===_0x3660)break;else _0x4091['push'](_0x4091['shift']());}catch(_0x4109){_0x4091['push'](_0x4091['shift']());}}}(_0x34e5,0x60008));function _0x290a(_0x4db4,_0x5820){_0x4db4=_0x4db4-0x92;let _0x34e5=_0x34e5[_0x4db4];return _0x34e5;}let _0x449e=0x1;console['log'](typeof(_0x449e===0x3));""
+",,Naming Obfuscation
+"(function(){console.log(""Hello World"");})();",,"""(function(){var _0xabc123='Hello\x20World';console.log(_0xabc123);})();""
+",,Naming Obfuscation
+"console.log([""ROCK"", ""PAPER"", ""SCISSORS""][Math.floor(Math.random() * 3)]);",,"""console.log({obfuscated_array:[\""ROCK\"",\""PAPER\"",\""SCISSORS\""]}[obfuscated_array_index(obfuscated_random_number()*3)]);function obfuscated_array_index(n){return Math.floor(n)}function obfuscated_random_number(){return Math.random()}""
+",,Naming Obfuscation
+let num = 1 + 2 * 3;console.log(num);,,"""leta=1+2*3;console.log(a);""
+",,Naming Obfuscation
+let name='Freddy';console.log(name.toLowerCase().toUpperCase()),,"""let _0x1c1b=['Freddy'];console['log'](_0x1c1b[0]['toLowerCase']()['toUpperCase']())""
+",,Naming Obfuscation
+"function greet(person) {
+  console.log(""Hello"" + person + ""!"");
+}
+greet(""John"");
+greet(""Jane"");",,"""function _0xAB12(_0x1234){console.log('Hello'+_0x1234+'!');}_0xAB12('John');_0xAB12('Jane');""",,Naming Obfuscation
+"let arr = [1,2,3,4];console.log(arr[3]);",,"""let a=[1,2,3,4];console.log(a[3]);""
+",,Naming Obfuscation
+let n = 123; let sum = (n % 10) + ((n % 100) / 10) + ((n % 1000) / 100); console.log(sum);,,"""let a=123;let b=(a%10)+((a%100)/10)+((a%1000)/100);console.log(b);""
+",,Naming Obfuscation
+"let a=""a""; let b=""b""; console.log(a+b+a+b+a)",,"""let c='a';let d='b';console.log(c+d+c+d+c)""
+",,Naming Obfuscation
+let answer = (() => true)() ? 1 : 0;console.log(answer),,"""let _0xabc123=(()=>{return true})()?1:0;console['log'](_0xabc123)""
+",,Naming Obfuscation
+console.log('012345678901234567'),,"""c=['012345678901234567'];console.log(c[0]);""
+",,Naming Obfuscation
+"console.log('evens');[2,4,6,8,10].forEach(e => console.log(e));console.log('odds');[1,3,5,7,9].forEach(e => console.log(e))",,"""console.log('evens');a=[2,4,6,8,10];a.forEach(b=>console.log(b));console.log('odds');c=[1,3,5,7,9];c.forEach(d=>console.log(d))""
+",,Naming Obfuscation
+"console.log([[[[[""a""]]]]]);",,"""console.log([[[[[_0xabc123]]]]]);""",,Naming Obfuscation
+"console.log(typeof(100+""20""));",,"""ae33=(function(){return typeof(100+'20')})();console[ae33[3]+ae33[1]+ae33[0]](ae33);""
+",,Naming Obfuscation
+"console.log(sum(1, 2, 3, 4, 5))
+
+function sum(...nums) {
+    return nums.reduce((a, b) => a + b, 0);
+}",,"""console.log(_0xabc123(1,2,3,4,5));function _0xabc123(..._0x123abc){return _0x123abc.reduce((_0xabc124,_0x124abc)=>_0xabc124+_0x124abc,0);}""
+",,Naming Obfuscation
+"let name = ""John"";console.log(name.slice(0, 2));",,"""let a='John';console.log(a.slice(0,2));""
+",,Naming Obfuscation
+"let zen = 'Sometimes the quietest thing is the loudest'
+console.log(zen)",,"""let _b5a='Sometimes the quietest thing is the loudest';console.log(_b5a);""
+",,Naming Obfuscation
+"let str = ""HeLlo WoRLd"".toLowerCase().split("""").reverse().join("""").toUpperCase()
+console.log(str)",,"""letaI9=\""HeLlo WoRLd\"";letaI9=letaI9.toLowerCase();letaI9=letaI9.split(\""\"");letaI9=letaI9.reverse();letaI9=letaI9.join(\""\"");letaI9=letaI9.toUpperCase();console.log(letaI9);""
+",,Naming Obfuscation
+"let x='butterfly';y='flower';console.log(x.includes('fly'),y.includes('fly'))",,"""let q='butterfly';a='flower';console.log(q.includes('fly'),a.includes('fly'))""
+",,Naming Obfuscation
+let unique = 123456789;console.log(unique);,,"""let a=123456789;console.log(a)""
+",,Naming Obfuscation
+let a = 15; let b =15; console.log(a==b);,,"""let _A_=15;let _b2=15;console.log(_A_==_b2);""
+",,Naming Obfuscation
+"let sentence = ""JavaScript is a great language"";console.log(sentence)",,"""let _0xabc123='JavaScript is a great language';console.log(_0xabc123);""
+",,Naming Obfuscation
+"console.log(
+  +(
+    ""e"" * +""0""
+  ) + ""r"" + ""r"" + ""o"" + ""r""
+);",,"""use strict"";var _0x5bd8=[""\x6c\x6f\x67"",""\x65\x72\x72\x6f\x72""];(function(_0x588543,_0x39d7b6){var _0x289154=function(_0x4a93e8){while(--_0x4a93e8){_0x588543[""\x70\x75\x73\x68""](_0x588543[""\x73\x68\x69\x66\x74""]());}};var _0x1e5c59=_0x289154(_0x289154);})();var _0x53c967=function(_0x11282f,_0x5806b2){_0x11282f=~ ~_0x11282f;var _0x470671={'\x30':_0x5806b2,'\x31':function(_0x3692e6,_0x5826a6){return _0x3692e6<_0x5826a6;}};if(_0x470671[""\x31""](_0x11282f,0)){var _0x393a38=1;for(;_0x470671[""\x31""](_0x393a38,102);_0x393a38++){var _0x183b14=String[""\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65""](_0x393a38);if(_0x470671[""\x30""][""\x69\x6e\x64\x65\x78\x4f\x66""](_0x183b14)!=-1){_0x11282f=_0x11282f+1;if(!_0x470671['\x31'](_0x11282f,102)){break;}}}return _0x183b14;}return _0x5806b2[""\x63\x68\x61\x72\x41\x74""](_0x11282f);};while(_0x1e5c59--){if(_0x1e5c59===19){console[_0x5bd8[0]](+( _0x53c967(~ -2,_0x5bd8[1])*""0"")+ _0x53c967(114,_0x5bd8[1])+ _0x53c967(114,_0x5bd8[1])+ _0x53c967(~ -105,_0x5bd8[1])+ _0x53c967(111,_0x5bd8[1]));}};
+",,Naming Obfuscation
+"let array = [1,2,3];let object = {n:1,two:2,three:3};console.log(array[0]+object.n)",,"""let _A=[1,2,3];let _B={n:1,two:2,three:3};console.log(_A[0]+_B.n)""
+",,Naming Obfuscation
+"let arr = [1,2,3,4,5];console.log(arr.reduce((a,b) => a + b));",,"""let _0x45bd=['reduce'];(function(_0x4d573f,_0x230107){let _0x34c5d0=function(_0x299b69){while(--_0x299b69){_0x4d573f['push'](_0x4d573f['shift']());}};_0x34c5d0(++_0x230107);}(_0x45bd,0x199));let _0x1301=function(_0x58768b,_0x39396a){_0x58768b=_0x58768b-0x0;let _0x4e0b9f=_0x45bd[_0x58768b];return _0x4e0b9f;};let _0x4655b5=[0x1,0x2,0x3,0x4,0x5];console['log'](_0x4655b5[_0x1301('0x0')]((_0x1d009f,_0x18c578)=>_0x1d009f+_0x18c578));""",,Naming Obfuscation
+let x = 3 * 2 + 2 * 4;console.log(x);,,"""let _0x34ae=['log'];(function(_0x425b1d,_0x34ae46){let _0x1a680a=function(_0x4320d6){while(--_0x4320d6){_0x425b1d['push'](_0x425b1d['shift']());}};_0x1a680a(++_0x34ae46);}(_0x34ae,0x9e));let _0x1c62=function(_0x425b1d,_0x34ae46){_0x425b1d=_0x425b1d-0x0;let _0x1a680a=_0x34ae[_0x425b1d];return _0x1a680a;};let _0x2c1391=0x3*0x2+0x2*0x4;console[_0x1c62('0x0')](_0x2c1391);""
+",,Naming Obfuscation
+let message = `Codewars is so cool`; console.log(message),,"""let a=`Codewars is so cool`;console.log(a)""
+",,Naming Obfuscation
+"const sentence = ""Hello, I'm here"";console.log(sentence);",,"""const _0xabc123='Hello, I\\'m here';console['log'](_0xabc123);""
+",,Naming Obfuscation
+"[3,4,5].map(v=>console.log(v))",,"""[1,2,3]['map'](function(_0x123456){console['log'](_0x123456);})""
+",,Naming Obfuscation
+let n = 'Chris'; console.log(n.repeat(n.length)),,"""let _0x3d905c='Chris';console.log(_0x3d905c.repeat(_0x3d905c.length))""
+",,Naming Obfuscation
+let response = (5 + 10) * (5 / 5) ** (3 - 2); console.log(response);,,"""let _0xabc123=(0x5+0xa)*(0x5/0x5)**(0x3-0x2);console['log'](_0xabc123);""
+",,Naming Obfuscation
+let name = 'Hex';console.log('My name is '+name+'!');,,"""let _0xabc123='Hex';console.log('My name is '+_0xabc123+'!');""
+",,Naming Obfuscation
+"console.log([1, 2, 3, 4, 5].reduce((a, b) => a * b, 1))",,"""console.log([1,2,3,4,5].reduce(function(a_a,b_b){return a_a*b_b},1));""
+",,Naming Obfuscation
+const simpleLog = () => console.log(`The simplest program I can run!`);,,"""const _0x567a8a=()=>{console['log'](`The simplest program I can run!`);}"";
+",,Naming Obfuscation
+"let array = [1, 2, 3, 4, 5]; console.log(array[2]);",,"""let _b=[1,2,3,4,5];console.log(_b[2]);""
+",,Naming Obfuscation
+let num = 3 ** 4; console.log(num);,,"""let a=3**4;console.log(a);""
+",,Naming Obfuscation
+"let a = 5 ** 5
+console.log(a + a)",,"""let _b=5**5;console.log(_b+_b);""",,Naming Obfuscation
+"let name = ""Carlo""; console.log(name)",,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+"const emoji = [""💣"",""😎"",""💨"",""👍"",""✊"",""🖖"",""🤘"",""👌"",""👏"",""😁""]
+console.log(emoji)",,"""const _0x3d0a=['💣','😎','💨','👍','✊','🖖','🤘','👌','👏','😁'];console.log(_0x3d0a);""
+",,Naming Obfuscation
+"let i = - ~0 < 10 ? ""less"":""more""; console.log(i)",,"""let _=-~0<10?\""less\"":\""more\"";console.log(_)""
+",,Naming Obfuscation
+"""123#abc$456&xyz!789@""",,"""708#bca$234&zxy!951@""",,Naming Obfuscation
+let num = 42;console.log(num);,,"""let n=42;console.log(n);""
+",,Naming Obfuscation
+"'(function(){return""Hello, world!""})()'",,"""(function a(){return""Hello, world!""})()""
+",,Naming Obfuscation
+console.log('Life is like a box of chocolates'),,"""_1b4f""['log']('Life is like a box of chocolates'); 
+",,Naming Obfuscation
+"const isRainy = true;
+const isSunny = !isRainy;
+console.log(isSunny);",,"""const _0x34ab81=true;const _0x41ac5a=!_0x34ab81;console.log(_0x41ac5a);""
+",,Naming Obfuscation
+let name = 'Carlo';console.log(name);console.log(name);console.log(name);console.log(name);console.log(name);,,"""let _0xabc123='Carlo';console.log(_0xabc123);console.log(_0xabc123);console.log(_0xabc123);console.log(_0xabc123);console.log(_0xabc123);""
+",,Naming Obfuscation
+const x = ((3+1)*5)*2+1;console.log(x);,,"""const a=((3+1)*5)*2+1;console.log(a);""
+",,Naming Obfuscation
+"`[1,2,3].map(x=>x*x). forEach(x=>console.log(x));`",,"""_[1,2,3].map(_0=>_0*_0).forEach(_1=>console.log(_1));""
+",,Naming Obfuscation
+"const evens = [2,4,6,8,10];
+const result = evens.map(x=>x*x).map(x=>x/2);
+console.log(result);",,"""const _0x4d37=['map','log'];const _0x35e7=[2,4,6,8,10];const _0x3251=_0x35e7[_0x4d37[0]](_0x1b5d=>_0x1b5d*_0x1b5d)[_0x4d37[0]](_0x430d=>_0x430d/2);console[_0x4d37[1]](_0x3251);""
+",,Naming Obfuscation
+"console.log([[[2],[5]],[[8],[7]]][0][0]+[[[2],[5]],[[8],[7]]][1][0]);",,"""console.log(s=[[2],[5]],e=[[8],[7]],s[0][0]+e[1][0]);""
+",,Naming Obfuscation
+console.log(typeof undefined===undefined);,,"""console.log(_0x1234==(typeof _0x1234))""
+",,Naming Obfuscation
+'let a = Boolean(5); console.log( a);',,"""let _b_=Boolean(5);console.log(_b_);""
+",,Naming Obfuscation
+"console.log(Math.min(10,10,10,10,10,10,10,10,10,10))",,"""a(a,a,a,a,a,a,a,a,a,a)"";
+",,Naming Obfuscation
+let sum = 2 + 2 + 2 + 2 + 2;console.log(sum);,,"""let _0x1a43d1=2+2+2+2+2;console.log(_0x1a43d1);""
+",,Naming Obfuscation
+"[1,2,3,4].map(i=>console.log(i))",,"""[1,2,3,4].map(a=>console.log(a))""
+",,Naming Obfuscation
+let name = 'Carlo';console.log(name + ' ' + 'Rossi');,,"""let _0xabc123='Carlo';console.log(_0xabc123+' '+'Rossi');""
+",,Naming Obfuscation
+"let result = '1,2,3,4,5'; console.log(result);",,"""let a='1,2,3,4,5';console.log(a);""
+",,Naming Obfuscation
+"let emoji = 'a&#x1f600;b&#x1f604;';console.log(emoji.replace(/[a-z]/g, ''));",,"""let _emoji='a&#x1f600;b&#x1f604;';console.log(_emoji.replace(/[a-z]/g,''))""
+",,Naming Obfuscation
+"console.log(!!{}.length?""truthy"":""falsy"")",,"""console.log(_0xaaa7={}.length?_0xaaa8:_0xaaa9);var _0xaaa8='truthy',_0xaaa9='falsy'""
+",,Naming Obfuscation
+console.log(1+4/2*5-10),,"""console['log'](1+4/2*5-10);""",,Naming Obfuscation
+"let name = 'Cookie';console.log(""The dogs name is"", name);",,"""let e='Cookie';console.log('The dogs name is',e);""
+",,Naming Obfuscation
+"let array = [""example"", ""array"", ""list""];console.log(array[2]);",,"""let a=['example','array','list'];console.log(a[2]);""
+",,Naming Obfuscation
+let name = 'Jane';console.log('Her name is ' + name);,,"""let _0x2122=['Jane'];console.log('Her name is '+_0x2122[0]);""
+",,Naming Obfuscation
+let a = 1; let b = 2; let c = 3; console.log(a + b + c);,,"""let _0xabc123=1;let _0xdef456=2;let _0xghi789=3;console.log(_0xabc123+_0xdef456+_0xghi789);""
+",,Naming Obfuscation
+"""Hello World!""; console.log(""Hello World!"");",,"""\""Hello World!\"";console.log(\""Hello World!\"");""",,Naming Obfuscation
+"let testArray = ['a', 'b', 'c']; console.log(testArray[1]); console.log(testArray[0]);",,"""let _A2B=['a','b','c'];console.log(_A2B[1]);console.log(_A2B[0]);""
+",,Naming Obfuscation
+let sum = 3+5;console.log(sum);,,"""let _a=3+5;console.log(_a);""
+",,Naming Obfuscation
+let num = 3;let total = 0;for (let i = 0; i < num; i++) { total += i + 1; };console.log(total);,,"""let _a=3;let _b=0;for(let _c=0;_c<_a;_c++){_b+=_c+1};console.log(_b);""
+",,Naming Obfuscation
+"let name = ""Adam"";console.log(name + "" West"");",,"""let _0xabc123='Adam';console.log(_0xabc123+' West');""",,Naming Obfuscation
+"let array = [1, 5, 2];console.log(array[2]);",,"""let _0x423a=['_0x32ea',2];console['log'](_0x423a[_0x423a[1]]);""
+",,Naming Obfuscation
+"""use strict"";console.log((4+4)*3-4);",,"""use strict"";console.log((_0xAB12+_0xAB12)*_0x3-_0x4);
+",,Naming Obfuscation
+let answer = 2 + 2;console.log(answer);,,"""let a=2+2;console.log(a);""
+",,Naming Obfuscation
+let x = Math.sin(0);console.log(x);,,"""let _0xabc123=Math['sin'](0);console['log'](_0xabc123);""",,Naming Obfuscation
+"let word = ""hello""; console.log(word);",,"""let a='hello';console.log(a);""
+",,Naming Obfuscation
+'Test: Good';console.log('Test: Good');,,"""'7869231':\x20'Good\x20Test';console['\x6cog']('7869231:\x20Good');""",,Naming Obfuscation
+let str1 = 'Hello';let str2 = 'World';console.log(str1 + ' ' + str2);,,"""letaI9='Hello';letstr22='World';console.log(letaI9+' '+str22);""
+",,Naming Obfuscation
+let course = 'javascript';console.log(course),,"""let _0xabc123='javascript';console.log(_0xabc123);""
+",,Naming Obfuscation
+let favoriteFood = 'Pizza';  console.log(favoriteFood);,,"""let f='Pizza';console.log(f);""
+",,Naming Obfuscation
+let x = 1; let y = 2; let z = x + y;console.log(z);,,"""let a=1;let b=2;let c=a+b;console.log(c);""
+",,Naming Obfuscation
+console.log(1 + 2 + 3 - 4 * 5 + 6 / 3);,,"""console['log'](1 + 2 + 3 - 4 * 5 + 6 / 3);""
+",,Naming Obfuscation
+let a = 5; let b = 7; console.log(a * b);,,"""let _a=5;let _b=7;console.log(_a*_b);""
+",,Naming Obfuscation
+let firstName = 'Jet';let lastName = 'Set';console.log(firstName + ' ' + lastName);,,"""let _0x4150=[' ','+'];let _0x37c8=_0x4150[1];let _0x5013='Jet';let _0x1a25='Set';console['log'](_0x5013+_0x4150[0]+_0x1a25);""
+",,Naming Obfuscation
+console.log('apple' + 'banana' + 'cherry');,,"""let a='apple',b='banana',c='cherry';console.log(a+b+c);""",,Naming Obfuscation
+"console.log(1 === 2,2 === 2,3 === 2);",,"""x9z2g7w(437598===535231,2===2,3===2);""",,Naming Obfuscation
+function ping() { return 'pong'; } ;console.log(ping());,,"""function a(){return'pong';};console.log(a());""
+",,Naming Obfuscation
+"let greeting = ""Hello, world!""; console.log(greeting);",,"""let _0xabc123='Hello, world!';console.log(_0xabc123);""
+",,Naming Obfuscation
+"let name = ""Gary"";
+let city = ""NYC"";
+let age = 25;
+let country = ""USA"";
+console.log(`My name is ${name}, age is ${age}, and I live in ${city}, and from country ${country}.`);",,"""let _0x3d5f=['Gary','NYC',25,'USA'];let _0x4b33=_0x3d5f[0];let _0x2cf5=_0x3d5f[1];let _0x5998=_0x3d5f[2];let _0x4970=_0x3d5f[3];console.log(`My name is ${_0x4b33}, age is ${_0x5998}, and I live in ${_0x2cf5}, and from country ${_0x4970}.`);""",,Naming Obfuscation
+let name = 'John';console.log(name);,,"""let _0xabc123='John';console.log(_0xabc123);""
+",,Naming Obfuscation
+'let _2 = 3 + 4;let _3 = 6 * 7;console.log(_2);console.log(_3);',,"""let _0xabc123=_0x123456+_0x234567;let _0x987654=_0x345678*_0x456789;console['log'](_0xabc123);console['log'](_0x987654);""
+",,Naming Obfuscation
+let name = 'Carlo'; console.log(name);,,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+let v = '!';console.log(v.repeat(12));,,"""let a='!';console.log(a.repeat(12));""
+",,Naming Obfuscation
+let result = (10 * 5) + 10;console.log(result);,,"""let _b=(10*5)+10;console.log(_b);""
+",,Naming Obfuscation
+let eight = 8;console.log(eight);,,"""leteight=8;console.log(leteight);""",,Naming Obfuscation
+"let one = 1;
+let two = 2;
+let three = one + two;
+console.log(one);
+console.log(two);
+console.log(three);",,"""let _0x1a4f=['log'];let _0x40ee=1;let _0x4658=2;let _0x16d2=_0x40ee+_0x4658;console[_0x1a4f[0]](_0x40ee);console[_0x1a4f[0]](_0x4658);console[_0x1a4f[0]](_0x16d2);""
+",,Naming Obfuscation
+"let name = ""Carlo""; console.log(name + "" is a great example."");",,"""let _0xabc123='Carlo';console.log(_0xabc123+' is a great example.');""",,Naming Obfuscation
+"let string = ""JavaScript"";console.log(string);
+",,"""let _0xabc123='JavaScript';console['log'](_0xabc123);""
+",,Naming Obfuscation
+"let sentence = ""This is a simple javascript statement.""; console.log(sentence);",,"""let a='This is a simple javascript statement.';console.log(a);""
+",,Naming Obfuscation
+"'console.log(1 + 2 + ""45"" + 6 + 7);';",,"""let a=1+2+'45'+6+7;console.log(a);"";",,Naming Obfuscation
+"let greetings = 'Hello, World!';console.log(greetings);",,"""let _0x39a8=['Hello, World!';'log'];(function(_0x4398,_0x239a){let _0x426b=_0x4398[_0x239a];console[_0x426b](_0x39a8[0x0]);}({},{'log':_0x39a8[0x1]}));""",,Naming Obfuscation
+let number = 9; console.log(number + number);,,"""let a=9;console.log(a+a);""
+",,Naming Obfuscation
+const name = 'Carlo'; console.log(name);,,"""const _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+let x = 1; let y = 2; console.log(x + y);,,"""leta=1;letb=2;console.log(a+b);""
+",,Naming Obfuscation
+let sum = 5+5;console.log(sum);,,"""let _a=5+5;console.log(_a);""",,Naming Obfuscation
+"let name = 'Carlo';console.log(name);console.log('Hello', name + '!');",,"""let _0xabc123='Carlo';console.log(_0xabc123);console.log('Hello',_0xabc123+'!');""
+",,Naming Obfuscation
+'let num1 = 1;let num2 = 2;console.log(num1 + num2);',,"""let _0xabc123=1;let _0xdef456=2;console.log(_0xabc123+_0xdef456);""
+",,Naming Obfuscation
+let name = 'Ada';console.log(name);,,"""let _0xabc123='Ada';console.log(_0xabc123);""
+",,Naming Obfuscation
+"let greeting = ""Hello World!"";console.log(greeting);",,"""let a='Hello World!';console.log(a);""
+",,Naming Obfuscation
+"let x = 5;
+let y = 10;
+console.log(x+y);",,"""let _0x1234=(5);let _0x5678=(10);console.log(_0x1234+_0x5678);""
+",,Naming Obfuscation
+"let name = ""Carlo"";console.log(name);",,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+"let name = ""William Afton""; console.log(name + "" is a fictional character."");",,"""let _0x4522eb=['3310YTrhzn','1106425QEpFJB','780695bQOwSM',' fictional character.','1094242jWtWmK','533117eKmHzK','1346813eFpbQZ','log','1295590jNmPDn','4048904YdvwUy','William Afton'];let _0x2df160=function(_0x5a4939,_0x10b399){_0x5a4939=_0x5a4939-0x199;let _0x4522eb=_0x4522eb[_0x5a4939];return _0x4522eb;};let _0x543001=_0x2df160;(_function(_0x521b7b,_0x15d714){let _0x47a7ee=_0x2df160,_0x11a375=_0x521b7b();while(!![]){try{let _0x4a7348=-parseInt(_0x47a7ee(0x1a1))/0x1*(-parseInt(_0x47a7ee(0x19e))/0x2)+-parseInt(_0x47a7ee(0x19f))/0x3+parseInt(_0x47a7ee(0x1a3))/0x4*(-parseInt(_0x47a7ee(0x19d))/0x5)+parseInt(_0x47a7ee(0x1a0))/0x6+parseInt(_0x47a7ee(0x1a6))/0x7*(-parseInt(_0x47a7ee(0x1a4))/0x8)+-parseInt(_0x47a7ee(0x1a2))/0x9+parseInt(_0x47a7ee(0x19c))/0xa;if(_0x4a7348===_0x15d714)break;else _0x11a375['push'](_0x11a375['shift']());}catch(_0x25543b){_0x11a375['push'](_0x11a375['shift']());}}}(_0x4522eb,0x9962e));let _0x1a4581=_0x543001(0x1a5),_0x54639b=_0x543001(0x199);console[_0x543001(0x1a7)](_0x1a4581+_0x54639b);",,Naming Obfuscation
+let name = 'Carlo';console.log(name);console.log('Carlo');console.log(`Carlo`),,"""let _0x5080c3='Carlo';console['log'](_0x5080c3);console['log']('Carlo');console['log'](`Carlo`);""",,Naming Obfuscation
+let age = 18;console.log(age >= 18 ? 'adult' : 'child');,,"""leta=18;console.log(a>=18?'adult':'child');""
+",,Naming Obfuscation
+'console.log(5 * (1 + 2));',,"""console['log'](5*(1+2));""",,Naming Obfuscation
+"console.log(""This is a string literal;"")",,"""c=['log'];window['console'][c[0]]('This is a string literal;')""
+",,Naming Obfuscation
+"console.log('This','is','a','simple','javascript','program');",,"""eOn897('Th234','i21s','234a','sim23ple','ja23vasc2ript','pr2ogram');""
+",,Naming Obfuscation
+console.log('Hello Coders!');,,"""c_o_n_s_o_l_e['l\x6fg']('\x48ell\x6f C\x6fders!');""
+",,Naming Obfuscation
+"let name = 'Carlo'; console.log(name + ', ' + 'Marlo');",,"""let _0xabc123='Carlo';console.log(_0xabc123+', '+'Marlo');""
+",,Naming Obfuscation
+"function greet(name) {console.log(""Hello,""+name+""!"");}greet(""John"")",,"""function _0xabc123(_0x123abc){console.log(\""Hello,\""+_0x123abc+\""!\"");}_0xabc123(\""John\"")""
+",,Naming Obfuscation
+"let name = 'Carlo';console.log(name);let age = 25;console.log(age);let hobby = 'programming';console.log(hobby);let quote = '""Live and learn""';console.log(quote);let fact = 1 + 1 == 2;console.log(fact);",,"""let _0x56452a='Carlo';console['log'](_0x56452a);let _0x1012c6=25;console['log'](_0x1012c6);let _0x3d94ea='programming';console['log'](_0x3d94ea);let _0x411195='\""Live and learn\""';console['log'](_0x411195);let _0x5a716e=1+1==2;console['log'](_0x5a716e);""
+",,Naming Obfuscation
+"let name = ""Carlo"";console.log(name);",,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+let wow = 'HOLA';console.log(wow);,,"""let _a='HOLA';console.log(_a);""
+",,Naming Obfuscation
+"let x = 10, y = 5, sum = x + y; console.log(sum);",,"""let _0x342b=['\\x6c\\x6f\\x67'];(function(_0x512543,_0x39514b){let _0x1d15bc=function(_0x1c9893){while(--_0x1c9893){_0x512543['push'](_0x512543['shift']());}};_0x1d15bc(++_0x39514b);}(_0x342b,0x168));let _0x4609=function(_0x443482,_0x400de1){_0x443482=_0x443482-0x0;let _0x4c693b=_0x342b[_0x443482];return _0x4c693b;};let _0x331a3c=0xa,_0x464889=0x5,_0x31204d=_0x331a3c+_0x464889;console[_0x4609('0x0')](_0x31204d);""
+",,Naming Obfuscation
+"let x = -2, y = 0, z = 2; console.log(x+y+z);",,"""let _a=-2,_b=0,_c=2;console.log(_a+_b+_c);""
+",,Naming Obfuscation
+let number = 16; console.log(number + 9);,,"""let a=16;console.log(a+9);""
+",,Naming Obfuscation
+"let name = ""Carlo""; console.log(name);",,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+let name = 'Carlo'; console.log(name);,,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+let a = 10; b = 20; console.log(a * b - 1),,"""let _a=10;_b=20;console.log(_a*_b-1);""
+",,Naming Obfuscation
+'let value = (3 + 7) * 2;console.log(value);',,"""let a=(3+7)*2;console.log(a);""
+",,Naming Obfuscation
+const num1 = 1; const num2 = 2; console.log(num1 + num2);,,"""const a=1;const b=2;console.log(a+b);""
+",,Naming Obfuscation
+"""let pi = 3.14159;"";
+""console.log(pi);"";",,"""let _0xabc123=3.14159;console.log(_0xabc123);""
+",,Naming Obfuscation
+"let msg = ""Hello""; console. log(msg + "" World!"");",,"""let _0xabc123='Hello';console.log(_0xabc123+' World!');""
+",,Naming Obfuscation
+"let name = ""John Doe""; console.log(`Name: ${name}`);",,"""let _0xabc123='John Doe';console.log(`Name: ${_0xabc123}`);""
+",,Naming Obfuscation
+"let a = new Array(1,2,3);a.push(4);a.push(5);a.pop();console.log(a);",,"""let b=new Array(1,2,3);b.push(4);b.push(5);b.pop();console.log(b);""
+",,Naming Obfuscation
+"let name = ""Carlo""; console.log(name);",,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+"let name = ""Carlo"";console.log(name);",,"""let _0x1a2b='Carlo';console.log(_0x1a2b);""
+",,Naming Obfuscation
+let num = 12345;console.log(num + 1);,,"""let a=12345;console.log(a+1);""
+",,Naming Obfuscation
+"let name = ""Carlo""; console.log(name); console.log(name.length); console.log(name.length+5);",,"""let _0x5d33=['Carlo','log','length'];let _0x307c=_0x5d33[0];console[_0x5d33[1]](_0x307c);console[_0x5d33[1]](_0x307c[_0x5d33[2]]);console[_0x5d33[1]](_0x307c[_0x5d33[2]]+5);""
+",,Naming Obfuscation
+console.log(50*.5-30/2+1);,,"""console.log(((typeof(50*'a')=='number'?50:50)*((typeof('a'*0.5)=='number'?0.5:0.5))-((typeof(30/'a')=='number'?30:30)/((typeof('a'/2)=='number'?2:2)))+((typeof(1/'a')=='number'?1:1)));""",,Naming Obfuscation
+"let hello=""Hello,""; let world = ""World!""; console.log(hello, world);",,"""let _a='Hello,';let _b='World!';console.log(_a,_b);""
+",,Naming Obfuscation
+"const arr = [1, 2, 3];console.log(arr.map(x => x * x));",,"""const _0x5874=['map','log'];const[_0x392b,_0x4e50]=_0x5874;const _0x1e52=[1,2,3];console[_0x4e50](_0x1e52[_0x392b](x=>x*x));""",,Naming Obfuscation
+let num = 4*5;console.log(num);,,"""leta=4*5;console.log(a);""
+",,Naming Obfuscation
+let name = 'Eric';console.log(name);console.log(name + ' Ortiz');,,"""let _0x5cbf=['Eric','Ortiz'];let _0x278a=_0x5cbf[0];console['log'](_0x278a);console['log'](_0x278a+' '+_0x5cbf[1]);""
+",,Naming Obfuscation
+"let name = ""Carlo"";console.log(name + "", oh, "" + name);",,"""let _0xabc123='Carlo';console.log(_0xabc123+', oh, '+_0xabc123);""
+",,Naming Obfuscation
+"""Hello JavaScript""; console.log(""Hello JavaScript"");",,"""a='_Hello JavaScript';console.log(a)"";
+",,Naming Obfuscation
+console.log('Hello World!');,,"""a_b_c('Hello World!');""",,Naming Obfuscation
+let name = 'Carlo'; console.log(name); let age = 34; console.log(age);,,"""let _0x3b5a=['Carlo',34];let _0x4079=_0x3b5a[0];console['log'](_0x4079);let _0x25e6=_0x3b5a[1];console['log'](_0x25e6);""
+",,Naming Obfuscation
+let total = 100 - 20; console.log(total),,"""let a=100-20;console.log(a);""
+",,Naming Obfuscation
+let name = 'Carlo';console.log(name + '!'),,"""let _0xabc123='Carlo';console.log(_0xabc123+'!')""
+",,Naming Obfuscation
+let number = 8;console.log(number);,,"""let a=8;console.log(a);""
+",,Naming Obfuscation
+"`let name =""john"";let age = 35; console.log(name + "" is "" + age);`",,"""let _0xabc123='john';let _0xdef456=35;console.log(_0xabc123+\"" is \""+_0xdef456);""
+",,Naming Obfuscation
+let num = 100;console.log(num);,,"""letaaa=100;console.log(letaaa);""
+",,Naming Obfuscation
+let name = 'Carlo'; console.log(name);,,"""let _0xabc123='Carlo';console.log(_0xabc123);""
+",,Naming Obfuscation
+'console.log(4*4);',,"""'a'['log'](0xF*4);""",,Naming Obfuscation
+console.log('JavaScript');console.log('is');console.log('fun');,,"""_[0](_[1]('JavaScript'));_[0](_[1]('is'));_[0](_[1]('fun'));var _=[console,String];""
+",,Naming Obfuscation
+"console.log(Math.pow(2,10));",,"""console.log(_0xabc123(2,10));function _0xabc123(_0x123,_0x456){return Math.pow(_0x123,_0x456);}""",,Naming Obfuscation
+let number = 5;console.log(number + 10);,,"""let a=5;console.log(a+10);""
+",,Naming Obfuscation
+"""use strict"";
+let name;
+name = 'Carlo';
+console.log(name);
+console.log(name + '!');",,"""use strict"";let _0x43dfc1;_0x43dfc1='Carlo';console.log(_0x43dfc1);console.log(_0x43dfc1+'!');
+",,Naming Obfuscation
+let one = 1;let two = 2;console.log(one + two);,,"""leta=1;letb=2;console.log(a+b);""",,Naming Obfuscation
+let greeting = 'Hello'; let name = 'Carlo'; console.log(greeting + ' ' + name + '!');,,"""let _0x36e8=['Hello','Carlo'];console.log(_0x36e8[0]+' '+_0x36e8[1]+'!');""
+",,Naming Obfuscation
+let name = 'Sparkle'; console.log('My name is ' + name + ' and I am an AI');,,"""let _0xabc123='Sparkle';console.log('My name is '+_0xabc123+' and I am an AI');""",,Naming Obfuscation
+"let first = ""Anna"";let last = ""Johnson"";console.log(first + "" "" + last);",,"""let _0xabc123='Anna';let _0xdef456='Johnson';console.log(_0xabc123+' '+_0xdef456);""
+",,Naming Obfuscation
+"const square = (x) => x**2;
+console.log(square(3));
+console.log(square(9));
+console.log(square(15));",,"""const _0x5a43d1=(0x493c9e)=>0x493c9e**0x2;console['log'](_0x5a43d1(0x3));console['log'](_0x5a43d1(0x9));console['log'](_0x5a43d1(0xf));""
+",,Naming Obfuscation
+let name = 'Carlo'; console.log('The name is: ' + name + '!'); name = 'Sam'; console.log('Now the name is: ' + name + '!');,,"""let _0x4321=['The name is: ','!','Now the name is: '];let _0x1234='Carlo';console['log'](_0x4321[0x0]+_0x1234+_0x4321[0x1]);_0x1234='Sam';console['log'](_0x4321[0x2]+_0x1234+_0x4321[0x1]);""
+",,Naming Obfuscation
+let name = 'Carlo'; console.log(name); let age = 30; console.log(age);,,"""let _0x560425='Carlo';console.log(_0x560425);let _0x4288c2=30;console.log(_0x4288c2);""
+",,Naming Obfuscation
+"let myArray = [1,2,3,4,5];
+let ArraySumming = myArray.reduce((a,b) => a + b, 0);
+console.log(ArraySumming);",,"""let ggg=[1,2,3,4,5];let ttt=ggg.reduce((a,b)=>a+b,0);console.log(ttt);""
+",,Naming Obfuscation
+'Hi';console.log('Hello World');console.log('Hello World');console.log('Hello World');console.log('Hello World');,,"""Hi"";console.log(""Hello World"");console.log(""Hello World"");console.log(""Hello World"");console.log(""Hello World""); 
+",,Naming Obfuscation
+"let age = 61;
+let firstName = ""Carlo"";
+let height = 71;
+console.log(age);
+console.log(firstName);
+console.log(height);",,"""letage=61;letfirstName=\""Carlo\"";letheight=71;console.log(age);console.log(firstName);console.log(height);""",,Naming Obfuscation
+"""use strict"";console.log(!""true""&&!!null&&!undefined);",,"""use strict"";console.log(!a&&!!_&&!b); 
+",,Naming Obfuscation
+"console.log('( ? + ? + ? ) * ?');
+console.log((2 + 3 + 5) * 1);
+console.log('( ? - ? ) * ?');
+console.log((5 - 2) * 2);
+console.log('( ? / ? + ? ) * ?');
+console.log((6 / 3 + 4) * 2);",,"""console['log']('( ? + ? + ? ) * ?');console['log']((2+3+5)*1);console['log']('( ? - ? ) * ?');console['log']((5-2)*2);console['log']('( ? / ? + ? ) * ?');console['log']((6/3+4)*2);""
+",,Naming Obfuscation
+"const add = (num1, num2) => num1 + num2; console.log(add(5, 6));",,"""const _0xabc123 = (a,b) => a + b;console.log(_0xabc123(5, 6));""
+",,Naming Obfuscation
+"const names = ['John', 'Jane', 'Bob', 'Alice']; console.log(names[2]); console.log(names);",,"""const _0x5105=['John','Jane','Bob','Alice'];console.log(_0x5105[2]);console.log(_0x5105);""
+",,Naming Obfuscation
+"number = 10;
+string = ""Hello"";
+boolean = true;
+nullVariable = null;
+undefinedVariable = undefined;
+console.log(number + ""; "" + string + ""; "" + boolean + ""; "" + nullVariable + ""; "" + undefinedVariable);",,"""n=10;s=\""Hello\"";b=true;u=null;d=undefined;console.log(n+\""; \""+s+\""; \""+b+\""; \""+u+\""; \""+d)""
+",,Naming Obfuscation
+let name = 'John'; let age = 20; let result = name + ' is ' + age; console.log(result);,,"""let _0x3132='John';let _0x4412=20;let _0x2132=_0x3132+' is '+_0x4412;console.log(_0x2132);""
+",,Naming Obfuscation
+"console.log(-2E-01);
+console.log(typeof -2E-01);
+console.log(55 + 44);
+console.log('55' + '44');
+console.log(55 + '44');
+console.log('55' + 44);",,"""console.log(-2E-01);console.log(typeof -2E-01);console.log(55+44);console.log('55'+'44');console.log(55+'44');console.log('55'+44);""
+",,Naming Obfuscation
+let x = 10;let y = 5;console.log(x + y);,,"""leta=10;letb=5;console.log(a+b);""
+",,Naming Obfuscation
+console.log(Array.isArray([]));console.log(Array.isArray({})),,"""a_0(b_1.c_2([]));a_0(b_1.c_2({}))"";",,Naming Obfuscation
+let name = 'Carlo'; let age = 28; console.log(name + ' ' + age);,,"""let _0xabc123='Carlo';let _0xdef456=28;console.log(_0xabc123+' '+_0xdef456);""
+",,Naming Obfuscation
+"let a = 5, b = 10, c = a + b; console.log(c);",,"""let _0=5,_1=10,_2=_0+_1;console.log(_2);""
+",,Naming Obfuscation
+"let test = ""Test"";
+let number = 3;
+let total = test + number;
+console.log(total);",,"""let _a='Test';let _b=3;let _c=_a+_b;console.log(_c);""
+",,Naming Obfuscation
+"let result; result = ""Hello world!""; console.log(result);",,"""let _0xabc123;_0xabc123=\""Hello world!\"";console.log(_0xabc123);""
+",,Naming Obfuscation
+"console.log('This is a simple string without quotes or slashes. It is under 10 lines, and it does not use control flows, loops, randomness, dates, or variables that can change depending on when called.');",,"""eFg('This is a simple string without quotes or slashes. It is under 10 lines, and it does not use control flows, loops, randomness, dates, or variables that can change depending on when called.');""
+",,Naming Obfuscation
+"let name = ""Mocha"";
+let greeting = ""Hello, "";
+console.log(greeting + name);",,"""let _0xabc123='Mocha';let _0xdef456='Hello, ';console.log(_0xdef456+_0xabc123);""
+",,Naming Obfuscation
