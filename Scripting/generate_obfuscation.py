@@ -132,7 +132,15 @@ if __name__ == "__main__":
             # Generate snippets
             prompt = get_obfuscation_prompts(prompt_type, code_snippets[counter])
             response = model.generate_content(prompt,safety_settings=safety_settings)
-            obfuscated_snippets.append(response.text)
+
+
+            # Clean data
+            obfuscated_code = response.text
+            obfuscated_code = obfuscated_code.strip()
+            if obfuscated_code.startswith('"') and obfuscated_code.endswith('"'):
+                obfuscated_code = obfuscated_code.strip("")
+            
+            obfuscated_snippets.append(obfuscated_code)
 
             prompt_column_tracker.append(prompt_type)
 
