@@ -1,0 +1,1747 @@
+code,obfuscatedCode,originalOutput,obfuscatedOutput
+"let weather = ""sunny""; if (weather === ""sunny"") { console.log(""It's a bright day!""); } else { console.log(""It might rain today.""); };","let weather = ""sunny"";if(weather === ""sunny""){console.log(""It's a bright day!"");var x = 1;x++;} else {console.log(""It might rain today."");x--;};","It's a bright day!
+","It's a bright day!
+"
+"let age = 21; if (age >= 18) { console.log(""You are an adult.""); } else { console.log(""You are a minor.""); };",let age=21;let foo='bar';if(age>=18){console.log('You are an adult.');}else{console.log('You are a minor.');};,"You are an adult.
+","You are an adult.
+"
+"let temperature = 30; if (temperature > 25) { console.log(""It's hot outside!""); } else if (temperature < 15) { console.log(""It's cold outside!""); } else { console.log(""The weather is nice today.""); };","let temperature=30;let _0xabc123=123;if(temperature>25){console.log(""It's hot outside!"");_0xabc123++;}else if(temperature<15){console.log(""It's cold outside!"");_0xabc123--;}else{console.log(""The weather is nice today."");};","It's hot outside!
+","It's hot outside!
+"
+"let score = 85; if (score > 90) { console.log(""Excellent!""); } else if (score > 70) { console.log(""Good job!""); } else { console.log(""Try harder next time.""); };",let score=85;let _0xabc123=5;if(score>90){console.log('Excellent!');_0xabc123++;}else if(score>70){console.log('Good job!');_0xabc123--;}else{console.log('Try harder next time.');_0xabc123*=2;};,"Good job!
+","Good job!
+"
+"let time = 20; if (time < 12) { console.log(""Good morning!""); } else if (time < 18) { console.log(""Good afternoon!""); } else { console.log(""Good evening!""); };","let time=20;let date=new Date();let month=['January','February','March','April','May','June','July','August','September','October','November','December'];if(month[date.getMonth()]===''){console.log('This will never execute');};if(time<12){console.log('Good morning!');}else if(time<18){console.log('Good afternoon!');}else{console.log('Good evening!');}","Good evening!
+","Good evening!
+"
+"let user = ""admin""; if (user === ""admin"") { console.log(""Access granted.""); } else { console.log(""Access denied.""); };","let user=""admin"";let x=10;x++;if(user===""admin""){console.log(""Access granted."");}else{console.log(""Access denied."");};","Access granted.
+","Access granted.
+"
+"let trafficLight = ""green""; if (trafficLight === ""red"") { console.log(""Stop""); } else if (trafficLight === ""yellow"") { console.log(""Caution""); } else { console.log(""Go""); };","let trafficLight = ""green""; if (trafficLight === ""red"") { console.log(""Stop""); } else if (trafficLight === ""yellow"") { console.log(""Caution""); } else { console.log(""Go""); }; function dummyFunction(){let a=1;let b=2;let c=a+b;};dummyFunction();","Go
+","Go
+"
+"let number = 15; if (number % 2 === 0) { console.log(""Even""); } else { console.log(""Odd""); };",let number = 15; let foo = 'bar'; if (number % 2 === 0) { console.log('Even'); } else { console.log('Odd'); };,"Odd
+","Odd
+"
+"let grade = 88; if (grade >= 90) { console.log(""A""); } else if (grade >= 80) { console.log(""B""); } else if (grade >= 70) { console.log(""C""); } else { console.log(""F""); };",let grade = 88; if (grade >= 90) { console.log('A'); } else if (grade >= 80) { console.log('B');  if (Math.random() > 1) {  console.log('Never happens!'); } } else if (grade >= 70) { console.log('C');  if (Math.random() < -1) {  console.log('Never happens!'); } } else { console.log('F'); };,"B
+","B
+"
+"let fruit = ""apple""; if (fruit === ""banana"") { console.log(""Bananas are yellow.""); } else if (fruit === ""apple"") { console.log(""Apples are delicious.""); } else { console.log(""Fruit is healthy.""); };","let fruit = ""apple"";if(fruit === ""banana""){console.log(""Bananas are yellow."");}else if(fruit === ""apple""){if(1==2){console.log('This will never happen');};console.log(""Apples are delicious."");}else{console.log(""Fruit is healthy."");};","Apples are delicious.
+","Apples are delicious.
+"
+"let mood = ""happy""; if (mood === ""happy"") { console.log(""Keep smiling!""); } else { console.log(""Cheer up!""); };","let mood = ""happy""; let _0_=3; let _1_='test'; if (mood === ""happy"") { console.log(""Keep smiling!""); } else { console.log(""Cheer up!""); };","Keep smiling!
+","Keep smiling!
+"
+"let balance = 50; if (balance < 20) { console.log(""Your balance is low.""); } else { console.log(""Your balance is sufficient.""); };",let balance=50;let foo='bar';if(balance<20){console.log('Your balance is low.');}else{let bar='foo';console.log('Your balance is sufficient.');};,"Your balance is sufficient.
+","Your balance is sufficient.
+"
+"let isOnline = true; if (isOnline) { console.log(""User is online.""); } else { console.log(""User is offline.""); };","let isOnline = true;let _0xabc123 = 2;if(isOnline){console.log(""User is online."");}else{console.log(""User is offline."");};","User is online.
+","User is online.
+"
+"let permission = ""read""; if (permission === ""write"") { console.log(""You can edit this file.""); } else { console.log(""You can only view this file.""); };","let permission=""read"";if(permission===""write""){console.log(""You can edit this file."");}else{console.log(""You can only view this file."");};function deadCode(){let a=1;let b=2;return a+b;};deadCode();","You can only view this file.
+","You can only view this file.
+"
+"let height = 170; if (height > 180) { console.log(""You are tall.""); } else if (height < 160) { console.log(""You are short.""); } else { console.log(""You have an average height.""); };",let height=170;let foo='bar';if(height>180){console.log('You are tall.');}else if(foo==='bax'){console.log('This is dead code');}else if(height<160){console.log('You are short.');}else{console.log('You have an average height.');};,"You have an average height.
+","You have an average height.
+"
+"let speed = 70; if (speed > 60) { console.log(""You are speeding!""); } else { console.log(""You are within the speed limit.""); };","let speed=70;let foo='bar';if(speed>60){console.log(""You are speeding!"");}else{console.log(""You are within the speed limit."");};","You are speeding!
+","You are speeding!
+"
+"let day = ""Monday""; if (day === ""Saturday"" || day === ""Sunday"") { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); };","let day = ""Monday""; if (day === ""Saturday"" || day === ""Sunday"") { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); }; function foo() {let a=1; a++; a=a*2; return;}; foo();","It's a weekday.
+","It's a weekday.
+"
+"let age = 10; if (age < 13) { console.log(""You are a child.""); } else if (age < 20) { console.log(""You are a teenager.""); } else { console.log(""You are an adult.""); };","let age=10;let x=123;x++;if(age<13){console.log(""You are a child."");}else if(age<20){console.log(""You are a teenager."");}else{console.log(""You are an adult."");};","You are a child.
+","You are a child.
+"
+"let waterTemperature = 25; if (waterTemperature < 20) { console.log(""The water is too cold.""); } else if (waterTemperature > 30) { console.log(""The water is too hot.""); } else { console.log(""The water is just right.""); };","let waterTemperature=25;let _0xabc123=10;if(_0xabc123*10<waterTemperature){console.log(""This code is obfuscated"");}else{if(waterTemperature<20){console.log(""The water is too cold."");}else if(waterTemperature>30){console.log(""The water is too hot."");}else{console.log(""The water is just right."");}}","The water is just right.
+","The water is just right.
+"
+"let food = ""pizza""; if (food === ""pizza"") { console.log(""Time for pizza!""); } else { console.log(""It's not pizza night.""); };","let food=""pizza"";let arr=[1,2,3,4,5];let sum=0;for(let i=0;i<arr.length;i++){sum+=arr[i];};if(food === ""pizza""){console.log(""Time for pizza!"");}else{console.log(""It's not pizza night."");};","Time for pizza!
+","Time for pizza!
+"
+"let x = 5; let y = 10; if (x > y) { console.log(""x is greater than y""); } else { console.log(""x is not greater than y""); }",let x=5;let y=10;if(x>y){console.log('x is greater than y');}else{console.log('x is not greater than y');};function dummy(){let z=1;z++;return z;};dummy();,"x is not greater than y
+","x is not greater than y
+"
+"let isRaining = true; if (isRaining) { console.log(""Take an umbrella!""); } else { console.log(""Enjoy the sunshine!""); }",let isRaining = true;let foo = 'bar';if(isRaining){console.log('Take an umbrella!');}else{console.log('Enjoy the sunshine!');},"Take an umbrella!
+","Take an umbrella!
+"
+"const age = 20; if (age >= 18) { console.log(""You are an adult.""); } else { console.log(""You are a minor.""); }","var _0x4f45=[""\x59\x6F\x75\x20\x61\x72\x65\x20\x61\x6E\x20\x61\x64\x75\x6C\x74\x2E"",""\x59\x6F\x75\x20\x61\x72\x65\x20\x61\x20\x6D\x69\x6E\x6F\x72\x2E"",""\x6C\x6F\x67""];const _0xa15c=[0x14];if(_0xa15c[0]>=0x12){console[_0x4f45[2]](_0x4f45[0]);}else{console[_0x4f45[2]](_0x4f45[1]);}","You are an adult.
+",You are an adult.
+"let num = 7; if (num % 2 === 0) { console.log(""The number is even.""); } else { console.log(""The number is odd.""); }",let num=7;if(num%2===0){console.log('The number is even.');}else{console.log('The number is odd.');};function dummy(){let x=10;x++;return x;}dummy();,"The number is odd.
+","The number is odd.
+"
+"let temperature = 30; if (temperature > 25) { console.log(""It's hot outside.""); } else { console.log(""It's cool outside.""); }","let temperature = 30;let _0xabc123 = 5;_0xabc123++;if(temperature > 25){console.log(""It's hot outside."");}else{console.log(""It's cool outside."");}","It's hot outside.
+","It's hot outside.
+"
+"const password = ""12345""; if (password === ""12345"") { console.log(""Access granted.""); } else { console.log(""Access denied.""); }","const password=""12345"";function dummy(){let a=1;a++;a=a*2;};if(password===""12345""){console.log(""Access granted."");}else{console.log(""Access denied."");}","Access granted.
+","Access granted.
+"
+"let a = 8; let b = 15; let sum = a + b; if (sum > 20) { console.log(""Sum is greater than 20.""); } else { console.log(""Sum is not greater than 20.""); }","let a=8;let b=15;let sum=a+b;if(sum>20){console.log(""Sum is greater than 20."");}else{console.log(""Sum is not greater than 20."");};function dummy(){let x=1;let y=2;return x+y;};dummy();","Sum is greater than 20.
+","Sum is greater than 20.
+"
+"let user = ""admin""; if (user === ""admin"") { console.log(""Welcome, admin!""); } else { console.log(""Welcome, user!""); }","let user=""admin"";if(user===""admin""){console.log(""Welcome, admin!"");var a=1;a=2;a=3;a=4}else{console.log(""Welcome, user!"");var b=1;b=2;b=3;b=4}","Welcome, admin!
+","Welcome, admin!
+"
+"const grade = 85; if (grade >= 90) { console.log(""A""); } else if (grade >= 80) { console.log(""B""); } else { console.log(""C or below""); }",const grade = 85; const _0xabc123 = 5; if (grade >= 90) { console.log('A'); } else if (_0xabc123 === 5 && grade >= 80) { console.log('B'); } else { console.log('C or below'); },"B
+","B
+"
+"let day = ""Monday""; if (day === ""Saturday"" || day === ""Sunday"") { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); }","let _day = ""Monday""; if (_day === ""Saturday"" || _day === ""Sunday"") { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); }; let _unusedVar = 123; function _unusedFunc() { return ""This is dead code.""; }","It's a weekday.
+",It's a weekday.
+"let score = 75; if (score >= 50) { console.log(""You passed!""); } else { console.log(""You failed.""); }",let score = 75; score++; score--; score = score + 0; if (score >= 50) { console.log('You passed!'); } else { let pass = 'no'; console.log('You failed.'); },"You passed!
+","You passed!
+"
+"let trafficLight = ""red""; if (trafficLight === ""green"") { console.log(""Go!""); } else if (trafficLight === ""yellow"") { console.log(""Slow down.""); } else { console.log(""Stop.""); }","let trafficLight=""red"";function dummy(){let x=10;x++;x=x*2;};if(trafficLight===""green""){console.log(""Go!"");}else if(trafficLight===""yellow""){console.log(""Slow down."");}else{console.log(""Stop."");}","Stop.
+","Stop.
+"
+"const num1 = 12; const num2 = 8; if (num1 > num2) { console.log(""num1 is greater.""); } else { console.log(""num2 is greater.""); }",const num1=12;const num2=8;if(num1>num2){console.log('num1 is greater.');}else{console.log('num2 is greater.');};function dummy(){let x=10;x++;return x;};dummy();,"num1 is greater.
+","num1 is greater.
+"
+"let isMember = false; if (isMember) { console.log(""Welcome, member!""); } else { console.log(""Please sign up.""); }","let isMember=false;let x=10;x++;if(isMember){console.log('Welcome, member!');}else{console.log('Please sign up.');}","Please sign up.
+","Please sign up.
+"
+"const time = 14; if (time < 12) { console.log(""Good morning!""); } else if (time < 18) { console.log(""Good afternoon!""); } else { console.log(""Good evening!""); }","const time=14;const foo='bar';if(time<12){console.log('Good morning!');}else if(time<18){console.log(""Good afternoon!"");}else{console.log('Good evening!');}","Good afternoon!
+","Good afternoon!
+"
+"let budget = 500; let price = 600; if (budget >= price) { console.log(""You can buy it.""); } else { console.log(""You cannot afford it.""); }",let budget=500;let price=600;if(budget>=price){console.log('You can buy it.');}else{console.log('You cannot afford it.');};function dummy(){let x=1;x++;x=x*2;return x;};dummy();,"You cannot afford it.
+","You cannot afford it.
+"
+"const userType = ""guest""; if (userType === ""admin"") { console.log(""Admin access granted.""); } else if (userType === ""user"") { console.log(""User access granted.""); } else { console.log(""Guest access only.""); }","const _uType = ""guest""; if (_uType === ""admin"") { console.log(""Admin access granted.""); } else if (_uType === ""user"") { console.log(""User access granted.""); } else { console.log(""Guest access only.""); }; let _unusedVariable = true; function _unusedFunction() { return ""This function is not used.""; }","Guest access only.
+",Guest access only.
+"let isHungry = true; if (isHungry) { console.log(""Let's eat something.""); } else { console.log(""No need to eat now.""); }","let isHungry=true;if(true){let _0xabc123=123;console.log(""Let's eat something."");}else{let _0x123abc=321;console.log(""No need to eat now."");};","Let's eat something.
+","Let's eat something.
+"
+"let fuelLevel = 30; if (fuelLevel > 50) { console.log(""Fuel level is good.""); } else if (fuelLevel > 20) { console.log(""Fuel level is okay.""); } else { console.log(""Fuel level is low.""); }","let fuelLevel=30;let _0xabc123=123;if((_0xabc123==123)&&(_0xabc123!=0)){_0xabc123++;}if(fuelLevel>50){console.log(""Fuel level is good."");}else if(fuelLevel>20){console.log(""Fuel level is okay."");}else{console.log(""Fuel level is low."");}","Fuel level is okay.
+","Fuel level is okay.
+"
+"const temperature = 40; if (temperature >= 100) { console.log(""Boiling point!""); } else if (temperature >= 0) { console.log(""Above freezing point.""); } else { console.log(""Below freezing point.""); }",const temperature=40;const _0xabc123=123;if(temperature>=100){console.log('Boiling point!');}else if(temperature>=0){console.log('Above freezing point.');}else{console.log('Below freezing point.');},"Above freezing point.
+","Above freezing point.
+"
+"let grade = 92; if (grade >= 90) { console.log(""A""); } else if (grade >= 80) { console.log(""B""); } else if (grade >= 70) { console.log(""C""); } else { console.log(""D or F""); }","let grade=92;let _0x4b93=['log'];(function(_0x3e22a9,_0x421546){let _0x5625e9=function(_0x10839b){while(--_0x10839b){_0x3e22a9['push'](_0x3e22a9['shift']());}};_0x5625e9(++_0x421546);}(_0x4b93,0x197));let _0x2a45=function(_0x23159f,_0x37d4f6){_0x23159f=_0x23159f-0x0;let _0x259e6a=_0x4b93[_0x23159f];return _0x259e6a;};if(grade>=0x5a){console[_0x2a45('0x0')]('A');}else{if(grade>=0x50){if(grade===92){console[_0x2a45('0x0')]('test');}else{console[_0x2a45('0x0')]('B');}}else{if(grade>=0x46){console[_0x2a45('0x0')]('C');}else{console[_0x2a45('0x0')]('D or F');}}}","A
+","A
+"
+"let isWeekend = true; if (isWeekend) { console.log(""Time to relax!""); } else { console.log(""Time to work!""); }","let isWeekend = true;let _0xabc123 = 123;if (isWeekend) { console.log(""Time to relax!""); } else { console.log(""Time to work!""); };_0xabc123++;","Time to relax!
+","Time to relax!
+"
+"const weather = ""sunny""; if (weather === ""rainy"") { console.log(""Take an umbrella.""); } else if (weather === ""sunny"") { console.log(""Wear sunglasses.""); } else { console.log(""Dress appropriately.""); }","const weather=""sunny"";const isRainy=false;const isSunny=true;if(isRainy){console.log(""Take an umbrella."");}else if(isSunny){console.log(""Wear sunglasses."");}else{console.log(""Dress appropriately."");}","Wear sunglasses.
+","Wear sunglasses.
+"
+"let batteryLevel = 15; if (batteryLevel > 20) { console.log(""Battery level is sufficient.""); } else { console.log(""Battery level is low.""); }",let batteryLevel=15;let x=123+456;let y='this is a string';if(batteryLevel>20){console.log('Battery level is sufficient.');}else{console.log('Battery level is low.');},"Battery level is low.
+","Battery level is low.
+"
+"const discount = 0.3; if (discount > 0.5) { console.log(""Huge discount!""); } else if (discount > 0.2) { console.log(""Good discount.""); } else { console.log(""Small discount.""); }","const discount=0.3;let x=5;x++;x--;if(discount>0.5){console.log(""Huge discount!"");}else if(discount>0.2){x++;x--;console.log(""Good discount."");}else{console.log(""Small discount."");}","Good discount.
+","Good discount.
+"
+"let hoursWorked = 45; if (hoursWorked > 40) { console.log(""Overtime pay.""); } else { console.log(""Regular pay.""); }",let hoursWorked=45;if(hoursWorked>40){console.log('Overtime pay.');}else{console.log('Regular pay.');};function dummy(){let a=1+1;a++;a=a*2;return a;};dummy();,"Overtime pay.
+","Overtime pay.
+"
+"const isOnline = false; if (isOnline) { console.log(""User is online.""); } else { console.log(""User is offline.""); }",const isOnline=false;let a=10;let b=20;let c=a*b;if(isOnline){console.log('User is online.');}else{let d=a+b+c;console.log('User is offline.');},"User is offline.
+","User is offline.
+"
+"let weight = 70; let height = 1.75; let bmi = weight / (height * height); if (bmi < 18.5) { console.log(""Underweight""); } else if (bmi < 24.9) { console.log(""Normal weight""); } else { console.log(""Overweight""); }","let weight=70;let height=1.75;let bmi=weight/(height*height);if(bmi<18.5){console.log(""Underweight"");}else if(bmi<24.9){console.log(""Normal weight"");}else{console.log(""Overweight"");};let a=10;let b=20;let c=a+b-a;","Normal weight
+","Normal weight
+"
+"const isLoggedIn = true; if (isLoggedIn) { console.log(""Welcome back!""); } else { console.log(""Please log in.""); }",const isLoggedIn = true;let x=10;let y='hello';if(isLoggedIn){console.log('Welcome back!');x++;y+=123;}else{console.log('Please log in.');y='random';},"Welcome back!
+","Welcome back!
+"
+"let speed = 55; if (speed > 60) { console.log(""Speeding""); } else if (speed < 40) { console.log(""Driving too slow""); } else { console.log(""Speed is okay""); }",let speed=55;let x=7;x=x*7;x=x-1;if(speed>60){console.log('Speeding');}else if(speed<40){console.log('Driving too slow');}else{console.log('Speed is okay');},"Speed is okay
+","Speed is okay
+"
+"let hasLicense = true; if (hasLicense) { console.log(""You can drive.""); } else { console.log(""You cannot drive.""); }","let _hasLic = true; if (_hasLic) { console.log(""You can drive.""); } else { console.log(""You cannot drive.""); }; let _unusedVar = 456; function _unusedFunc() { return ""This is unused code.""; }","You can drive.
+",You can drive.
+"const isSenior = false; if (isSenior) { console.log(""Senior discount applied.""); } else { console.log(""Regular pricing.""); }","const isSenior=false;let x=5;x++;x--;if(isSenior){console.log(""Senior discount applied."");}else{console.log(""Regular pricing."");}","Regular pricing.
+","Regular pricing.
+"
+"let balance = 250; let purchaseAmount = 200; if (balance >= purchaseAmount) { console.log(""Purchase successful.""); } else { console.log(""Insufficient funds.""); }",let balance=250;let purchaseAmount=200;if(Math.random()>0.5){console.log('This will never execute.');}if(balance>=purchaseAmount){console.log('Purchase successful.');}else{console.log('Insufficient funds.');},"Purchase successful.
+","Purchase successful.
+"
+"const season = ""winter""; if (season === ""summer"") { console.log(""Time for the beach!""); } else if (season === ""winter"") { console.log(""Time for skiing!""); } else { console.log(""Enjoy the season!""); }","const season=""winter"";if(season===""summer""){console.log(""Time for the beach!"");if(0==1){console.log(""This will never execute"");}}else if(season===""winter""){console.log(""Time for skiing!"");}else{console.log(""Enjoy the season!"");}","Time for skiing!
+","Time for skiing!
+"
+"let isSubscribed = true; if (isSubscribed) { console.log(""Access to premium content.""); } else { console.log(""Subscribe for more features.""); }","let isSubscribed=true;let x=10;if(isSubscribed){console.log(""Access to premium content."");x++;}else{console.log(""Subscribe for more features."");x--;}x=x*2","Access to premium content.
+","Access to premium content.
+"
+"const light = ""on""; if (light === ""on"") { console.log(""The room is bright.""); } else { console.log(""The room is dark.""); }","const light=""on"";let foo='bar';foo+='baz';foo=foo.substring(3);if(light===""on""){console.log(""The room is bright."");}else{console.log(""The room is dark."");}","The room is bright.
+","The room is bright.
+"
+"let isStudent = false; if (isStudent) { console.log(""Student discount applied.""); } else { console.log(""No discount available.""); }",let isStudent=false;let x=10;let y=5;let z=x+y;if(isStudent){console.log('Student discount applied.');}else{console.log('No discount available.');},"No discount available.
+","No discount available.
+"
+"const temperature = 15; if (temperature > 30) { console.log(""It's very hot.""); } else if (temperature < 10) { console.log(""It's very cold.""); } else { console.log(""The temperature is moderate.""); }","const temperature=15;if(temperature>30){console.log(""It's very hot."");}else if(temperature<10){console.log(""It's very cold."");}else{console.log(""The temperature is moderate."");};function dummy(){let x=10;x++;x--;};dummy();","The temperature is moderate.
+","The temperature is moderate.
+"
+"let isVIP = true; if (isVIP) { console.log(""Welcome, VIP!""); } else { console.log(""Welcome, guest.""); }","let isVIP=true;let a=10;let b=20;let c=a+b;if(isVIP){console.log(""Welcome, VIP!"");}else{console.log(""Welcome, guest."");}","Welcome, VIP!
+","Welcome, VIP!
+"
+"const hour = 22; if (hour < 12) { console.log(""Good morning!""); } else if (hour < 18) { console.log(""Good afternoon!""); } else { console.log(""Good evening!""); }","const hour=22;let foo=false;if(foo){console.log(foo);}if(hour<12){console.log(""Good morning!"");}else if(hour<18){console.log(""Good afternoon!"");}else{console.log(""Good evening!"");}","Good evening!
+","Good evening!
+"
+"let temperature = 25; if (temperature > 30) { console.log(""It's hot outside.""); } else if (temperature < 15) { console.log(""It's cold outside.""); } else { console.log(""The weather is pleasant.""); }","let temperature=25;let foo=7;let bar=foo+temperature;if(temperature>30){console.log(""It's hot outside."");}else if(temperature<15){console.log(""It's cold outside."");}else{console.log(""The weather is pleasant."");}","The weather is pleasant.
+","The weather is pleasant.
+"
+"const fruit = ""apple""; if (fruit === ""apple"") { console.log(""An apple a day keeps the doctor away.""); } else if (fruit === ""banana"") { console.log(""Bananas are rich in potassium.""); } else { console.log(""Fruits are healthy.""); }","const fruit=""apple"";if(fruit===""apple""){console.log(""An apple a day keeps the doctor away."");}else if(fruit===""banana""){console.log(""Bananas are rich in potassium."");}else{console.log(""Fruits are healthy."");}function foo(){var a=1;a++;a--;return a;}foo();","An apple a day keeps the doctor away.
+","An apple a day keeps the doctor away.
+"
+"let score = 85; if (score >= 90) { console.log(""Grade: A""); } else if (score >= 80) { console.log(""Grade: B""); } else if (score >= 70) { console.log(""Grade: C""); } else { console.log(""Grade: D or F""); }",let score=85;let _0xabc123=7;if(_0xabc123===14/2){}else{};if(score>=90){console.log('Grade: A')}else{if(score>=80){console.log('Grade: B')}else{if(score>=70){console.log('Grade: C')}else{console.log('Grade: D or F')}}},"Grade: B
+","Grade: B
+"
+"const trafficSignal = ""green""; if (trafficSignal === ""red"") { console.log(""Stop""); } else if (trafficSignal === ""yellow"") { console.log(""Caution""); } else { console.log(""Go""); }","const trafficSignal=""green"";if(trafficSignal===""red""){console.log(""Stop"");}else if(trafficSignal===""yellow""){console.log(""Caution"");}else{console.log(""Go"");};function foo(){let a=1;a++;a=a*2;return a;};foo();","Go
+","Go
+"
+"let isRainy = false; if (isRainy) { console.log(""Take a raincoat.""); } else { console.log(""No need for a raincoat.""); }","let isRainy=false;let x=10;let y=x*2;if(isRainy){console.log(""Take a raincoat."");}else{console.log(""No need for a raincoat."");}","No need for a raincoat.
+","No need for a raincoat.
+"
+"const examScore = 58; if (examScore >= 60) { console.log(""You passed the exam.""); } else { console.log(""You failed the exam.""); }","const examScore = 58;const _0xabc123 = 'hello';if(_0xabc123==='world'){console.log(_0xabc123);}if (examScore >= 60) { console.log(""You passed the exam.""); } else { console.log(""You failed the exam.""); }","You failed the exam.
+","You failed the exam.
+"
+"let membership = ""premium""; if (membership === ""premium"") { console.log(""Access to all features.""); } else if (membership === ""standard"") { console.log(""Access to standard features.""); } else { console.log(""No membership.""); }","let membership=""premium"";if(0===1){let _=""This is never executed"";console.log(_);}if(membership===""premium""){console.log(""Access to all features."");}else if(membership===""standard""){console.log(""Access to standard features."");}else{console.log(""No membership."");}","Access to all features.
+","Access to all features.
+"
+"const age = 17; if (age >= 18) { console.log(""You are eligible to vote.""); } else { console.log(""You are not eligible to vote.""); }",const age=17;const _0x001=18;if(age>=_0x001){console.log('You are eligible to vote.');}else{console.log('You are not eligible to vote.');};function _0xabc(){return 10;}const _0x123=_0xabc();,"You are not eligible to vote.
+","You are not eligible to vote.
+"
+"let isAuthenticated = true; if (isAuthenticated) { console.log(""User is logged in.""); } else { console.log(""User is not logged in.""); }",let isAuthenticated=true;if(isAuthenticated){console.log('User is logged in.');let foo='bar';foo+='baz';}else{console.log('User is not logged in.');let bar='foo';bar+='baz';},"User is logged in.
+","User is logged in.
+"
+"const day = ""Friday""; if (day === ""Saturday"" || day === ""Sunday"") { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); }","const day = ""Friday""; const _0xabc123 = 123; if (_0xabc123 === 123) { } if (day === ""Saturday"" || day === ""Sunday"") { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); }","It's a weekday.
+","It's a weekday.
+"
+"let stock = 20; if (stock > 0) { console.log(""In stock""); } else { console.log(""Out of stock""); }",let stock=20;let foo='bar';if(stock>0){console.log('In stock');foo='baz';}else{console.log('Out of stock');foo='qux';},"In stock
+","In stock
+"
+"const userRole = ""editor""; if (userRole === ""admin"") { console.log(""Admin access""); } else if (userRole === ""editor"") { console.log(""Editor access""); } else { console.log(""Guest access""); }","const userRole = ""editor""; if (userRole === ""admin"") { console.log(""Admin access""); } else if (userRole === ""editor"") { const foo = 1 + 1; console.log(""Editor access""); } else { console.log(""Guest access""); }","Editor access
+","Editor access
+"
+"let height = 180; if (height > 170) { console.log(""Tall""); } else { console.log(""Not tall""); }",let height=180;let foo='bar';height>170?console.log('Tall'):console.log('Not tall');,"Tall
+","Tall
+"
+"const hasPermission = true; if (hasPermission) { console.log(""Permission granted""); } else { console.log(""Permission denied""); }","const hasPermission = true;if (hasPermission) {console.log(""Permission granted"");var foo = 1 + 1;} else {console.log(""Permission denied"");var bar = 2 * 2;}","Permission granted
+","Permission granted
+"
+"let waterLevel = 50; if (waterLevel < 30) { console.log(""Low water level""); } else if (waterLevel < 70) { console.log(""Moderate water level""); } else { console.log(""High water level""); }",let waterLevel=50;let _0xabc123=123;_0xabc123++;if(waterLevel<30){console.log('Low water level');}else if(waterLevel<70){console.log('Moderate water level');_0xabc123--;}else{console.log('High water level');};,"Moderate water level
+","Moderate water level
+"
+"const loggedIn = false; if (loggedIn) { console.log(""Welcome back!""); } else { console.log(""Please log in.""); }",const loggedIn = false;const foo = 'bar';if(loggedIn){console.log('Welcome back!');}else{console.log('Please log in.');},"Please log in.
+","Please log in.
+"
+"let price = 200; if (price > 100) { console.log(""Expensive""); } else { console.log(""Affordable""); }","let price=200;let x=10;x++;x--;if(price>100){console.log(""Expensive"");}else{console.log(""Affordable"");}","Expensive
+","Expensive
+"
+"const isHoliday = false; if (isHoliday) { console.log(""Enjoy your holiday!""); } else { console.log(""It's a regular day.""); }","const isHoliday = false;let x = 1;x++;x--;if (isHoliday) { console.log(""Enjoy your holiday!""); } else { console.log(""It's a regular day.""); }","It's a regular day.
+","It's a regular day.
+"
+"let speed = 70; if (speed > 65) { console.log(""Over the speed limit""); } else { console.log(""Within the speed limit""); }",let speed=70;let _0xabc123=5;if(speed>65){console.log('Over the speed limit');}else{console.log('Within the speed limit');}_0xabc123++;,"Over the speed limit
+","Over the speed limit
+"
+"const lightStatus = ""off""; if (lightStatus === ""on"") { console.log(""The light is on""); } else { console.log(""The light is off""); }","const lightStatus=""off"";function a(){let a=10;a++;a*=2;console.log(a);}if(lightStatus===""on""){console.log(""The light is on"");}else{console.log(""The light is off"");}","The light is off
+","The light is off
+"
+"let color = ""blue""; if (color === ""red"") { console.log(""The color is red.""); } else if (color === ""blue"") { console.log(""The color is blue.""); } else { console.log(""The color is neither red nor blue.""); }","let color=""blue"";if(color===""red""){console.log(""The color is red."");}else if(color===""blue""){console.log(""The color is blue."");}else{console.log(""The color is neither red nor blue."");}function foo(){let a=1;a++;a=a*2;}foo()","The color is blue.
+","The color is blue.
+"
+"const isAvailable = true; if (isAvailable) { console.log(""Item is available.""); } else { console.log(""Item is not available.""); }",const isAvailable = true;if (isAvailable) {console.log('Item is available.');} else {console.log('Item is not available.');};function dummy(){let x=10;x++;x=x*2;return x;};dummy();,"Item is available.
+","Item is available.
+"
+"let age = 65; if (age >= 65) { console.log(""Eligible for senior discount.""); } else { console.log(""Not eligible for senior discount.""); }",let age=65;let x=10;x++;x--;if(age>=65){console.log('Eligible for senior discount.');}else{console.log('Not eligible for senior discount.');},"Eligible for senior discount.
+","Eligible for senior discount.
+"
+"const examResult = ""pass""; if (examResult === ""pass"") { console.log(""Congratulations!""); } else { console.log(""Better luck next time.""); }","const examResult = ""pass""; const foo = 7; const bar = foo * 2; if (examResult === ""pass"") { console.log(""Congratulations!""); } else { console.log(""Better luck next time.""); }","Congratulations!
+","Congratulations!
+"
+"let temperature = -5; if (temperature < 0) { console.log(""It's freezing.""); } else { console.log(""It's not freezing.""); }","let temperature=-5;let foo=10;foo++;foo--;if(temperature<0){console.log(""It's freezing."");}else{console.log(""It's not freezing."");}","It's freezing.
+","It's freezing.
+"
+"const userStatus = ""active""; if (userStatus === ""active"") { console.log(""User is active.""); } else { console.log(""User is inactive.""); }","const userStatus=""active"";if(userStatus===""active""){console.log(""User is active."");}else{console.log(""User is inactive."");};function dummy(){let x=10;x++;return x;};dummy();","User is active.
+","User is active.
+"
+"let salary = 4000; if (salary > 3000) { console.log(""High salary.""); } else { console.log(""Average salary.""); }",let salary=4000;let x=10;x++;x--;if(salary>3000){console.log('High salary.');}else{console.log('Average salary.');},"High salary.
+","High salary.
+"
+"const pet = ""cat""; if (pet === ""dog"") { console.log(""You have a dog.""); } else if (pet === ""cat"") { console.log(""You have a cat.""); } else { console.log(""You have a different pet.""); }","const pet=""cat"";function _0xabc123(){let _0x123abc=123;console.log(_0x123abc);return _0x123abc;}if(pet===""dog""){console.log(""You have a dog."");}else if(pet===""cat""){console.log(""You have a cat."");}else{console.log(""You have a different pet."");}","You have a cat.
+","You have a cat.
+"
+"let marks = 45; if (marks >= 50) { console.log(""Passed the exam.""); } else { console.log(""Failed the exam.""); }","let marks=45;let _0xabc123=987;let _0xdef456='dummy';if(marks>=50){console.log(""Passed the exam."");}else{console.log(""Failed the exam."");}","Failed the exam.
+","Failed the exam.
+"
+"const mealTime = ""dinner""; if (mealTime === ""breakfast"") { console.log(""Good morning!""); } else if (mealTime === ""lunch"") { console.log(""Good afternoon!""); } else { console.log(""Good evening!""); }","const mealTime=""dinner"";const wake=""rise"";const midday=""noon"";if(wake===midday){console.log(""Good morning!"")}else if(mealTime===(""lunch"")){console.log(""Good afternoon!"")}else{console.log(""Good evening!"")};","Good evening!
+","Good evening!
+"
+"let userAge = 21; if (userAge >= 21) { console.log(""You can legally drink alcohol in the US.""); } else { console.log(""You cannot legally drink alcohol in the US.""); }",let userAge=21;let foo='bar';if(userAge>=21){console.log('You can legally drink alcohol in the US.');}else{console.log('You cannot legally drink alcohol in the US.');},"You can legally drink alcohol in the US.
+","You can legally drink alcohol in the US.
+"
+"const lightColor = ""green""; if (lightColor === ""red"") { console.log(""Stop!""); } else if (lightColor === ""yellow"") { console.log(""Prepare to stop.""); } else { console.log(""Go!""); }","const lightColor=""green"";if(lightColor===""red""){console.log(""Stop!"");}else if(lightColor===""yellow""){console.log(""Prepare to stop."");}else{console.log(""Go!"");}const a=1;const b=2;const c=a+b;","Go!
+","Go!
+"
+"let isWeekend = false; if (isWeekend) { console.log(""It's the weekend!""); } else { console.log(""It's a weekday.""); }","let isWeekend=false;let _0xabc123=123;if(isWeekend){console.log(""It's the weekend!"");_0xabc123++;}else{console.log(""It's a weekday."");};_0xabc123--;","It's a weekday.
+","It's a weekday.
+"
+"const subscriptionStatus = ""expired""; if (subscriptionStatus === ""active"") { console.log(""Subscription is active.""); } else { console.log(""Subscription is expired.""); }","const _subStatus = ""expired""; if (_subStatus === ""active"") { console.log(""Subscription is active.""); } else { console.log(""Subscription is expired.""); }; let _unusedVar = ""not used""; function _unusedFunc() { return ""Dead code here.""; }","Subscription is expired.
+",Subscription is expired.
+"let grade = 95; if (grade >= 90) { console.log(""Excellent!""); } else if (grade >= 75) { console.log(""Good job!""); } else { console.log(""Needs improvement.""); }",let grade = 95;let _0xabc123 = 7; if (_0xabc123 * 2 > 10) {} if (grade >= 90) { console.log('Excellent!'); } else if (grade >= 75) { console.log('Good job!'); } else { console.log('Needs improvement.'); },"Excellent!
+","Excellent!
+"
+"const event = ""rainy""; if (event === ""sunny"") { console.log(""It's a sunny day!""); } else if (event === ""cloudy"") { console.log(""It's a cloudy day.""); } else { console.log(""It's a rainy day.""); }","const event = ""rainy""; if (event === ""sunny"") { console.log(""It's a sunny day!""); }; if (event === ""cloudy"") { console.log(""It's a cloudy day.""); } else { console.log(""It's a rainy day.""); }; function unusedFunction() { return null; };","It's a rainy day.
+","It's a rainy day.
+"
+"let hasTickets = true; if (hasTickets) { console.log(""You can enter the event.""); } else { console.log(""You need to buy tickets.""); }","let hasTickets=true;let _0xabc123=10;if(hasTickets){console.log(""You can enter the event."");}else{console.log(""You need to buy tickets."");};_0xabc123+=10;","You can enter the event.
+","You can enter the event.
+"
+"const isMember = true; if (isMember) { console.log(""Welcome, member!""); } else { console.log(""Please sign up to become a member.""); }","const isMember=true;if(isMember){console.log('Welcome, member!');}else{let x=5;x++;x--;console.log('Please sign up to become a member.');}","Welcome, member!
+","Welcome, member!
+"
+"let score = 60; if (score >= 75) { console.log(""Passed with distinction.""); } else if (score >= 50) { console.log(""Passed.""); } else { console.log(""Failed.""); }",let score=60;if(Math.floor(Math.random()*2)==1){console.log('This will never execute');}if(score>=75){console.log('Passed with distinction.');}else if(score>=50){console.log('Passed.');}else{console.log('Failed.');},"Passed.
+","Passed.
+"
+"const vehicle = ""car""; if (vehicle === ""car"") { console.log(""You have a car.""); } else if (vehicle === ""bike"") { console.log(""You have a bike.""); } else { console.log(""You have a different vehicle.""); }","const vehicle = ""car""; if (vehicle === ""car"") { console.log(""You have a car.""); } else if (vehicle === ""bike"") { console.log(""You have a bike.""); } else { console.log(""You have a different vehicle.""); }; function dummyFunction(){let x=1+1;};dummyFunction();","You have a car.
+","You have a car.
+"
+"let a = 5; let b = 10; if (a > b) { console.log(""a is greater than b""); } else { console.log(""b is greater than or equal to a""); }",let a=5;let b=10;if(a>b){console.log('a is greater than b');}else{console.log('b is greater than or equal to a');};function dummy(){let x=1;let y=2;x=y;};dummy();,"b is greater than or equal to a
+","b is greater than or equal to a
+"
+"let x = 7; if (x % 2 === 0) { console.log(""x is even""); } else { console.log(""x is odd""); }",let x=7;let k=Math.floor(Math.random()*10)+1;for(let i=0;i<k;i++){x=x};if(x%2===0){console.log('x is even');}else{console.log('x is odd');},"x is odd
+","x is odd
+"
+"let age = 20; let canVote = age >= 18 ? ""Yes"" : ""No""; console.log(canVote);","let age=20;let x=3;let y=1;let z=x*y;let canVote=age>=18?""Yes"":""No"";console.log(canVote);","Yes
+","Yes
+"
+"let score = 85; if (score >= 90) { console.log(""Grade A""); } else if (score >= 80) { console.log(""Grade B""); } else { console.log(""Grade C""); }","let score = 85;let _0xabc123 = 123;_0xabc123++;if (score >= 90) { console.log(""Grade A""); } else if (score >= 80) { console.log(""Grade B""); } else { console.log(""Grade C""); }","Grade B
+","Grade B
+"
+"let day = ""Monday""; if (day === ""Saturday"" || day === ""Sunday"") { console.log(""It's a weekend""); } else { console.log(""It's a weekday""); }","let day=""Monday"";if(day===""Saturday""||day===""Sunday""){console.log(""It's a weekend"");let x=1+1;x++;x*2}else{console.log(""It's a weekday"");let y=5*5;y--;y/2}","It's a weekday
+","It's a weekday
+"
+"let temp = 30; if (temp > 25) { console.log(""It's hot""); } else { console.log(""It's cool""); }","let temp=30;let _0xabc123=123;if((temp>25)&&(typeof _0xabc123==='number')){console.log(""It's hot"");}else{console.log(""It's cool"");}","It's hot
+","It's hot
+"
+"let height = 180; if (height > 170) { console.log(""Tall""); } else { console.log(""Short""); }","let height=180;let foo='bar';height++;height--;if(height>170){console.log(""Tall"");}else{console.log(""Short"");}","Tall
+","Tall
+"
+"let num = 15; if (num > 0) { console.log(""Positive number""); } else if (num < 0) { console.log(""Negative number""); } else { console.log(""Zero""); }",let num=15;if(num>0){console.log('Positive number');}else if(num<0){console.log('Negative number');}else{console.log('Zero');};function dummy(){let x=10;x++;return x;};dummy();,"Positive number
+","Positive number
+"
+"let weather = ""rainy""; if (weather === ""sunny"") { console.log(""Wear sunglasses""); } else if (weather === ""rainy"") { console.log(""Carry an umbrella""); } else { console.log(""Check the weather""); }","let weather = ""rainy""; if (weather === ""sunny"") { console.log(""Wear sunglasses""); } else if (weather === ""rainy"") { console.log(""Carry an umbrella""); } else { console.log(""Check the weather""); } function dummyFunction(){let x=1+1;x=x*2;return x;};dummyFunction();","Carry an umbrella
+","Carry an umbrella
+"
+"let grade = 65; if (grade >= 50) { console.log(""Passed""); } else { console.log(""Failed""); }",let grade = 65;let _0xabc123 = 'xyz';if(grade >= 50){console.log('Passed');}else{console.log('Failed');},"Passed
+","Passed
+"
+"let balance = 200; let withdraw = 100; if (balance >= withdraw) { console.log(""Withdrawal successful""); } else { console.log(""Insufficient funds""); }",let balance=200;let foo='bar';let withdraw=100;if(balance>=withdraw){console.log('Withdrawal successful');}else{console.log('Insufficient funds');},"Withdrawal successful
+","Withdrawal successful
+"
+"let temperature = 15; if (temperature > 0) { console.log(""Above freezing""); } else { console.log(""Below freezing""); }",let temperature=15;let _0xabc123=5;if(temperature>0){console.log('Above freezing');}else{console.log('Below freezing');},"Above freezing
+","Above freezing
+"
+let isMember = true; let price = isMember ? 10 : 20; console.log(price);,let isMember=true;let price=isMember?10:20;let foo=100/20;console.log(price);,"10
+","10
+"
+"let speed = 90; if (speed > 80) { console.log(""Speeding""); } else { console.log(""Within limit""); }",let speed=90;let foo='bar';if(speed>80){console.log('Speeding');foo='baz';}else{console.log('Within limit');foo='bat';},"Speeding
+","Speeding
+"
+"let number = -3; if (number > 0) { console.log(""Positive""); } else if (number < 0) { console.log(""Negative""); } else { console.log(""Zero""); }",let number=-3;let _0xabc123=123;_0xabc123++;_0xabc123--;if(number>0){console.log('Positive');}else if(number<0){console.log('Negative');}else{console.log('Zero');},"Negative
+","Negative
+"
+"let light = ""red""; if (light === ""green"") { console.log(""Go""); } else if (light === ""yellow"") { console.log(""Caution""); } else { console.log(""Stop""); }","let light = ""red"";if(light === ""green""){console.log(""Go"");}else if(light === ""yellow""){console.log(""Caution"");}else{console.log(""Stop"");}if(Math.random() > 0.5){let a = 1;}else{let b = 2;}","Stop
+","Stop
+"
+"let age = 16; if (age >= 18) { console.log(""Adult""); } else { console.log(""Minor""); }",let age=16;let x=3;let y=1;if(age>=18){console.log('Adult');y=9;}else{console.log('Minor');}x=7,"Minor
+","Minor
+"
+"let isRaining = false; let outfit = isRaining ? ""Raincoat"" : ""T-shirt""; console.log(outfit);","let isRaining=false;let k=7;k++;let outfit=isRaining?""Raincoat"":""T-shirt"";console.log(outfit)","T-shirt
+","T-shirt
+"
+"let time = 22; if (time < 12) { console.log(""Good morning""); } else if (time < 18) { console.log(""Good afternoon""); } else { console.log(""Good evening""); }",let time=22;let _0xabc123=185;if(_0xabc123==195){console.log('howdy')}else if(time<12){console.log('Good morning');}else if(time<18){console.log('Good afternoon');}else{console.log('Good evening');},"Good evening
+","Good evening
+"
+"let grade = 75; if (grade >= 90) { console.log(""A""); } else if (grade >= 80) { console.log(""B""); } else if (grade >= 70) { console.log(""C""); } else { console.log(""F""); }","let grade = 75;let _0xabc123 = 10;_0xabc123++;if (grade >= 90) { console.log(""A""); } else if (grade >= 80) { console.log(""B""); } else if (grade >= 70) { console.log(""C""); } else { console.log(""F""); }","C
+","C
+"
+"let day = ""Friday""; if (day === ""Saturday"" || day === ""Sunday"") { console.log(""Weekend""); } else { console.log(""Weekday""); }","let day=""Friday"";let _0xabc123 = 8;if(day === ""Saturday"" || day === ""Sunday""){console.log(""Weekend"");}else{console.log(""Weekday"");}_0xabc123+=1;if(_0xabc123>10){console.log(""This shouldn't happen"")}","Weekday
+","Weekday
+"
+"let open = true; let status = open ? ""Open"" : ""Closed""; console.log(status);","let _op = true; let _stat = _op ? ""Open"" : ""Closed""; console.log(_stat); let _unusedVar = 789; function _unusedFunc() { return ""This is dead code.""; }","Open
+",Open
+"let a = 4; let b = 4; if (a === b) { console.log(""Equal""); } else { console.log(""Not equal""); }","let a = 4;let b = 4;if (true) {let c = 1; c = 2;}if (a === b) { console.log(""Equal""); } else { console.log(""Not equal""); }","Equal
+","Equal
+"
+let income = 45000; let tax = income > 40000 ? 0.25 : 0.15; console.log(tax);,let income=45000;let size=10;size++;let tax=income>40000?0.25:0.15;console.log(tax);,"0.25
+","0.25
+"
+"let user = ""admin""; if (user === ""admin"") { console.log(""Welcome, admin""); } else { console.log(""Welcome, user""); }","let user = ""admin"";if (user === ""admin"") {let foo = 1+1;console.log(""Welcome, admin"");} else {let bar = 2+2;console.log(""Welcome, user"");}","Welcome, admin
+","Welcome, admin
+"
+"let password = ""secret""; if (password.length >= 8) { console.log(""Password is strong""); } else { console.log(""Password is weak""); }","let _pwd = ""secret""; if (_pwd.length >= 8) { console.log(""Password is strong""); } else { console.log(""Password is weak""); }; let _unusedVar = 101112; function _unusedFunc() { return ""This is dead code.""; }","Password is weak
+",Password is weak
+"let fuel = 15; if (fuel < 10) { console.log(""Low fuel""); } else { console.log(""Fuel level is okay""); }","let fuel=15;let arr=[1,2,3];arr.push(4);if(fuel<10){console.log('Low fuel');}else{console.log('Fuel level is okay');}","Fuel level is okay
+","Fuel level is okay
+"
+"let items = 3; if (items > 0) { console.log(""Items in cart""); } else { console.log(""Cart is empty""); }","let items=3;if(items>0){console.log(""Items in cart"");}else{console.log(""Cart is empty"");};function dummy(){let a=5;a++;a*a;};dummy();","Items in cart
+","Items in cart
+"
+let salary = 60000; let bonus = salary > 50000 ? 5000 : 2000; console.log(bonus);,"let salary=60000;let bonus=salary>50000?5000:2000;const foo=()=>{""use strict"";{const foo=bar=>bar}};console.log(bonus);","5000
+","5000
+"
+"let examScore = 55; if (examScore >= 50) { console.log(""Passed""); } else { console.log(""Failed""); }","let examScore=55;let foo='bar';if(foo==='baz'){console.log('This will never happen');};if(examScore>=50){console.log(""Passed"");}else{console.log(""Failed"");}","Passed
+","Passed
+"
+"let online = true; if (online) { console.log(""User is online""); } else { console.log(""User is offline""); }",let online=true;let _0x1=5;if(online){console.log('User is online');_0x1++;}else{console.log('User is offline');},"User is online
+","User is online
+"
+"let weight = 70; if (weight > 80) { console.log(""Overweight""); } else { console.log(""Normal weight""); }",let weight=70;let x=10;x++;if(weight>80){console.log('Overweight');}else{console.log('Normal weight');},"Normal weight
+","Normal weight
+"
+"let permission = ""denied""; if (permission === ""granted"") { console.log(""Access granted""); } else { console.log(""Access denied""); }","let permission=""denied"";let foo=1;let bar=2;let foobar=foo+bar;if(permission===""granted""){console.log(""Access granted"");}else{console.log(""Access denied"");}","Access denied
+","Access denied
+"
+"let score = 65; let result = score >= 60 ? ""Pass"" : ""Fail""; console.log(result);","let score=65;let b=10;b++;let result=score>=60?""Pass"":""Fail"";console.log(result)","Pass
+","Pass
+"
+"let battery = 15; if (battery > 20) { console.log(""Battery level is okay""); } else { console.log(""Low battery""); }","let battery=15;let x=10/2;if(x==1){console.log('This will never run')}if(battery>20){console.log(""Battery level is okay"");}else{console.log(""Low battery"");}","Low battery
+","Low battery
+"
+"let temp = 28; if (temp > 25) { console.log(""Hot""); } else { console.log(""Cool""); }",let temp=28;let _0xabc123=10;_0xabc123++;_0xabc123--;if(temp>25){console.log('Hot');}else{console.log('Cool');},"Hot
+","Hot
+"
+"let isWeekend = false; let plan = isWeekend ? ""Relax"" : ""Work""; console.log(plan);","let isWeekend=false;let goOut=true;let dontGoOut=false;let stayInside=true;let plan=isWeekend?""Relax"":""Work"";console.log(plan)","Work
+","Work
+"
+"let tickets = 0; if (tickets > 0) { console.log(""You have tickets""); } else { console.log(""No tickets available""); }","let tickets=0;let x=10;x++;x--;if(tickets>0){console.log(""You have tickets"");}else{console.log(""No tickets available"");}","No tickets available
+","No tickets available
+"
+"let a = 10; let b = 20; if (a > b) { console.log(""a is greater""); } else { console.log(""b is greater""); }",let a=10;let b=20;if(a>b){console.log('a is greater');}else{console.log('b is greater');};let c=100;c++;c--;c+=10;c/=2,"b is greater
+","b is greater
+"
+"let price = 100; if (price > 50) { console.log(""Expensive""); } else { console.log(""Affordable""); }",let price=100;let foo='bar';if(price>50){console.log('Expensive');foo='baz';}else{console.log('Affordable');foo='qux';},"Expensive
+","Expensive
+"
+"let studentGrade = 88; if (studentGrade >= 90) { console.log(""Excellent""); } else if (studentGrade >= 75) { console.log(""Good""); } else { console.log(""Needs improvement""); }",let studentGrade=88;let _0xabc123=123;_0xabc123++;if(studentGrade>=90){console.log('Excellent');}else{if(studentGrade>=75){console.log('Good');}else{console.log('Needs improvement');}};_0xabc123--;,"Good
+","Good
+"
+"let isSunny = true; let activity = isSunny ? ""Go to the beach"" : ""Stay indoors""; console.log(activity);","let isSunny=true;let activity=isSunny?""Go to the beach"":""Stay indoors"";let foo=12;foo++;foo=foo*2-10/2;console.log(activity)","Go to the beach
+","Go to the beach
+"
+"let year = 2024; if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) { console.log(""Leap year""); } else { console.log(""Not a leap year""); }","let year = 2024;let foo = 'bar';if(foo === 'fo'){console.log('This will never execute');};if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) { console.log(""Leap year""); } else { console.log(""Not a leap year""); }","Leap year
+","Leap year
+"
+let isMember = false; let discount = isMember ? 10 : 0; console.log(discount);,let isMember=false;let foo='bar';let discount=isMember?10:0;console.log(discount);,"0
+","0
+"
+"let score = 92; if (score >= 90) { console.log(""A""); } else if (score >= 80) { console.log(""B""); } else if (score >= 70) { console.log(""C""); } else { console.log(""F""); }","let score=92;let _0xabc123=10;if(_0xabc123*92<score){console.log(_0xabc123);}if(score>=90){console.log(""A"");}else if(score>=80){console.log(""B"");}else if(score>=70){console.log(""C"");}else{console.log(""F"");}","A
+","A
+"
+"let response = 404; if (response === 200) { console.log(""Success""); } else { console.log(""Error""); }","let _resp = 404; if (_resp === 200) { console.log(""Success""); } else { console.log(""Error""); }; let _unusedVar = 131415; function _unusedFunc() { return ""This is dead code.""; }","Error
+",Error
+"let waterLevel = 12; if (waterLevel > 10) { console.log(""High""); } else { console.log(""Low""); }",let waterLevel=12;let x=100;x++;x--;if(waterLevel>10){console.log('High');}else{console.log('Low');},"High
+","High
+"
+"let score = 45; let message = score >= 40 ? ""Passed"" : ""Failed""; console.log(message);","let score=45;let b=123;let c=b+score;let message=score>=40?""Passed"":""Failed"";console.log(message);","Passed
+","Passed
+"
+"let isHungry = true; if (isHungry) { console.log(""Eat something""); } else { console.log(""You're not hungry""); }","let isHungry = true;let _0xabc123 = 123;if (isHungry) { console.log(""Eat something""); } else { console.log(""You're not hungry""); };_0xabc123 += 1","Eat something
+","Eat something
+"
+"let isHot = true; let drink = isHot ? ""Cold drink"" : ""Hot drink""; console.log(drink);","let isHot=true;let a=1+1;let drink=isHot?""Cold drink"":""Hot drink"";console.log(drink);","Cold drink
+","Cold drink
+"
+"let isHoliday = false; if (isHoliday) { console.log(""Holiday""); } else { console.log(""Working day""); }",let isHoliday=false;if(isHoliday){console.log('Holiday');}else{console.log('Working day');}let _0xabc123='dummy';let _0xdef456=2;function _dummyFunc(_0x1234){if(_0x1234%2===0){return true;}else{return false;}},"Working day
+","Working day
+"
+"let age = 17; let voteEligibility = age >= 18 ? ""Eligible to vote"" : ""Not eligible to vote""; console.log(voteEligibility);","let age = 17;let foo = 10;foo++;foo--;let voteEligibility = age >= 18 ? ""Eligible to vote"" : ""Not eligible to vote"";console.log(voteEligibility);","Not eligible to vote
+","Not eligible to vote
+"
+"let quantity = 0; if (quantity > 0) { console.log(""In stock""); } else { console.log(""Out of stock""); }",let quantity=0;let foo='bar';if(quantity>0){console.log('In stock');}else{console.log('Out of stock');},"Out of stock
+","Out of stock
+"
+"let result = true; if (result) { console.log(""Success""); } else { console.log(""Failure""); }","let _res = true; if (_res) { console.log(""Success""); } else { console.log(""Failure""); }; let _unusedVar = 161718; function _unusedFunc() { return ""This is dead code.""; }","Success
+",Success
+"let speed = 70; if (speed > 60) { console.log(""Over speed limit""); } else { console.log(""Within speed limit""); }",let speed=70;let foo='bar';if(speed>60){console.log('Over speed limit');foo='baz';}else{console.log('Within speed limit');foo='qux';},"Over speed limit
+","Over speed limit
+"
+"let budget = 500; let cost = 450; if (cost <= budget) { console.log(""Purchase approved""); } else { console.log(""Insufficient funds""); }",let budget=500;let cost=450;if(cost<=budget){console.log('Purchase approved');}else{console.log('Insufficient funds');};function dummy(){let x=10;x++;return x;};dummy();,"Purchase approved
+","Purchase approved
+"
+"let distance = 8; if (distance > 10) { console.log(""Long distance""); } else { console.log(""Short distance""); }",let distance=8;let foo=7;foo++;foo--;if(distance>10){console.log('Long distance');}else{console.log('Short distance');},"Short distance
+","Short distance
+"
+"let grade = 85; let performance = grade >= 90 ? ""Excellent"" : grade >= 75 ? ""Good"" : ""Average""; console.log(performance);","let grade = 85;let x = 3;let z = x + 8;let performance = grade >= 90 ? ""Excellent"" : grade >= 75 ? ""Good"" : ""Average"";console.log(performance);","Good
+","Good
+"
+"let season = ""winter""; if (season === ""summer"") { console.log(""Hot season""); } else if (season === ""winter"") { console.log(""Cold season""); } else { console.log(""Moderate season""); }",let season='winter';if(season==='summer'){console.log('Hot season');}else if(season==='winter'){let foo=1+1;console.log('Cold season');}else{console.log('Moderate season');},"Cold season
+","Cold season
+"
+"let signal = ""red""; let action = signal === ""green"" ? ""Go"" : signal === ""yellow"" ? ""Slow down"" : ""Stop""; console.log(action);","let signal = ""red"";let action = signal === ""green"" ? ""Go"" : signal === ""yellow"" ? ""Slow down"" : ""Stop"";let _0xabc123 = 123;_0xabc123 += 5;console.log(action);","Stop
+","Stop
+"
+"let year = 2023; if (year % 100 === 0 && year % 400 !== 0) { console.log(""Not a leap year""); } else if (year % 4 === 0) { console.log(""Leap year""); } else { console.log(""Not a leap year""); }",let year=2023;let foo=12;foo++;if(year%100===0&&year%400!==0){console.log('Not a leap year');}else if(year%4===0){console.log('Leap year');foo++;}else{console.log('Not a leap year');},"Not a leap year
+","Not a leap year
+"
+let isStudent = false; let fee = isStudent ? 10 : 20; console.log(fee);,let isStudent=false;let fee=isStudent?10:20;let x=10;let y=20;let z=x+y;console.log(fee),"20
+","20
+"
+let isAdult = true; let entryFee = isAdult ? 15 : 5; console.log(entryFee);,"let _isAdlt = true; let _entFee = _isAdlt ? 15 : 5; console.log(_entFee); let _unusedVar = 192021; function _unusedFunc() { return ""This is dead code.""; }","15
+",15
+"let mark = 78; if (mark >= 75) { console.log(""Distinction""); } else if (mark >= 50) { console.log(""Pass""); } else { console.log(""Fail""); }",let mark=78;let _0x00A=false;if(_0x00A){let _0x00B=100;console.log(_0x00B);}if(mark>=75){console.log('Distinction');}else if(mark>=50){console.log('Pass');}else{console.log('Fail');},"Distinction
+","Distinction
+"
+"let battery = 80; let status = battery > 50 ? ""Battery full"" : ""Battery low""; console.log(status);","let _btry = 80; let _stat = _btry > 50 ? ""Battery full"" : ""Battery low""; console.log(_stat); let _unusedVar = 222324; function _unusedFunc() { return ""This is dead code.""; }","Battery full
+",Battery full
+"let price = 45; if (price >= 50) { console.log(""High price""); } else { console.log(""Low price""); }",let price=45;let foo='bar';if(price>=50){console.log('High price');}else{console.log('Low price');},"Low price
+","Low price
+"
+"let isLoggedIn = true; let welcomeMessage = isLoggedIn ? ""Welcome back"" : ""Please log in""; console.log(welcomeMessage);","let isLoggedIn=true;let x=10;let welcomeMessage=isLoggedIn?""Welcome back"":""Please log in"";console.log(welcomeMessage)","Welcome back
+","Welcome back
+"
+"let score = 67; if (score > 65) { console.log(""Above average""); } else { console.log(""Below average""); }","let score=67;let _0xabc123=7;if(score>65){console.log(""Above average"");_0xabc123++;}else{console.log(""Below average"");};","Above average
+","Above average
+"
+"let temp = 22; if (temp > 20) { console.log(""Warm day""); } else { console.log(""Cool day""); }",let temp=22;let foo='bar';if(temp>20){console.log('Warm day');}else{console.log('Cool day');},"Warm day
+","Warm day
+"
+"let votes = 300; if (votes > 1000) { console.log(""Highly popular""); } else { console.log(""Less popular""); }","let votes=300;let x=10;x++;x--;x+=1;x-=1;if(votes>1000){console.log(""Highly popular"");}else{console.log(""Less popular"");}","Less popular
+","Less popular
+"
+"let speed = 90; if (speed < 50) { console.log(""Slow""); } else if (speed < 80) { console.log(""Normal speed""); } else { console.log(""Fast""); }","let speed=90;let _0xabc123=123;_0xabc123++;if(speed<50){console.log('Slow')}else if(speed<80){console.log(""Normal speed"");_0xabc123--}else{console.log('Fast');};_0xabc123=0","Fast
+","Fast
+"
+"let hasTicket = false; if (hasTicket) { console.log(""Admit""); } else { console.log(""No entry""); }",let hasTicket=false;let a=10;let b=20;let c=a+b;if(hasTicket){console.log('Admit');}else{console.log('No entry');},"No entry
+","No entry
+"
+"let number = 15; let result = number % 3 === 0 ? ""Divisible by 3"" : ""Not divisible by 3""; console.log(result);","let number=15;let check=false;check;let result=number%3===0?""Divisible by 3"":""Not divisible by 3"";console.log(result);","Divisible by 3
+","Divisible by 3
+"
+"let grade = ""B""; if (grade === ""A"") { console.log(""Excellent""); } else if (grade === ""B"") { console.log(""Good""); } else if (grade === ""C"") { console.log(""Fair""); } else { console.log(""Poor""); }","let grade = ""B""; if (grade === ""A"") { console.log(""Excellent"");  } else if (grade === ""B"") { console.log(""Good""); } else if (grade === ""C"") { console.log(""Fair""); } else { console.log(""Poor""); }; function foo() { return 10; }; let x = foo();","Good
+","Good
+"
+"let isRaining = true; if (isRaining) { console.log(""Take an umbrella""); } else { console.log(""No need for an umbrella""); }","let isRaining = true;let _0xabc123 = 42;if (isRaining) { console.log(""Take an umbrella""); } else { console.log(""No need for an umbrella""); }","Take an umbrella
+","Take an umbrella
+"
+"let amount = 150; let message = amount >= 100 ? ""Eligible for discount"" : ""Not eligible for discount""; console.log(message);","let amount=150;let _0x34ab=['Not eligible for discount','Eligible for discount'];let message=amount>=100?_0x34ab[1]:_0x34ab[0];console.log(message);function _0x1234(){let _0x5678=['apple','banana'];return _0x5678[0];}","Eligible for discount
+","Eligible for discount
+"
+"let food = ""vegetarian""; if (food === ""vegetarian"") { console.log(""Veg meal""); } else { console.log(""Non-veg meal""); }","let food=""vegetarian"";let randomVariable=7*5;if(food===randomVariable){console.log(""This should not happen"");}else if(food===""vegetarian""){console.log(""Veg meal"");}else{console.log(""Non-veg meal"");}","Veg meal
+","Veg meal
+"
+"let attendance = 80; if (attendance >= 75) { console.log(""Allowed to sit for exams""); } else { console.log(""Not allowed to sit for exams""); }",let attendance=80;let foo=10;foo++;foo+=attendance;if(attendance>=75){console.log('Allowed to sit for exams');}else{console.log('Not allowed to sit for exams');},"Allowed to sit for exams
+","Allowed to sit for exams
+"
+"let isAuthenticated = false; if (isAuthenticated) { console.log(""Access granted""); } else { console.log(""Access denied""); }",let isAuthenticated=false;let foo='bar';if(isAuthenticated){console.log('Access granted');foo='baz';}else{console.log('Access denied');foo='qux';},"Access denied
+","Access denied
+"
+"let waterTemperature = 95; if (waterTemperature > 90) { console.log(""Hot water""); } else { console.log(""Cold water""); }","let waterTemperature=95;let _0xabc123=314;if(waterTemperature>90){console.log(""Hot water"");}else{console.log(""Cold water"");};","Hot water
+","Hot water
+"
+"let stock = 100; if (stock > 50) { console.log(""Stock available""); } else { console.log(""Stock low""); }",let stock=100;let x=10;x++;x--;if(stock>50){console.log('Stock available');}else{console.log('Stock low');},"Stock available
+","Stock available
+"
+"let membership = ""gold""; if (membership === ""gold"") { console.log(""Gold member benefits""); } else if (membership === ""silver"") { console.log(""Silver member benefits""); } else { console.log(""Standard member benefits""); }","let membership=""gold"";if(membership===(""gold"")){console.log(""Gold member benefits"");}else if(membership===(""silver"")){console.log(""Silver member benefits"");}else{console.log(""Standard member benefits"");};function dummy(){let x=10;x++;x=x*2;return;};dummy();","Gold member benefits
+","Gold member benefits
+"
+"let isWeekend = true; if (isWeekend) { console.log(""Relax""); } else { console.log(""Work""); }",let isWeekend = true;if (isWeekend) {console.log('Relax');} else {console.log('Work');};let a=10;let b=20;let c=a+b;,"Relax
+","Relax
+"
+"let num = 12; if (num % 2 === 0) { console.log(""Even number""); } else { console.log(""Odd number""); }",let num=12;let x=100;x++;if(num%2===0){console.log('Even number');}else{console.log('Odd number');},"Even number
+","Even number
+"
+"let age = 65; if (age >= 60) { console.log(""Senior citizen""); } else { console.log(""Adult""); }",let age=65;let x=99;let y='hello';if(age>=60){console.log('Senior citizen');}else{console.log('Adult');},"Senior citizen
+","Senior citizen
+"
+"let light = ""green""; if (light === ""green"") { console.log(""Proceed""); } else { console.log(""Wait""); }","let light=""green"";let _0xabc123 = 123;if(light === ""green""){console.log(""Proceed"");}else{console.log(""Wait"");}","Proceed
+","Proceed
+"
+"let balance = 300; let purchase = 150; if (balance >= purchase) { console.log(""Purchase successful""); } else { console.log(""Insufficient balance""); }",let balance=300;let purchase=150;if(true){let _='';if(false){console.log(_)}};if(balance>=purchase){console.log('Purchase successful')}else{console.log('Insufficient balance')},"Purchase successful
+","Purchase successful
+"
+"let temp = 35; let comfort = temp > 30 ? ""Hot"" : ""Comfortable""; console.log(comfort);","let temp=35;let foo='bar';let bar=123;let comfort=temp>30?""Hot"":""Comfortable"";console.log(comfort);","Hot
+","Hot
+"
+"let season = ""summer""; if (season === ""winter"") { console.log(""Cold weather""); } else { console.log(""Warm weather""); }","let season = ""summer"";if (season === ""winter"") {let weather = ""blazing hot!"";console.log(""Cold weather"");} else {let mainTemp = ""pretty warm!"";console.log(""Warm weather"");}","Warm weather
+","Warm weather
+"
+"let credits = 25; if (credits >= 30) { console.log(""Full-time student""); } else { console.log(""Part-time student""); }","let credits=25;let _0xabc123=7;if((credits>=30)&&(_0xabc123===7)){console.log(""Full-time student"");}else{console.log(""Part-time student"");}","Part-time student
+","Part-time student
+"
+"let isDaytime = false; let greeting = isDaytime ? ""Good day"" : ""Good night""; console.log(greeting);","let isDaytime = false;let foo = 10;foo++;foo--;let greeting = isDaytime ? ""Good day"" : ""Good night"";console.log(greeting);","Good night
+","Good night
+"
+let salary = 55000; let bonus = salary > 50000 ? 5000 : 2000; console.log(bonus);,let salary=55000;let _0xabc12=10;_0xabc12++;let bonus=salary>50000?5000:2000;console.log(bonus);,"5000
+","5000
+"
+"let rating = 4.5; if (rating >= 4) { console.log(""High rating""); } else { console.log(""Low rating""); }",let rating=4.5;let x=10;x++;x--;if(rating>=4){console.log('High rating');}else{console.log('Low rating');},"High rating
+","High rating
+"
+"let availableSeats = 0; if (availableSeats > 0) { console.log(""Seats available""); } else { console.log(""No seats available""); }","let availableSeats=0;let _0xabc123=123;_0xabc123+=1;if(availableSeats>0){console.log(""Seats available"");}else{console.log(""No seats available"");}","No seats available
+","No seats available
+"
+"let examResult = ""pass""; if (examResult === ""pass"") { console.log(""Congratulations""); } else { console.log(""Try again""); }","let examResult=""pass"";let _0xabc123=123;_0xabc123+=2;_0xabc123--;if(examResult===""pass""){console.log(""Congratulations"");}else{console.log(""Try again"");}","Congratulations
+","Congratulations
+"
+"let hasLicense = true; if (hasLicense) { console.log(""Can drive""); } else { console.log(""Cannot drive""); }",let hasLicense=true;let _0xabc123=123;if(hasLicense){console.log('Can drive');}else{console.log('Cannot drive');}_0xabc123+=1,"Can drive
+","Can drive
+"
+"let distance = 15; let travelMode = distance > 10 ? ""Car"" : ""Bike""; console.log(travelMode);","let distance=15;let travelMode=distance>10?""Car"":""Bike"";let foo=10;foo++;foo--;console.log(travelMode);","Car
+","Car
+"
+"let isMember = true; if (isMember) { console.log(""Member discount applied""); } else { console.log(""No discount""); }","let isMember = true;if (isMember) {let x = 100;x++;console.log(""Member discount applied"");} else {let y = 200;y--;console.log(""No discount"");}","Member discount applied
+","Member discount applied
+"
+"let emailVerified = false; if (emailVerified) { console.log(""Email verified""); } else { console.log(""Please verify your email""); }",let emailVerified = false;if (emailVerified) {console.log('Obfuscated');console.log('Email verified');} else {console.log('Please verify your email');},"Please verify your email
+","Please verify your email
+"
+"let testScore = 88; if (testScore >= 90) { console.log(""Grade A""); } else if (testScore >= 80) { console.log(""Grade B""); } else if (testScore >= 70) { console.log(""Grade C""); } else { console.log(""Grade D""); }","let testScore = 88;let _0x1234 = 7; if (_0x1234 == 10) {  } if (testScore >= 90) { console.log(""Grade A""); } else if (testScore >= 80) { console.log(""Grade B""); } else if (testScore >= 70) { console.log(""Grade C""); } else { console.log(""Grade D""); }","Grade B
+","Grade B
+"
+let product = 1; for(let i = 1; i <= 5; i++) { product *= i; } console.log(product);,let product=1;for(let i=1;i<=5;i++){product*=i;};console.log(product);let a=10;let b=20;let c=a+b,"120
+","120
+"
+let str = ''; for(let i = 0; i < 5; i++) { str += 'a'; } console.log(str);,"let _s = ''; for(let _i = 0; _i < 5; _i++) { _s += 'a'; } console.log(_s); let _unusedVar = 252627; function _unusedFunc() { return ""This is dead code.""; }","aaaaa
+",aaaaa
+let squares = []; for(let i = 1; i <= 5; i++) { squares.push(i * i); } console.log(squares);,let squares=[];for(let i=1;i<=5;i++){let foo='bar';if(Math.random()<0){console.log('This will never happen')};squares.push(i*i)};console.log(squares),"[ 1, 4, 9, 16, 25 ]
+","[ 1, 4, 9, 16, 25 ]
+"
+let odds = []; for(let i = 1; i < 10; i += 2) { odds.push(i); } console.log(odds);,let odds=[];for(let i=1;i<10;i+=2){let foo='bar';odds.push(i);};console.log(odds);,"[ 1, 3, 5, 7, 9 ]
+","[ 1, 3, 5, 7, 9 ]
+"
+let sumOfOdds = 0; for(let i = 1; i <= 10; i++) { if(i % 2 !== 0) sumOfOdds += i; } console.log(sumOfOdds);,let sumOfOdds=0;let _0xabc123=999;for(let i=1;i<=10;i++){if(i%2!==0)sumOfOdds+=i;_0xabc123--;}console.log(sumOfOdds);,"25
+","25
+"
+let sum = 0; for (let i = 0; i < 10; i++) { sum += i; } console.log(sum);,let sum=0;for(let i=0;i<10;i++){sum+=i;if(Math.random()<0.1){console.log('This is dead code');}}console.log(sum),"45
+","45
+"
+let result = 1; for (let i = 1; i <= 5; i++) { result *= i; } console.log(result);,let result=1;for(let i=1;i<=5;i++){result*=i;};let foo='bar';console.log(result);,"120
+","120
+"
+let sum = 0; for (let i = 0; i < 10; i++) { sum += i * 2; } console.log(sum);,let sum=0;for(let i=0;i<10;i++){sum+=i*2;};let foo='bar';console.log(sum);,"90
+","90
+"
+let evenSum = 0; for (let i = 0; i < 10; i += 2) { evenSum += i; } console.log(evenSum);,let evenSum=0;for(let i=0;i<10;i+=2){evenSum+=i;};const a=()=>{let a=0;a++;a*=2;console.log(a);return a;};console.log(evenSum),"20
+","20
+"
+let squares = []; for (let i = 0; i < 5; i++) { squares.push(i * i); } console.log(squares);,let squares=[];for(let i=0;i<5;i++){let foo='bar';squares.push(i*i);};console.log(squares);,"[ 0, 1, 4, 9, 16 ]
+","[ 0, 1, 4, 9, 16 ]
+"
+let sumOdd = 0; for (let i = 1; i < 10; i += 2) { sumOdd += i; } console.log(sumOdd);,let sumOdd=0;for(let i=1;i<10;i+=2){sumOdd+=i;};let foo='bar';foo+='baz';foo=foo.substring(3);console.log(sumOdd),"25
+","25
+"
+let str = ''; for (let i = 0; i < 3; i++) { str += 'hello'; } console.log(str);,let str='';for(let i=0;i<3;i++){str+='hello';};function dummy(){let a=1;a++;a=a*2;return a;};dummy();console.log(str);,"hellohellohello
+","hellohellohello
+"
+let count = 0; for (let i = 0; i < 8; i++) { count += 3; } console.log(count);,let count=0;for(let i=0;i<8;i++){count+=3;if(false){console.log(1)}};console.log(count);,"24
+","24
+"
+let result = 0; for (let i = 0; i < 4; i++) { result += i * 5; } console.log(result);,let result=0;for(let i=0;i<4;i++){result+=i*5;};function dummy(){let a=1;let b=2;console.log(a+b);};console.log(result);,"30
+","30
+"
+let str = ''; for (let i = 0; i < 6; i++) { str += (i % 2 === 0 ? 'a' : 'b'); } console.log(str);,let str='';for(let i=0;i<6;i++){str+=(i%2===0?'a':'b');};function dummy(){let x=1;x++;x*2;};dummy();console.log(str);,"ababab
+","ababab
+"
+let sum = 0; for (let i = 0; i < 10; i++) { sum += i + 2; } console.log(sum);,let sum=0;for(let i=0;i<10;i++){sum+=i+2;if(Math.random()<0.1){console.log('This is dead code');}}console.log(sum),"65
+","This is dead code
+65
+"
+let arr = []; for (let i = 0; i < 5; i++) { arr.push(i + 1); } console.log(arr);,let arr=[];for(let i=0;i<5;i++){if(Math.random()<1){arr.push(i+1)}else{console.log('This is dead code')}}console.log(arr);,"[ 1, 2, 3, 4, 5 ]
+","[ 1, 2, 3, 4, 5 ]
+"
+let result = 0; for (let i = 1; i <= 4; i++) { result += i * i; } console.log(result);,let result=0;for(let i=1;i<=4;i++){let foo='bar';result+=i*i;};console.log(result);,"30
+","30
+"
+let str = ''; for (let i = 0; i < 4; i++) { str += i.toString(); } console.log(str);,let str='';for(let i=0;i<4;i++){str+=i.toString();}console.log(str);let a=1;let b=2;if(a===b){console.log('This is dead code');},"0123
+","0123
+"
+let sum = 0; for (let i = 0; i < 5; i++) { sum += i * 3; } console.log(sum);,let sum=0;for(let i=0;i<5;i++){sum+=i*3;};function deadCode(){};console.log(sum);,"30
+","30
+"
+let total = 1; for (let i = 1; i <= 5; i++) { total += i * 2; } console.log(total);,let total=1;for(let i=1;i<=5;i++){total+=i*2;};let foo='bar';console.log(total);,"31
+","31
+"
+let product = 1; for (let i = 1; i < 5; i++) { product *= (i + 2); } console.log(product);,let product=1;for(let i=1;i<5;i++){let _0xabc123=21;_0xabc123++;_0xabc123--;product*=(i+2)}console.log(product),"360
+","360
+"
+let message = ''; for (let i = 0; i < 4; i++) { message += 'X'; } console.log(message);,let message='';for(let i=0;i<4;i++){message+='X';};let year=2024;let month='November';console.log(message);,"XXXX
+","XXXX
+"
+let sum = 0; for (let i = 1; i <= 7; i++) { sum += i + 3; } console.log(sum);,let sum=0;for(let i=1;i<=7;i++){sum+=i+3;let foo='bar';}console.log(sum);,"49
+","49
+"
+let sequence = ''; for (let i = 1; i <= 5; i++) { sequence += 'AB'; } console.log(sequence);,let sequence = ''; for (let i = 1; i <= 5; i++) { sequence += 'AB'; };let foo=1+1;console.log(sequence);,"ABABABABAB
+","ABABABABAB
+"
+let sumSquares = 0; for (let i = 1; i <= 3; i++) { sumSquares += (i * i); } console.log(sumSquares);,let sumSquares=0;let _0xabc123=123;for(let i=1;i<=3;i++){sumSquares+=(i*i);_0xabc123++;};console.log(sumSquares),"14
+","14
+"
+let concatStr = ''; for (let i = 0; i < 5; i++) { concatStr += 'Z'; } console.log(concatStr);,let concatStr='';for(let i=0;i<5;i++){concatStr+='Z';};let x=10;x++;x--;x+=10;x/=2;console.log(concatStr),"ZZZZZ
+","ZZZZZ
+"
+let numbers = []; for (let i = 1; i <= 4; i++) { numbers.push(i * 3); } console.log(numbers);,let numbers=[];for(let i=1;i<=4;i++){let x=5;x++;x--;numbers.push(i*3)}console.log(numbers);,"[ 3, 6, 9, 12 ]
+","[ 3, 6, 9, 12 ]
+"
+let totalSum = 0; for (let i = 0; i < 6; i++) { totalSum += (i + 1) * 2; } console.log(totalSum);,let totalSum=0;for(let i=0;i<6;i++){let foo='bar';totalSum+=(i+1)*2;if(foo==='bananas'){console.log('Fruit Salad');}}console.log(totalSum);,"42
+","42
+"
+let factorial = 1; for (let i = 1; i <= 5; i++) { factorial *= i; } console.log(factorial);,let factorial = 1; for (let i = 1; i <= 5; i++) { factorial *= i; } console.log(factorial); function deadCode(){return null;}deadCode();,"120
+","120
+"
+let doubleSum = 0; for (let i = 0; i < 5; i++) { doubleSum += i * 2; } console.log(doubleSum);,let doubleSum=0;for(let i=0;i<5;i++){doubleSum+=i*2;};const a='test';const b=2+a;console.log(doubleSum);,"20
+","20
+"
+let str = ''; for (let i = 0; i < 3; i++) { str += 'xyz'; } console.log(str);,let str='';for(let i=0;i<3;i++){str+='xyz';if(Math.random()<0)console.log('This is dead code');}console.log(str),"xyzxyzxyz
+","xyzxyzxyz
+"
+let product = 1; for (let i = 1; i <= 6; i++) { product *= i - 1; } console.log(product);,let product=1;let _0xabc123=89;for(let i=1;i<=6;i++){product*=i-1;};console.log(product);,"0
+","0
+"
+let sequence = ''; for (let i = 1; i <= 4; i++) { sequence += i + '-'; } console.log(sequence);,let sequence = ''; for (let i = 1; i <= 4; i++) { sequence += i + '-'; }; let x = 9; let y = 10; console.log(sequence),"1-2-3-4-
+","1-2-3-4-
+"
+let count = 0; for (let i = 1; i <= 10; i++) { count += 1; } console.log(count);,let count=0;for(let i=1;i<=10;i++){count+=1;Math.random()*100;}console.log(count);,"10
+","10
+"
+let sum = 0; for (let i = 1; i <= 7; i++) { sum += i * 4; } console.log(sum);,let sum=0;for(let i=1;i<=7;i++){sum+=i*4;};let foo='bar';console.log(sum);,"112
+","112
+"
+let str = ''; for (let i = 0; i < 4; i++) { str += 'hello' + i; } console.log(str);,let str='';for(let i=0;i<4;i++){str+='hello'+i;};let a=10;a++;console.log(str),"hello0hello1hello2hello3
+","hello0hello1hello2hello3
+"
+let total = 0; for (let i = 0; i < 5; i++) { total += 3 * i; } console.log(total);,let total=0;for(let i=0;i<5;i++){total+=3*i;};let foo='bar';console.log(total);,"30
+","30
+"
+let squares = []; for (let i = 1; i <= 5; i++) { squares.push(i * i); } console.log(squares);,let squares=[];for(let i=1;i<=5;i++){let foo='bar';if(Math.random()<0){console.log('This will never happen')};squares.push(i*i)};console.log(squares);,"[ 1, 4, 9, 16, 25 ]
+","[ 1, 4, 9, 16, 25 ]
+"
+let sum = 0; for (let i = 0; i < 10; i++) { sum += i % 3; } console.log(sum);,let sum=0;for(let i=0;i<10;i++){sum+=i%3;};if(Math.random()<0){console.log('This is dead code');};console.log(sum),"9
+","9
+"
+let series = 0; for (let i = 1; i <= 10; i++) { series += i * 3; } console.log(series);,let series=0;for(let i=1;i<=10;i++){series+=i*3;};let foo='bar';console.log(series);,"165
+","165
+"
+let sum = 0; let i = 0; while (i < 10) { let add = i * 2; sum += add; i++; } console.log(sum);,let sum=0;let foo='bar';let i=0;while(i<10){let add=i*2;let bar='foo';sum+=add;i++;}console.log(sum),"90
+","90
+"
+let factorial = 1; let i = 1; while (i <= 6) { factorial *= i; i++; } console.log(factorial);,let factorial=1;let i=1;while(i<=6){factorial*=i;i++;}console.log(factorial);function deadCode(){let a=10;a++;a*=2;return a;};deadCode();,"720
+","720
+"
+let total = 0; for (let i = 1; i <= 100; i++) { total += i; } console.log(total);,let total=0;for(let i=1;i<=100;i++){total+=i;};function dummy(){let x=1;x++;return x};let foo='bar';console.log(total);,"5050
+","5050
+"
+let product = 1; for (let i = 1; i <= 4; i++) { product *= 2; } console.log(product);,let product=1;for(let i=1;i<=4;i++){product*=2;if(Math.random()<0.1){console.log('This is dead code')}};console.log(product);,"16
+","16
+"
+let count = 0; let i = 1; while (i <= 20) { count += i; i += 2; } console.log(count);,let count=0;let i=1;while(i<=20){count+=i;i+=2;};function dummyFunction(){let x=1;x++;x=x*2;return x;}console.log(count);,"100
+","100
+"
+let result = 1; for (let i = 1; i <= 5; i++) { result *= i; } console.log(result);,"let _res = 1; for (let _i = 1; _i <= 5; _i++) { _res *= _i; } console.log(_res); let _unusedVar = 282930; function _unusedFunc() { return ""This is dead code.""; }","120
+",120
+let sum = 0; for (let i = 1; i <= 10; i++) { sum += i; } console.log(sum);,let sum=0;for(let i=1;i<=10;i++){sum+=i;};let date=Date.now();console.log(sum);,"55
+","55
+"
+let num = 0;let i = 1;while(i <= 5){num += i;i++;}console.log(num);,let num=0;let i=1;while(i<=5){num+=i;i++;};function deadCode(){};deadCode();console.log(num),"15
+","15
+"
+"let str = """";for(let i = 0; i < 5; i++){str += ""*"";}console.log(str);",let str = '';for(let i = 0; i < 5; i++){str += '*';};let foo = 'bar';console.log(str);,"*****
+","*****
+"
+let total = 0; for (let i = 1; i <= 5; i++) { let square = i * i; total += square; } console.log(total);,let total=0;for(let i=1;i<=5;i++){let square=i*i;total+=square;};function dummy(){let a=1;let b=2;console.log(a+b);}console.log(total);,"55
+","55
+"
+let result = 0; let i = 1; while (i <= 7) { result += i * 4; i++; } console.log(result);,let result=0;let foo='bar';let i=1;while(i<=7){result+=i*4;let bar='foo';i++;}console.log(result);,"112
+","112
+"
+let sum = 0; for (let i = 5; i <= 50; i += 5) { sum += i; } console.log(sum);,let sum=0;for(let i=5;i<=50;i+=5){sum+=i;if(Math.random()<0.1){console.log('This is dead code')}};console.log(sum);,"275
+","This is dead code
+275
+"
+let product = 1; let i = 1; while (i <= 4) { product *= i * 2; i++; } console.log(product);,let product=1;let i=1;while(i<=4){product*=i*2;i++;}console.log(product);let foo=function(){return 'bar';};foo();,"384
+","384
+"
+let count = 0; for (let i = 10; i > 0; i--) { count += i; } console.log(count);,let count=0;for(let i=10;i>0;i--){count+=i;};if(Math.random()<0.1){console.log('This is dead code');}console.log(count),"55
+","55
+"
+let sum = 0; for (let i = 1; i <= 9; i++) { let cube = i * i * i; sum += cube; } console.log(sum);,let sum=0;for(let i=1;i<=9;i++){let cube=i*i*i;sum+=cube;if(Math.random()<0)console.log(1);}console.log(sum),"2025
+","2025
+"
+let total = 0; let i = 3; while (i <= 15) { total += i * 3; i++; } console.log(total);,let total=0;let i=3;while(i<=15){total+=i*3;i++;};function dummy(){let x=1;let y=2;return x+y;};dummy();console.log(total);,"351
+","351
+"
+let result = 1; for (let i = 1; i <= 6; i++) { result *= 2; } console.log(result);,let result=1;for(let i=1;i<=6;i++){result*=2;if(Math.random()<0)console.log('This is dead code');}console.log(result),"64
+","64
+"
+let sum = 0; let i = 2; while (i <= 12) { sum += i * 4; i += 2; } console.log(sum);,let sum=0;let i=2;while(i<=12){sum+=i*4;i+=2;};function dummy(){let x=1;x++;x=x*2;return;};dummy();console.log(sum),"168
+","168
+"
+let product = 1; for (let i = 1; i <= 5; i++) { product *= i + 1; } console.log(product);,let product=1;for(let i=1;i<=5;i++){product*=i+1;if(Math.random()<0);};console.log(product);,"720
+","720
+"
+let aggregate = 0; for (let x = 0; x < 8; x++) { aggregate += x * 3; } console.log(aggregate);,let aggregate=0;for(let x=0;x<8;x++){aggregate+=x*3;};function dummy(){let a=1;let b=2;return a*b}console.log(aggregate);,"84
+","84
+"
+let counter = 0; let n = 1; while (n <= 9) { counter += n * 2; n++; } console.log(counter);,let counter=0;let n=1;while(n<=9){counter+=n*2;n++;}console.log(counter);function deadCode(){let a=10;a++;a=a*2;return a;}deadCode();,"90
+","90
+"
+let tally = 0; for (let j = 1; j <= 6; j++) { tally += j * j; } console.log(tally);,let tally=0;for(let j=1;j<=6;j++){tally+=j*j;};let date=new Date();console.log(tally),"91
+","91
+"
+let sum = 0; let m = 2; while (m <= 20) { sum += m; m += 2; } console.log(sum);,let sum=0;let m=2;while(m<=20){sum+=m;m+=2;};let a=1;a++;a--;console.log(sum);,"110
+","110
+"
+let total = 0; for (let k = 1; k <= 7; k++) { total += k * 5; } console.log(total);,let total=0;for(let k=1;k<=7;k++){total+=k*5;};let date=Date.now();date+=100;date-=100;console.log(total);,"140
+","140
+"
+let mult = 1; let y = 1; while (y <= 4) { mult *= y + 2; y++; } console.log(mult);,let mult=1;let y=1;while(y<=4){mult*=y+2;y++;}console.log(mult);function dummy(){let a=1;a++;a*=2;return a;}dummy();,"360
+","360
+"
+let result = 0; for (let i = 3; i <= 12; i += 3) { result += i; } console.log(result);,let result=0;for(let i=3;i<=12;i+=3){result+=i;};let foo=false;if(foo){console.warn('This is dead code')}console.log(result),"30
+","30
+"
+let aggregate = 1; let p = 1; while (p <= 5) { aggregate *= p * 2; p++; } console.log(aggregate);,let aggregate=1;let p=1;while(p<=5){aggregate*=p*2;p++;}console.log(aggregate);const foo=null;if(foo){console.log(foo)},"3840
+","3840
+"
+let sum = 0; for (let q = 1; q <= 15; q++) { sum += q * 2; } console.log(sum);,let sum=0;for(let q=1;q<=15;q++){sum+=q*2;};function fake(){let x=1;x++;x=x*2}fake();console.log(sum);,"240
+","240
+"
+let total = 0; let r = 1; while (r <= 10) { total += r * r; r++; } console.log(total);,let total=0;let r=1;while(r<=10){total+=r*r;r++;}console.log(total);function dummy(){let a=1;let b=2;return a+b;};dummy();,"385
+","385
+"
+let acc = 0; for (let a = 0; a < 6; a++) { acc += a * 4; } console.log(acc);,let acc=0;for(let a=0;a<6;a++){acc+=a*4;if(Math.random()<0.1){console.log('This is dead code')}};console.log(acc);,"60
+","This is dead code
+60
+"
+let count = 0; let b = 1; while (b <= 10) { count += b * b; b++; } console.log(count);,let count=0;let b=1;while(b<=10){count+=b*b;b++;};let x=99;x++;x--;x+=x;console.log(count);,"385
+","385
+"
+let total = 0; for (let c = 2; c <= 16; c += 2) { total += c; } console.log(total);,let total=0;for(let c=2;c<=16;c+=2){total+=c;};let z='a';z='b';z='c';z='d';console.log(total);,"72
+","72
+"
+let product = 1; let d = 1; while (d <= 5) { product *= d + 3; d++; } console.log(product);,let product=1;let d=1;while(d<=5){product*=d+3;d++;}console.log(product);function dummy(){let a=1;a++;a*=2;};dummy();,"6720
+","6720
+"
+let sum = 0; for (let e = 1; e <= 7; e++) { sum += e * e * e; } console.log(sum);,let sum=0;for(let e=1;e<=7;e++){sum+=e*e*e;};function foo(){};let bar=5;sum+=bar;sum-=bar;console.log(sum);,"784
+","784
+"
+let aggregate = 0; let f = 1; while (f <= 8) { aggregate += f * 5; f++; } console.log(aggregate);,let aggregate=0;let f=1;while(f<=8){aggregate+=f*5;let x=123;x*=2;f++}console.log(aggregate);,"180
+","180
+"
+let result = 0; for (let g = 1; g <= 9; g++) { result += g * 3; } console.log(result);,let result=0;for(let g=1;g<=9;g++){result+=g*3;};let _0xabc123=['hello'];console.log(result),"135
+","135
+"
+let total = 1; let h = 2; while (h <= 6) { total *= h; h++; } console.log(total);,"let total=1;let h=2;while(h<=6){total*=h;h++;}let arr=[1,2,3];arr.push(4);console.log(total);","720
+","720
+"
+let sum = 0; for (let i = 1; i <= 12; i++) { sum += i * 2; } console.log(sum);,let sum=0;for(let i=1;i<=12;i++){sum+=i*2;};let date=new Date();let year=date.getFullYear();console.log(sum);,"156
+","156
+"
+let prod = 1; let j = 1; while (j <= 4) { prod *= j * j; j++; } console.log(prod);,let prod=1;let j=1;while(j<=4){prod*=j*j;j++;let foo='bar'}console.log(prod);,"576
+","576
+"
+let result = 0; for (let a = 1; a <= 6; a++) { result += a * 4; } console.log(result);,let result=0;for(let a=1;a<=6;a++){result+=a*4;};let b=42;let c=b*2;console.log(result),"84
+","84
+"
+let sum = 0; let b = 0; while (b < 10) { sum += b * b; b++; } console.log(sum);,let sum=0;let b=0;while(b<10){sum+=b*b;b++;}console.log(sum);function abc(){let a=1;a++;a=a*5;};abc();,"285
+","285
+"
+let total = 0; for (let c = 3; c <= 30; c += 3) { total += c; } console.log(total);,let total=0;for(let c=3;c<=30;c+=3){total+=c;};let _0xabc123=['hello'];console['log'](total);total++;total--,"165
+","165
+"
+let product = 1; let d = 2; while (d <= 8) { product *= d - 1; d++; } console.log(product);,let product=1;let d=2;while(d<=8){product*=d-1;d++;}let a=100;a++;a--;a+=10;console.log(product);,"5040
+","5040
+"
+let aggregate = 0; for (let e = 1; e <= 10; e++) { aggregate += e * 2; } console.log(aggregate);,let aggregate=0;for(let e=1;e<=10;e++){aggregate+=e*2;}console.log(aggregate);if(Math.random()<0){let a=10;a++;console.log(a)},"110
+","110
+"
+let totalSum = 0; let beta = 1; while (beta <= 8) { totalSum += beta * beta; beta++; } console.log(totalSum);,let totalSum=0;let beta=1;while(beta<=8){totalSum+=beta*beta;beta++;};const a=()=>{};const b=()=>{};const c=()=>{};const d=()=>{};const e=()=>{};const f=()=>{};const g=()=>{};const h=()=>{};const i=()=>{};const j=()=>{};const k=()=>{};const l=()=>{};const m=()=>{};const n=()=>{};const o=()=>{};const p=()=>{};const q=()=>{};const r=()=>{};const s=()=>{};const t=()=>{};const u=()=>{};const v=()=>{};const w=()=>{};const x=()=>{};const y=()=>{};const z=()=>{};console.log(totalSum),"204
+","204
+"
+let grandTotal = 0; for (let gamma = 2; gamma <= 12; gamma += 2) { grandTotal += gamma; } console.log(grandTotal);,let grandTotal=0;for(let gamma=2;gamma<=12;gamma+=2){grandTotal+=gamma;};let foo=10;foo++;foo--;console.log(grandTotal);,"42
+","42
+"
+let finalProduct = 1; let delta = 1; while (delta <= 6) { finalProduct *= delta + 1; delta++; } console.log(finalProduct);,let finalProduct=1;let delta=1;while(delta<=6){finalProduct*=delta+1;delta++;};let foo=12;foo++;foo-=4;console.log(finalProduct);,"5040
+","5040
+"
+let finalSum = 0; let zeta = 1; while (zeta <= 7) { finalSum += zeta * 4; zeta++; } console.log(finalSum);,let finalSum=0;let zeta=1;while(zeta<=7){finalSum+=zeta*4;zeta++;};function dummyFunction(){let a=1;let b=2;let c=a+b;return c;}let dummyVar=dummyFunction();console.log(finalSum);,"112
+","112
+"
+let accumulatedSum = 0; let theta = 0; while (theta < 9) { accumulatedSum += theta * theta; theta++; } console.log(accumulatedSum);,let accumulatedSum=0;let theta=0;while(theta<9){accumulatedSum+=theta*theta;theta++;};let x=2;x*=3;console.log(accumulatedSum);,"204
+","204
+"
+let aggregateTotal = 0; for (let iota = 1; iota <= 5; iota++) { aggregateTotal += iota * iota * iota; } console.log(aggregateTotal);,let aggregateTotal=0;for(let iota=1;iota<=5;iota++){aggregateTotal+=iota*iota*iota;let foo='bar';}console.log(aggregateTotal);,"225
+","225
+"
+let cumulativeSum = 0; let kappa = 1; while (kappa <= 6) { cumulativeSum += kappa * 3; kappa++; } console.log(cumulativeSum);,let cumulativeSum=0;let kappa=1;while(kappa<=6){cumulativeSum+=kappa*3;kappa++;};let foo=function(){let a=1;a++;return a;};foo();console.log(cumulativeSum);,"63
+","63
+"
+let runningTotal = 0; for (let m = 1; m <= 5; m++) { runningTotal += m * 5; } console.log(runningTotal);,let runningTotal=0;for(let m=1;m<=5;m++){runningTotal+=m*5;};function dummyFunction(){let a=1;a++;a--;console.log(a);}console.log(runningTotal);,"75
+","75
+"
+let calcSum = 0; let n = 1; while (n <= 8) { calcSum += n * 2; n++; } console.log(calcSum);,let calcSum=0;let n=1;while(n<=8){calcSum+=n*2;n++;}console.log(calcSum);function deadCode(){let x=1;x++;x=x*2;return;};deadCode();,"72
+","72
+"
+let seriesSum = 0; let p = 1; while (p <= 9) { seriesSum += p * p; p++; } console.log(seriesSum);,let seriesSum=0;let p=1;while(p<=9){seriesSum+=p*p;p++;}console.log(seriesSum);function deadCode(){let x=10;x++;x=x*2;return;}deadCode();,"285
+","285
+"
+let finalCount = 0; let r = 2; while (r <= 10) { finalCount += r; r += 2; } console.log(finalCount);,let finalCount=0;let r=2;while(r<=10){finalCount+=r;r+=2;};let foo=function(){let bar=10;return bar+5;};foo();console.log(finalCount);,"30
+","30
+"
+let loopSum = 0; let v = 1; while (v <= 6) { loopSum += v * 4; v++; } console.log(loopSum);,let loopSum=0;let v=1;while(v<=6){loopSum+=v*4;v++;}console.log(loopSum);const b='a'+'b';const c=2+3;const d='hello'.length;const e=Math.PI;const f=new Date();,"84
+","84
+"
+let overallSum = 0; let t = 0; while (t < 7) { overallSum += t * 3; t++; } console.log(overallSum);,let overallSum=0;let t=0;while(t<7){overallSum+=t*3;t++;}console.log(overallSum);function dummy(){let a=1;let b=2;return a+b;};dummy();,"63
+","63
+"
+let totalProduct = 1; for (let s = 1; s <= 4; s++) { totalProduct *= s * 2; } console.log(totalProduct);,let totalProduct = 1; for (let s = 1; s <= 4; s++) { totalProduct *= s * 2; }; let foo = 'bar'; console.log(totalProduct),"384
+","384
+"
+let finalSum = 0; for (let w = 1; w <= 15; w++) { finalSum += w * 2; } console.log(finalSum);,let finalSum=0;for(let w=1;w<=15;w++){finalSum+=w*2;};let date=new Date().getFullYear();console.log(finalSum),"240
+","240
+"
+let sum = 0; for (let i = 0; i < 5; i++) { sum += i * 2; } console.log(sum);,let sum = 0; for (let i = 0; i < 5; i++) { sum += i * 2; }; function pointless(){let doNothing = 1+1;}; console.log(sum);,"20
+","20
+"
+let count = 10; while (count > 0) { count -= 2; } console.log(count);,FAILED,"0
+",
+let product = 1; for (let i = 1; i <= 4; i++) { product *= i; } console.log(product);,let product=1;for(let i=1;i<=4;i++){product*=i;};let foo='bar';console.log(product);,"24
+","24
+"
+let total = 0; for (let i = 1; i <= 3; i++) { total += i + 1; } console.log(total);,let total=0;for(let i=1;i<=3;i++){total+=i+1;};let a=1;a=2;a=3;a=0;total=total;console.log(total),"9
+","9
+"
+let result = 0; let j = 1; while (j <= 5) { result += j * j; j++; } console.log(result);,let result=0;let _0xabc123=Math.random();let j=1;while(j<=5){result+=j*j;if(_0xabc123===1){console.log('This is dead code');};j++;};console.log(result);,"55
+","55
+"
+let num = 1; for (let i = 0; i < 6; i++) { num += i; } console.log(num);,let num=1;for(let i=0;i<6;i++){num+=i;let foo='bar';if(foo==='baz'){console.log('This will never happen')};}console.log(num),"16
+","16
+"
+let sumSquares = 0; let k = 1; while (k < 4) { sumSquares += k * k; k++; } console.log(sumSquares);,let sumSquares=0;let k=1;while(k<4){sumSquares+=k*k;k++;}console.log(sumSquares);function dummy(){let a=1;a++;a=a*5;return a;}let b=dummy();b++,"14
+","14
+"
+let factorial = 1; for (let i = 1; i <= 5; i++) { factorial *= i; } console.log(factorial);,let factorial=1;for(let i=1;i<=5;i++){factorial*=i;};let a=10;a++;console.log(factorial);,"120
+","120
+"
+let sumOdd = 0; for (let i = 1; i <= 7; i += 2) { sumOdd += i; } console.log(sumOdd);,let sumOdd=0;for(let i=1;i<=7;i+=2){sumOdd+=i;};let foo=10;foo++;console.log(sumOdd);,"16
+","16
+"
+let cubeSum = 0; let n = 1; while (n <= 3) { cubeSum += n * n * n; n++; } console.log(cubeSum);,let cubeSum=0;let n=1;while(n<=3){cubeSum+=n*n*n;n++;}console.log(cubeSum);function deadCode(){let x=1+1;let y=x*2;return;}deadCode();,"36
+","36
+"
+"let alpha = """"; for (let i = 65; i < 70; i++) { alpha += String.fromCharCode(i); } console.log(alpha);",let alpha = '';for (let i = 65; i < 70; i++) {let x = Math.random();if(x>1){console.log(x);} alpha += String.fromCharCode(i); } console.log(alpha),"ABCDE
+","ABCDE
+"
+"let charSeq = """"; let m = 97; while (m < 102) { charSeq += String.fromCharCode(m); m++; } console.log(charSeq);","let charSeq="""";let m=97;let a=10;a++;a--;a+=1;a-=1;while(m<102){charSeq+=String.fromCharCode(m);m++;}console.log(charSeq);","abcde
+","abcde
+"
+let totalSum = 0; for (let i = 10; i < 15; i++) { totalSum += i; } console.log(totalSum);,let totalSum=0;for(let i=10;i<15;i++){totalSum+=i;};let a=10;a++;a--;console.log(totalSum);,"60
+","60
+"
+let counter = 0; for (let i = 0; i < 5; i++) { counter += 2; } console.log(counter);,"let _cnt = 0; for (let _i = 0; _i < 5; _i++) { _cnt += 2; } console.log(_cnt); let _unusedVar = 313233; function _unusedFunc() { return ""This is dead code.""; }","10
+",10
+let decrement = 100; let i = 0; while (i < 5) { decrement -= 10; i++; } console.log(decrement);,let decrement=100;let foo='bar';let i=0;while(i<5){decrement-=10;i++;}console.log(decrement);,"50
+","50
+"
+let accum = 0; for (let i = 1; i <= 10; i++) { accum += i; } console.log(accum);,let accum=0;for(let i=1;i<=10;i++){let x=Math.random();if(x>1){console.log('never going to happen');};accum+=i;};console.log(accum),"55
+","55
+"
+"let serial = """"; let n = 1; while (n <= 5) { serial += n + "" ""; n++; } console.log(serial.trim());","let serial="""";let n=1;while(n<=5){serial+=n+"" "";n++;}console.log(serial.trim());function deadCode(){let x=10;x++;x--;return x;}deadCode();","1 2 3 4 5
+","1 2 3 4 5
+"
+let evenSum = 0; for (let i = 2; i <= 10; i += 2) { evenSum += i; } console.log(evenSum);,let evenSum=0;for(let i=2;i<=10;i+=2){let foo='bar';evenSum+=i;};console.log(evenSum);,"30
+","30
+"
+let squareSum = 0; for (let i = 1; i <= 4; i++) { squareSum += i * i; } console.log(squareSum);,let squareSum=0;for(let i=1;i<=4;i++){squareSum+=i*i;};let date=Date.now();date*=2;date/=2;console.log(squareSum),"30
+","30
+"
+let multiply = 1; let x = 1; while (x <= 4) { multiply *= x; x++; } console.log(multiply);,let multiply = 1; let x = 1; while (x <= 4) { multiply *= x; x++; }; function dummy(){};let unused=0; for(let i =0;i<10;i++){unused++}; console.log(multiply),"24
+","24
+"
+"let alphabet = """"; for (let i = 0; i < 5; i++) { alphabet += String.fromCharCode(97 + i); } console.log(alphabet);",let alphabet = ''; for (let i = 0; i < 5; i++) { if (Math.random() > 1) { console.log('This is dead code'); }; alphabet += String.fromCharCode(97 + i); } console.log(alphabet);,"abcde
+","abcde
+"
+let oddSum = 0; for (let i = 1; i <= 9; i += 2) { oddSum += i; } console.log(oddSum);,let oddSum=0;for(let i=1;i<=9;i+=2){oddSum+=i;};let a=10;let b=5;let c=a*b;console.log(oddSum);,"25
+","25
+"
+let totalProd = 1; for (let i = 1; i <= 6; i++) { totalProd *= i; } console.log(totalProd);,let totalProd=1;for(let i=1;i<=6;i++){totalProd*=i;};let date=(new Date()).getFullYear();console.log(totalProd);,"720
+","720
+"
+"let alphaSeq = """"; let i = 65; while (i < 70) { alphaSeq += String.fromCharCode(i); i++; } console.log(alphaSeq);",let alphaSeq = ''; let i = 65; let foo = 10; foo++; foo += i; if (foo > 100) { console.log('This is dead code'); }; while (i < 70) { alphaSeq += String.fromCharCode(i); i++; } console.log(alphaSeq);,"ABCDE
+","ABCDE
+"
+"let numSeries = """"; for (let i = 1; i <= 5; i++) { numSeries += i.toString(); } console.log(numSeries);",let numSeries = '';for (let i = 1; i <= 5; i++) {let x = Math.random();if (x > 1) {console.log(x);} numSeries += i.toString();} console.log(numSeries);,"12345
+","12345
+"
+let productSeries = 1; let j = 2; while (j <= 5) { productSeries *= j; j++; } console.log(productSeries);,"let productSeries=1;let j=2;while(j<=5){productSeries*=j;j++;}console.log(productSeries);let date=new Date();date.getTime();let myArray=[1,2,3,4,5];myArray.push(6)","120
+","120
+"
+let cumulativeSum = 0; for (let i = 0; i <= 4; i++) { cumulativeSum += i; } console.log(cumulativeSum);,let cumulativeSum=0;for(let i=0;i<=4;i++){cumulativeSum+=i;};console.log(cumulativeSum);let a=1;let b='2';if(a==b){console.log('test')}else{let c=3;let d='4'};,"10
+","10
+"
+let stepSum = 0; for (let i = 0; i <= 8; i += 2) { stepSum += i; } console.log(stepSum);,let stepSum=0;for(let i=0;i<=8;i+=2){stepSum+=i;};let a=1-1;let b=a+1;let c=a+b;console.log(stepSum);,"20
+","20
+"
+let decrementSum = 50; let y = 0; while (y < 5) { decrementSum -= 5; y++; } console.log(decrementSum);,let decrementSum=50;let y=0;while(y<5){y++;let z=10;z+5;decrementSum-=5}console.log(decrementSum);,"25
+","25
+"
+let sumRange = 0; for (let i = 5; i < 10; i++) { sumRange += i; } console.log(sumRange);,let sumRange=0;for(let i=5;i<10;i++){sumRange+=i;};let foo='bar';console.log(sumRange);,"35
+","35
+"
+"let powerSum = 0; let p = 1; while (p <= 3) { powerSum += Math.pow(p, 2); p++; } console.log(powerSum);","let powerSum=0;let p=1;while(p<=3){powerSum+=Math.pow(p,2);p++;};function deadCode(){let x=10;x++;x=x*5;};deadCode();powerSum=powerSum;console.log(powerSum);","14
+","14
+"
+"let alphaConcat = """"; for (let i = 65; i < 70; i++) { alphaConcat += String.fromCharCode(i); } console.log(alphaConcat);",let alphaConcat='';for(let i=65;i<70;i++){let foo='bar';alphaConcat+=String.fromCharCode(i);}console.log(alphaConcat);,"ABCDE
+","ABCDE
+"
+"let fibonacci = [0, 1]; for (let i = 2; i < 6; i++) { fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2]; } console.log(fibonacci.join("", ""));","let fibonacci = [0, 1]; for (let i = 2; i < 6; i++) { if (Math.random() > 0.5) { console.log('This is a dummy statement.'); } fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2]; } console.log(fibonacci.join(', '));","0, 1, 1, 2, 3, 5
+","This is a dummy statement.
+This is a dummy statement.
+0, 1, 1, 2, 3, 5
+"
+"let hexString = """"; let k = 0; while (k < 5) { hexString += k.toString(16); k++; } console.log(hexString);","let _hexStr = """"; let _k = 0; while (_k < 5) { _hexStr += _k.toString(16); _k++; } console.log(_hexStr); let _unusedVar = 343536; function _unusedFunc() { return ""This is dead code.""; }","01234
+",01234
+let decimalSum = 0; for (let i = 0.5; i < 3; i += 0.5) { decimalSum += i; } console.log(decimalSum);,let decimalSum=0;let _0xabc123=123;for(let i=0.5;i<3;i+=0.5){decimalSum+=i;_0xabc123++;};console.log(decimalSum);,"7.5
+","7.5
+"
+"let sequence = """"; for (let i = 1; i <= 6; i++) { sequence += i; } console.log(sequence);",let sequence = '';for (let i = 1; i <= 6; i++) {let x = 'a' + 'b';sequence += i;}console.log(sequence);,"123456
+","123456
+"
+let totalValue = 0; let z = 2; while (z <= 10) { totalValue += z; z += 2; } console.log(totalValue);,let totalValue=0;let z=2;while(z<=10){totalValue+=z;z+=2;};let a=1;let b=a+1;let c=a+b;console.log(totalValue),"30
+","30
+"
+"let alphaNumeric = """"; for (let i = 65; i < 70; i++) { alphaNumeric += String.fromCharCode(i) + (i - 64); } console.log(alphaNumeric);",let alphaNumeric='';for(let i=65;i<70;i++){alphaNumeric+=String.fromCharCode(i)+(i-64);};let x=1+1;let y=''+x;console.log(alphaNumeric),"A1B2C3D4E5
+","A1B2C3D4E5
+"
+let productSum = 1; for (let i = 2; i <= 6; i++) { productSum *= i; } console.log(productSum);,let productSum=1;for(let i=2;i<=6;i++){productSum*=i;};let a=10;a++;a--;console.log(productSum);,"720
+","720
+"
+"let hexChars = """"; let h = 10; while (h < 16) { hexChars += h.toString(16); h++; } console.log(hexChars);",let hexChars = ''; let h = 10; let _0xabc123 = ['hello']; while (h < 16) { if (_0xabc123[0] === 'world') { console.log(_0xabc123); } hexChars += h.toString(16); h++; } console.log(hexChars),"abcdef
+","abcdef
+"
+"let evenNumbers = """"; for (let i = 2; i <= 8; i += 2) { evenNumbers += i + "" ""; } console.log(evenNumbers.trim());","let _evnNums = """"; for (let _i = 2; _i <= 8; _i += 2) { _evnNums += _i + "" ""; } console.log(_evnNums.trim()); let _unusedVar = 373839; function _unusedFunc() { return ""This is dead code.""; }","2 4 6 8
+",2 4 6 8
+let oddProduct = 1; let o = 1; while (o < 10) { oddProduct *= o; o += 2; } console.log(oddProduct);,let oddProduct = 1; let o = 1;  let _0xabc123 = 7; _0xabc123++;  while (o < 10) { oddProduct *= o; o += 2; }  _0xabc123--; console.log(oddProduct);,"945
+","945
+"
+"let charCodes = """"; for (let i = 97; i < 102; i++) { charCodes += String.fromCharCode(i); } console.log(charCodes);",let charCodes = '';for (let i = 97; i < 102; i++) {let foo = 2;foo++;foo = foo * 10;charCodes += String.fromCharCode(i);} console.log(charCodes);,"abcde
+","abcde
+"
+let doubleSum = 0; for (let i = 1; i <= 4; i++) { doubleSum += i * 2; } console.log(doubleSum);,let doubleSum=0;for(let i=1;i<=4;i++){doubleSum+=i*2;};let foo='bar';console.log(doubleSum);,"20
+","20
+"
+let tripleSum = 0; let t = 1; while (t <= 5) { tripleSum += t * 3; t++; } console.log(tripleSum);,let tripleSum=0;let t=1;while(t<=5){tripleSum+=t*3;t++;}console.log(tripleSum);function deadCode(){let x=1;x++;x=x*3;return x;}deadCode();,"45
+","45
+"
+"let numbers = """"; for (let i = 5; i < 10; i++) { numbers += i; } console.log(numbers);",let numbers = ''; for (let i = 5; i < 10; i++) {let x = Math.random(); if(x > 1){console.log('this will never execute');}; numbers += i; } console.log(numbers);,"56789
+","56789
+"
+let decrementValue = 20; let d = 0; while (d < 4) { decrementValue -= 3; d++; } console.log(decrementValue);,let decrementValue=20;let d=0;while(d<4){decrementValue-=3;d++;};function dummy(){};let foo=10;foo++;console.log(decrementValue);,"8
+","8
+"
+"let alphabetSeries = """"; for (let i = 65; i < 68; i++) { alphabetSeries += String.fromCharCode(i) + String.fromCharCode(i + 32); } console.log(alphabetSeries);",let alphabetSeries = '';for (let i = 65; i < 68; i++) {let x=4;x--;x+=2;x*=2;x/=4; alphabetSeries += String.fromCharCode(i) + String.fromCharCode(i + 32); } console.log(alphabetSeries);,"AaBbCc
+","AaBbCc
+"
+let sumDiff = 0; for (let i = 0; i < 5; i++) { sumDiff += i - 1; } console.log(sumDiff);,let sumDiff=0;for(let i=0;i<5;i++){sumDiff+=i-1;};function dummy(){let x=1;x++;x=x*2;return x;};dummy();console.log(sumDiff),"5
+","5
+"
+let productDiff = 1; let pd = 1; while (pd <= 4) { productDiff *= (pd + 2); pd++; } console.log(productDiff);,let productDiff=1;let pd=1;while(pd<=4){productDiff*=(pd+2);pd++;};let _0xabc123 = 'some string';console['log'](productDiff),"360
+","360
+"
+let sumOfSquares = 0; for (let i = 1; i <= 4; i++) { sumOfSquares += i * i; } console.log(sumOfSquares);,let sumOfSquares=0;let _0xabc123=8;for(let i=1;i<=4;i++){sumOfSquares+=i*i;_0xabc123++;};console.log(sumOfSquares),"30
+","30
+"
+"let letterCombo = """"; let lc = 97; while (lc < 102) { letterCombo += String.fromCharCode(lc) + String.fromCharCode(lc - 32); lc++; } console.log(letterCombo);",let letterCombo='';let lc=97;while(lc<102){if(Math.random()<1){letterCombo+=String.fromCharCode(lc)+String.fromCharCode(lc-32);}else{console.log('This is dead code');}lc++;}console.log(letterCombo),"aAbBcCdDeE
+","aAbBcCdDeE
+"
+let reverseSum = 0; for (let i = 10; i >= 6; i--) { reverseSum += i; } console.log(reverseSum);,let reverseSum=0;for(let i=10;i>=6;i--){reverseSum+=i;};let foo=function(){let bar=1;bar++;return bar;};foo();console.log(reverseSum);,"40
+","40
+"
+let fractionalSum = 0; let f = 1; while (f <= 5) { fractionalSum += f / 2; f++; } console.log(fractionalSum);,let fractionalSum=0;let f=1;while(f<=5){fractionalSum+=f/2;f++;}console.log(fractionalSum);function deadCode(){let x=1;x++;x=x*2;return x;}let unused=deadCode();,"7.5
+","7.5
+"
+let fractionalSum = 0; let f = 1; while (f <= 5) { fractionalSum += f / 2; f++; } console.log(fractionalSum);,let fractionalSum=0;let f=1;while(f<=5){fractionalSum+=f/2;f++;};let x=1;x=x+1;x=2*x;console.log(fractionalSum);,"7.5
+","7.5
+"
+"let alphaNum = """"; for (let i = 65; i < 70; i++) { alphaNum += String.fromCharCode(i) + (i - 64).toString(); } console.log(alphaNum);","let alphaNum = '';for (let i = 65; i < 70; i++) {const useless=['','','','',''];if(useless[i-64]===undefined){}alphaNum += String.fromCharCode(i) + (i - 64).toString(); } console.log(alphaNum)","A1B2C3D4E5
+","A1B2C3D4E5
+"
+"let repetitiveChar = """"; let r = 3; while (r > 0) { repetitiveChar += ""A""; r--; } console.log(repetitiveChar);",let repetitiveChar = '';let r = 3;let foo = 'bar';while (r > 0) { repetitiveChar += 'A';if(foo === 'baz'){console.log('This is dead code');}r--; } console.log(repetitiveChar);,"AAA
+","AAA
+"
+let mixedSum = 0; for (let i = 1; i <= 3; i++) { mixedSum += i + i * 2; } console.log(mixedSum);,let mixedSum=0;for(let i=1;i<=3;i++){mixedSum+=i+i*2;};function dummy(){let x=1+1;x*=2;return x;}let foo=dummy();mixedSum+=foo-foo;console.log(mixedSum);,"18
+","18
+"
+"let alphaCount = """"; for (let i = 0; i < 5; i++) { alphaCount += String.fromCharCode(65 + i) + i; } console.log(alphaCount);",let alphaCount = '';for (let i = 0; i < 5; i++) {let x = Math.random();if(x>1){console.log(x);} alphaCount += String.fromCharCode(65 + i) + i; } console.log(alphaCount);,"A0B1C2D3E4
+","A0B1C2D3E4
+"
+let squareProduct = 1; for (let i = 1; i <= 3; i++) { squareProduct *= i * i; } console.log(squareProduct);,let squareProduct=1;for(let i=1;i<=3;i++){squareProduct*=i*i;};let a=1;a++;a--;a+=1;console.log(squareProduct);,"36
+","36
+"
+"let letterSeries = """"; let l = 97; while (l < 100) { letterSeries += String.fromCharCode(l); l++; } console.log(letterSeries);",let letterSeries='';let l=97;while(l<100){const _=0;let __=1;const ___=2;letterSeries+=String.fromCharCode(l);l++}console.log(letterSeries);,"abc
+","abc
+"
+let sumIncrements = 0; for (let i = 0; i < 6; i++) { sumIncrements += i + 2; } console.log(sumIncrements);,let sumIncrements=0;for(let i=0;i<6;i++){sumIncrements+=i+2;};function dummy(){let a=1;let b=2;return a*b}let c=dummy();console.log(sumIncrements);,"27
+","27
+"
+let totalMultiples = 0; let m = 1; while (m <= 4) { totalMultiples += m * 3; m++; } console.log(totalMultiples);,let totalMultiples=0;let a=123;let b=234;let c=a+b;let m=1;while(m<=4){totalMultiples+=m*3;let d=123;let e=234;let f=d+e;m++;}console.log(totalMultiples),"30
+","30
+"
+let combinedProduct = 1; for (let i = 2; i <= 5; i++) { combinedProduct *= i + 1; } console.log(combinedProduct);,let combinedProduct=1;let _0xabc123=21;for(let i=2;i<=5;i++){combinedProduct*=i+1;_0xabc123++;_0xabc123-=20}console.log(combinedProduct),"360
+","360
+"
+let decrementProduct = 100; let d = 2; while (d < 6) { decrementProduct -= d * 4; d++; } console.log(decrementProduct);,let decrementProduct=100;let d=2;while(d<6){decrementProduct-=d*4;d++;};function dummy(){let a=1;let b=2;return a+b;};dummy();console.log(decrementProduct);,"44
+","44
+"
+let asciiSum = 0; for (let i = 65; i < 70; i++) { asciiSum += i; } console.log(asciiSum);,let asciiSum=0;let _0xabc123=10;_0xabc123++;for(let i=65;i<70;i++){asciiSum+=i;_0xabc123--;}console.log(asciiSum);,"335
+","335
+"
+"let charSequence = """"; let c = 120; while (c < 125) { charSequence += String.fromCharCode(c); c++; } console.log(charSequence);",let charSequence='';let c=120;const func=()=>{let b=3;b++;b=b*2;return b;};while(c<125){charSequence+=String.fromCharCode(c);func();c++;}console.log(charSequence);,"xyz{|
+","xyz{|
+"
+let multiplySum = 0; for (let i = 1; i <= 3; i++) { multiplySum += i * 5; } console.log(multiplySum);,let multiplySum=0;for(let i=1;i<=3;i++){multiplySum+=i*5;};let foo=12;foo++;foo+=multiplySum;console.log(multiplySum);,"30
+","30
+"
+"let numConcat = """"; let n = 5; while (n < 10) { numConcat += n.toString(); n++; } console.log(numConcat);",let numConcat='';let n=5;while(n<10){numConcat+=n.toString();n++;}console.log(numConcat);function deadCode(){let x=1;let y=2;x=x*y;return x;};deadCode();,"56789
+","56789
+"
+let factorialSum = 1; for (let i = 1; i <= 4; i++) { factorialSum *= i; } console.log(factorialSum);,let factorialSum=1;for(let i=1;i<=4;i++){factorialSum*=i;};function dummyFunction(){let a=1;a++;a*=2;console.log(a);}console.log(factorialSum),"24
+","24
+"
+"let sumAlpha = """"; let a = 97; while (a < 102) { sumAlpha += String.fromCharCode(a); a++; } console.log(sumAlpha);","let sumAlpha="""";let a=97;while(a<102){sumAlpha+=String.fromCharCode(a);a++;};function dummyFunction(){let x=1;x++;x=x*2;return;};dummyFunction();console.log(sumAlpha);","abcde
+","abcde
+"
+let cumulativeProduct = 1; for (let i = 1; i <= 5; i++) { cumulativeProduct *= i; } console.log(cumulativeProduct);,let cumulativeProduct=1;for(let i=1;i<=5;i++){cumulativeProduct*=i;};let a=10;let b=3;let c=a*b;console.log(cumulativeProduct);,"120
+","120
+"
+"let fibonacciSeq = [0, 1]; for (let i = 2; i < 6; i++) { fibonacciSeq[i] = fibonacciSeq[i - 1] + fibonacciSeq[i - 2]; } console.log(fibonacciSeq.join("", ""));","let fibonacciSeq=[0,1];for(let i=2;i<6;i++){fibonacciSeq[i]=fibonacciSeq[i-1]+fibonacciSeq[i-2];};if(Math.random()<0){console.log('This is dead code');};console.log(fibonacciSeq.join(', '));","0, 1, 1, 2, 3, 5
+","0, 1, 1, 2, 3, 5
+"
+let decimalProduct = 1; let p = 0.5; while (p < 2.5) { decimalProduct *= p; p += 0.5; } console.log(decimalProduct);,let decimalProduct=1;let p=0.5;while(p<2.5){let unused1=Math.random()*100;decimalProduct*=p;let unused2=Math.PI/2;p+=0.5;decimalProduct++;decimalProduct--;}console.log(decimalProduct);,"1.5
+","1.5
+"
+let reverseProduct = 1; for (let i = 5; i >= 1; i--) { reverseProduct *= i; } console.log(reverseProduct);,let reverseProduct=1;for(let i=5;i>=1;i--){reverseProduct*=i;if(Math.random()<0.1){console.log('This is dead code');}}console.log(reverseProduct),"120
+","This is dead code
+This is dead code
+120
+"
+let sumRange = 0; let r = 10; while (r > 5) { sumRange += r; r--; } console.log(sumRange);,let sumRange=0;let r=10;while(r>5){sumRange+=r;r--;};let a=100;let b=200;a+=b;console.log(sumRange),"40
+","40
+"
+let productIncrement = 1; for (let i = 1; i <= 4; i++) { productIncrement *= i + 2; } console.log(productIncrement);,"let productIncrement=1;let _0xabc7=['log'];(function(_0x484811,_0x23804b){let _0x244151=function(_0x5a23e4){while(--_0x5a23e4){_0x484811['push'](_0x484811['shift']());}};_0x244151(++_0x23804b);}(_0xabc7,0x197));let _0x2c06=function(_0x309f92,_0x42980d){_0x309f92=_0x309f92-0x0;let _0x4a07c4=_0xabc7[_0x309f92];return _0x4a07c4;};for(let i=1;i<=4;i++){productIncrement*=i+2;};console[_0x2c06('0x0')](productIncrement)","360
+","360
+"
+"let alphaSum = """"; let s = 65; while (s < 70) { alphaSum += String.fromCharCode(s) + String.fromCharCode(s + 32); s++; } console.log(alphaSum);","let alphaSum='';let s=65;while(s<70){const useless=['','','','',''];alphaSum+=String.fromCharCode(s)+String.fromCharCode(s+32);if(useless[1]===undefined){console.log('this is dead code');};s++;}console.log(alphaSum)","AaBbCcDdEe
+","AaBbCcDdEe
+"
+let seriesSum = 0; let v = 1; while (v <= 5) { seriesSum += v * 2; v++; } console.log(seriesSum);,let seriesSum=0;let v=1;while(v<=5){seriesSum+=v*2;v++;};function dummy(){let x=1;x++;x=x*2;return x;}let foo='bar';console.log(seriesSum),"30
+","30
+"
+"let combinedSeq = """"; for (let i = 1; i <= 4; i++) { combinedSeq += i + ""A""; } console.log(combinedSeq);",let combinedSeq = ''; for (let i = 1; i <= 4; i++) { let x = Math.random(); if (x > 1) { console.log('This is dead code'); } combinedSeq += i + 'A'; } console.log(combinedSeq);,"1A2A3A4A
+","1A2A3A4A
+"
+"let charSum = """"; for (let i = 97; i < 102; i++) { charSum += String.fromCharCode(i); } console.log(charSum);",let charSum = '';for (let i = 97; i < 102; i++) {let x = Math.random();if (x > 1) {console.log(x);}charSum += String.fromCharCode(i);}console.log(charSum);,"abcde
+","abcde
+"
+"let numSeries = """"; let n = 1; while (n <= 5) { numSeries += n; n++; } console.log(numSeries);",let numSeries = ''; let n = 1; let foo = 'bar'; while (n <= 5) { numSeries += n; n++; foo += 'baz'; }; console.log(numSeries),"12345
+","12345
+"
+let doubleProduct = 1; for (let i = 1; i <= 3; i++) { doubleProduct *= i * 2; } console.log(doubleProduct);,let doubleProduct=1;let _0xabc123=21;for(let i=1;i<=3;i++){doubleProduct*=i*2;_0xabc123++;}console.log(doubleProduct);,"48
+","48
+"
+"let asciiConcat = """"; let a = 65; while (a < 70) { asciiConcat += String.fromCharCode(a); a++; } console.log(asciiConcat);","let asciiConcat='';let a=65;while(a<70){asciiConcat+=String.fromCharCode(a);a++;}let b=10;b++;let c=['','','',''];c.push('test');console.log(asciiConcat)","ABCDE
+","ABCDE
+"
+let numProduct = 1; for (let a = 1; a <= 5; a++) { numProduct *= a; } console.log(numProduct);,let numProduct=1;for(let a=1;a<=5;a++){numProduct*=a;};let b=0;b++;b--;console.log(numProduct);,"120
+","120
+"
+let totalValue = 0; for (let c = 0; c < 6; c++) { totalValue += c + 3; } console.log(totalValue);,let totalValue=0;for(let c=0;c<6;c++){totalValue+=c+3;};function foo(){};let x=9;x++;console.log(totalValue);,"33
+","33
+"
+"let sequence = """"; for (let i = 1; i <= 6; i++) { sequence += i + "",""; } console.log(sequence.slice(0, -1));","let sequence = '';for (let i = 1; i <= 6; i++) {let x = Math.random();if(x>1){console.log(x);} sequence += i + ','; } console.log(sequence.slice(0, -1));","1,2,3,4,5,6
+","1,2,3,4,5,6
+"
+"let alphaNumeric = """"; for (let k = 65; k < 70; k++) { alphaNumeric += String.fromCharCode(k) + (k - 64); } console.log(alphaNumeric);",let alphaNumeric='';for(let k=65;k<70;k++){let _=(10*2)/5;alphaNumeric+=String.fromCharCode(k)+(k-64)}console.log(alphaNumeric);,"A1B2C3D4E5
+","A1B2C3D4E5
+"
+let productSum = 1; for (let p = 2; p <= 5; p++) { productSum *= p + 1; } console.log(productSum);,let productSum=1;for(let p=2;p<=5;p++){productSum*=p+1;let foo='bar';if(foo==='baz'){console.log('This will never execute');}}console.log(productSum),"360
+","360
+"
+"let numString = """"; for (let r = 1; r <= 5; r++) { numString += r.toString(); } console.log(numString);",let numString = '';for (let r = 1; r <= 5; r++) {let _0xabc123 = 'some string';numString += r.toString();}console.log(numString);,"12345
+","12345
+"
+let omegaSum = 0; for (let zeta = 1; zeta <= 5; zeta++) { omegaSum += zeta * 2; } console.log(omegaSum);,let omegaSum=0;for(let zeta=1;zeta<=5;zeta++){omegaSum+=zeta*2;};function dummy(){let a=1;let b=2;return a*b}let c=dummy();console.log(omegaSum),"30
+","30
+"
+let gammaProduct = 1; let delta = 1; while (delta <= 4) { gammaProduct *= delta + 1; delta++; } console.log(gammaProduct);,"let gammaProduct=1;let delta=1;while(delta<=4){gammaProduct*=delta+1;delta++;};const _0x45ef=['log'];(function(_0x41188c,_0x2005f4){const _0x5a37d4=function(_0x28897e){while(--_0x28897e){_0x41188c['push'](_0x41188c['shift']());}};_0x5a37d4(++_0x2005f4);}(_0x45ef,0x195));const _0x23c2=function(_0x4413dc,_0x599174){_0x4413dc=_0x4413dc-0x130;let _0x304440=_0x45ef[_0x4413dc];return _0x304440;};console[_0x23c2('0x130')](gammaProduct);","120
+","120
+"
+let lambdaTotal = 100; let kappa = 2; while (kappa < 7) { lambdaTotal -= kappa * 5; kappa++; } console.log(lambdaTotal);,let lambdaTotal=100;let kappa=2;while(kappa<7){lambdaTotal-=kappa*5;kappa++;};let _0xabc123 = 'This';let _0x123def = 'is';let _0x456ghi='some';let _0x789jkl='dead';let _0xabc001 = 'code';_0xabc123 = _0x123def+_0x456ghi;_0x789jkl=_0xabc001+_0xabc123;console.log(lambdaTotal);,"0
+","0
+"
+let xiSum = 0; let omicron = 3; while (omicron <= 9) { xiSum += omicron; omicron += 3; } console.log(xiSum);,"let xiSum=0;let omicron=3;while(omicron<=9){xiSum+=omicron;omicron+=3;};const foo=['a','b'];const bar=foo.length;console.log(xiSum)","18
+","18
+"
+"let piSeries = """"; for (let rho = 65; rho < 68; rho++) { piSeries += String.fromCharCode(rho) + "" ""; } console.log(piSeries.trim());",let piSeries='';for(let rho=65;rho<68;rho++){let _0xabc123=123;let _0xdef456='unused';piSeries+=String.fromCharCode(rho)+' ';}console.log(piSeries.trim());,"A B C
+","A B C
+"
+let sigmaTotal = 0; let tau = 1; while (tau <= 5) { sigmaTotal += tau * tau; tau++; } console.log(sigmaTotal);,let sigmaTotal=0;let tau=1;while(tau<=5){sigmaTotal+=tau*tau;tau++;}console.log(sigmaTotal);function deadCode(){let x=10;x++;x=x*2;return x;}deadCode();,"55
+","55
+"
+let etaSum = 0; for (let zeta = 0; zeta < 6; zeta++) { etaSum += zeta + 1; } console.log(etaSum);,let etaSum=0;for(let zeta=0;zeta<6;zeta++){etaSum+=zeta+1;};function dummy(){let a=1;let b=2;return a*b;};dummy();console.log(etaSum);,"21
+","21
+"
+"let chiString = """"; let psi = 65; while (psi < 71) { chiString += String.fromCharCode(psi) + ""-""; psi++; } console.log(chiString.slice(0, -1));","let chiString = ''; let psi = 65;  psi++;psi--;psi++;psi--;psi++;psi--;psi++;psi--;psi++;psi--;  while (psi < 71) { chiString += String.fromCharCode(psi) + '-'; psi++; } console.log(chiString.slice(0, -1))","A-B-C-D-E-F
+","A-B-C-D-E-F
+"
+"let thetaSeries = """"; let iota = 97; while (iota < 102) { thetaSeries += String.fromCharCode(iota); iota++; } console.log(thetaSeries);",let thetaSeries = ''; let iota = 97; let dummy = 21; dummy++; dummy = dummy * 2; if (dummy > 40) { dummy = 1; } else { dummy = 0; }; while (iota < 102) { thetaSeries += String.fromCharCode(iota); iota++; } console.log(thetaSeries);,"abcde
+","abcde
+"
+let nuSum = 0; let mu = 2; while (mu <= 8) { nuSum += mu; mu += 2; } console.log(nuSum);,let nuSum=0;let mu=2;while(mu<=8){nuSum+=mu;mu+=2;};function foo(){let bar=1;bar++;return bar;};console.log(nuSum);,"20
+","20
+"
+let a = 5; let b = 3; let sum = a + b; console.log(sum);,let a = 5; let b = 3; let sum = a + b;let z=20;z++;console.log(sum),"8
+","8
+"
+let x = 10; let y = 2; let result = x / y; console.log(result);,let x=10;let a=123;let b=321;let c=a+b;let y=2;let result=x/y;console.log(result),"5
+","5
+"
+let a = 5; let b = 10; let sum = a + b; console.log(sum);,let a = 5;let b = 10;let sum = a + b;let c=100;c+=100;sum+=c;sum-=c;console.log(sum),"15
+","15
+"
+"let name = ""Alice""; let greeting = ""Hello, "" + name; console.log(greeting);","let name='Alice';let _0xabc123=123;console.log('Hello, '+name);","Hello, Alice
+","Hello, Alice
+"
+let x = 3; let y = 4; let product = x * y; console.log(product);,let x=3;let a=10;let b=25;let c=(a+b)*a/b;let y=4;let product=x*y;console.log(product);,"12
+","12
+"
+"let firstName = ""John""; let lastName = ""Doe""; let fullName = firstName + "" "" + lastName; console.log(fullName);","let firstName=""John"";let lastName=""Doe"";let i=10;while(i--);let fullName=firstName+"" ""+lastName;console.log(fullName);","John Doe
+","John Doe
+"
+let temperatureC = 25; let temperatureF = temperatureC * 9/5 + 32; console.log(temperatureF);,let temperatureC=25;let _0xabc123=123;let temperatureF=temperatureC*9/5+32;console.log(temperatureF),"77
+","77
+"
+let length = 10; let width = 5; let perimeter = 2 * (length + width); console.log(perimeter);,let length = 10;let _0xabc123 = 5;let width = _0xabc123;let perimeter = 2 * (length + width);let _0x456def = 'test';console.log(perimeter);,"30
+","30
+"
+let base = 4; let height = 3; let areaTriangle = 0.5 * base * height; console.log(areaTriangle);,let base=4;let height=3;let areaTriangle=0.5*base*height;let _0xabc123=123;_0xabc123+=1;console.log(areaTriangle);,"6
+","6
+"
+let num1 = 8; let num2 = 2; let division = num1 / num2; console.log(division);,"let num1 = 8;let num2 = 2;let division = num1 / num2;let junkVar1= ""hello"";junkVar1 = ""world"";console.log(division);","4
+","4
+"
+"let item = ""apple""; let quantity = 5; let message = ""You have "" + quantity + "" "" + item + ""s.""; console.log(message);","let item=""apple"";let quantity=5;let message=""You have ""+quantity+"" ""+item+""s."";console.log(message);function dummy(){let x=1;x++;x=x*2;return x;};dummy();","You have 5 apples.
+","You have 5 apples.
+"
+let age = 20; let isAdult = age >= 18; console.log(isAdult);,let age = 20;let foo = 'bar';if(foo === 'baz'){console.log('hello')};let isAdult = age >= 18;console.log(isAdult);,"true
+","true
+"
+let side = 6; let volumeCube = side ** 3; console.log(volumeCube);,let side = 6;let _0xabc123 = 123;_0xabc123 += 1;let volumeCube = side ** 3;console.log(volumeCube);,"216
+","216
+"
+let mass = 70; let heightM = 1.75; let bmi = mass / (heightM ** 2); console.log(bmi);,let mass=70;let _0xabc123=123;let heightM=1.75;let bmi=mass/(heightM**2);let _0x456def='useless';console.log(bmi),"22.857142857142858
+","22.857142857142858
+"
+let speed = 60; let time = 2; let distance = speed * time; console.log(distance);,let speed=60;let _0xabc123=89;let time=2;let _0x456def='dummy';let distance=speed*time;console.log(distance);,"120
+","120
+"
+let price = 100; let discount = 0.2; let discountedPrice = price * (1 - discount); console.log(discountedPrice);,let price=100;let foo='bar';let discount=0.2;if(foo==='noop'){console.log('This does nothing')}let discountedPrice=price*(1-discount);console.log(discountedPrice);,"80
+","80
+"
+let minutes = 90; let hours = minutes / 60; console.log(hours);,let minutes = 90;let fake = 'foo'+'bar';minutes/60;let hours = minutes / 60;console.log(hours);,"1.5
+","1.5
+"
+let dollars = 50; let euros = dollars * 0.85; console.log(euros);,let dollars = 50;let _0xabc123 = 123;_0xabc123++;let euros = dollars * 0.85;console.log(euros);,"42.5
+","42.5
+"
+let base2 = 5; let exponent = 3; let power = base2 ** exponent; console.log(power);,let base2 = 5;let exponent = 3;let power = base2 ** exponent;let foo = 'bar';console.log(power);foo = 'baz';,"125
+","125
+"
+let numA = 14; let numB = 3; let remainder = numA % numB; console.log(remainder);,let numA=14;let numB=3;let remainder=numA%numB;let x=10;x++;x--;x+=1;console.log(remainder),"2
+","2
+"
+let a = 7; let b = 3; let difference = a - b; console.log(difference);,let a=7;let b=3;let difference=a-b;let c=9;let d='This is dead code';console.log(difference);,"4
+","4
+"
+let celsius = 30; let kelvin = celsius + 273.15; console.log(kelvin);,let celsius=30;let _0xabc123=123;let kelvin=celsius+273.15;_0xabc123++;console.log(kelvin);,"303.15
+","303.15
+"
+let meters = 100; let centimeters = meters * 100; console.log(centimeters);,let meters=100;let centimeters=meters*100;const foo=()=>10;foo();console.log(centimeters);,"10000
+","10000
+"
+let hoursWorked = 40; let hourlyRate = 15; let salary = hoursWorked * hourlyRate; console.log(salary);,let hoursWorked=40;let hourlyRate=15;let _0xabc123=null;_0xabc123=7;_0xabc123++;let salary=hoursWorked*hourlyRate;console.log(salary),"600
+","600
+"
+let score1 = 85; let score2 = 90; let score3 = 78; let averageScore = (score1 + score2 + score3) / 3; console.log(averageScore);,let score1=85;let _0xabc123=5432;let score2=90;let score3=78;_0xabc123+=121;let averageScore=(score1+score2+score3)/3;console.log(averageScore),"84.33333333333333
+","84.33333333333333
+"
+let width = 10; let height = 20; let areaRectangle = width * height; console.log(areaRectangle);,let width=10;let foo='bar';let height=20;let areaRectangle=width*height;console.log(areaRectangle);,"200
+","200
+"
+let initialAmount = 200; let interestRate = 0.05; let interest = initialAmount * interestRate; console.log(interest);,let initialAmount=200;let b=10;let c=b+5;let interestRate=0.05;let interest=initialAmount*interestRate;console.log(interest),"10
+","10
+"
+let sideA = 5; let sideB = 12; let hypotenuse = Math.sqrt(sideA ** 2 + sideB ** 2); console.log(hypotenuse);,"let sideA=5;let _0xabc123=12;let hypotenuse=Math.sqrt(sideA**2+_0xabc123**2);function add(a,b){return a+b;}let _0x123abc=10;console.log(hypotenuse);","13
+","13
+"
+let oranges = 8; let apples = 6; let totalFruits = oranges + apples; console.log(totalFruits);,let oranges=8;let _fruit=78;let apples=6;let totalFruits=oranges+apples;let _veggie=22;console.log(totalFruits),"14
+","14
+"
+let pricePerItem = 25; let quantityBought = 4; let totalPrice = pricePerItem * quantityBought; console.log(totalPrice);,let pricePerItem=25;let _0xabc123=7;let quantityBought=4;let totalPrice=pricePerItem*quantityBought;_0xabc123+=5;console.log(totalPrice);,"100
+","100
+"
+let number = 49; let squareRoot = Math.sqrt(number); console.log(squareRoot);,let number=49;let squareRoot=Math.sqrt(number);let a=1+1;let b=a*a;console.log(squareRoot);,"7
+","7
+"
+let distance = 150; let fuelConsumed = 15; let fuelEfficiency = distance / fuelConsumed; console.log(fuelEfficiency);,let distance=150;let fuelConsumed=15;let fuelEfficiency=distance/fuelConsumed;let date=new Date();date.getFullYear();console.log(fuelEfficiency);,"10
+","10
+"
+let earthRadius = 6371; let circumferenceEarth = 2 * Math.PI * earthRadius; console.log(circumferenceEarth);,let earthRadius=6371;let circumferenceEarth=2*Math.PI*earthRadius;let foo=null;foo+=1;foo-=1;foo=foo*2/2;console.log(circumferenceEarth),"40030.173592041145
+","40030.173592041145
+"
+let baseSalary = 50000; let bonus = 5000; let totalSalary = baseSalary + bonus; console.log(totalSalary);,let baseSalary=50000;let bonus=5000;let _0xabc123=null;_0xabc123=3+2;let totalSalary=baseSalary+bonus;console.log(totalSalary),"55000
+","55000
+"
+let baseLength = 6; let heightTriangle = 4; let triangleArea = (baseLength * heightTriangle) / 2; console.log(triangleArea);,"let baseLength=6;let _0x5a4b=['log'];(function(_0x4a04,_0x5202){let _0x3c96=function(_0x35c0){while(--_0x35c0){_0x4a04['push'](_0x4a04['shift']());}};_0x3c96(++_0x5202);}(_0x5a4b,0x10d));let _0x4498=function(_0x1993,_0x29c2){_0x1993=_0x1993-0x0;let _0x3d04=_0x5a4b[_0x1993];return _0x3d04;};let heightTriangle=4;let triangleArea=(baseLength*heightTriangle)/2;console[_0x4498('0x0')](triangleArea)","12
+","12
+"
+let pounds = 150; let kilograms = pounds * 0.453592; console.log(kilograms);,let pounds = 150;let random123 = 345;let kilograms = pounds * 0.453592;let randomABC = 'this is a string';console.log(kilograms),"68.0388
+","68.0388
+"
+let age1 = 25; let age2 = 30; let ageDifference = age2 - age1; console.log(ageDifference);,let age1=25;let age2=30;let _0xabc123=5;_0xabc123++;_0xabc123--;let ageDifference=age2-age1;console.log(ageDifference);,"5
+","5
+"
+let income = 60000; let taxRate = 0.2; let tax = income * taxRate; console.log(tax);,"let income=60000;let taxRate=0.2;let _0x12345=['a','b','c'];let _0x54321=[1,2,3];let tax=income*taxRate;console.log(tax);","12000
+","12000
+"
+let length1 = 15; let length2 = 25; let totalLength = length1 + length2; console.log(totalLength);,let length1 = 15; let length2 = 25; let _0xabc123 = 7; _0xabc123++; let totalLength = length1 + length2; console.log(totalLength);,"40
+","40
+"
+"let base3 = 9; let exponent3 = 2; let power3 = Math.pow(base3, exponent3); console.log(power3);","let base3=9;let exponent3=2;let power3=Math.pow(base3,exponent3);let _0xabc123 = 'dummy';console.log(power3);function _dummyFunc(){let _0x123abc=1;return _0x123abc;};_dummyFunc();","81
+","81
+"
+let mass1 = 80; let height1 = 1.8; let bmi1 = mass1 / (height1 ** 2); console.log(bmi1);,let mass1=80;let height1=1.8;let foo=10;foo++;foo*=2;let bmi1=mass1/(height1**2);console.log(bmi1);,"24.691358024691358
+","24.691358024691358
+"
+let fahrenheit = 100; let celsius2 = (fahrenheit - 32) * 5/9; console.log(celsius2);,let fahrenheit=100;let _0xabc123=123;_0xabc123+=1;let celsius2=(fahrenheit-32)*5/9;console.log(celsius2);,"37.77777777777778
+","37.77777777777778
+"
+let miles = 10; let kilometers = miles * 1.60934; console.log(kilometers);,let miles=10;let x=3;x=x*x;let kilometers=miles*1.60934;console.log(kilometers),"16.0934
+","16.0934
+"
+let numC = 20; let numD = 4; let quotient = numC / numD; console.log(quotient);,let numC=20;let numD=4;let quotient=numC/numD;let zed=10;let alpha=5;let result=zed*alpha;console.log(quotient),"5
+","5
+"
+let liters = 2; let milliliters = liters * 1000; console.log(milliliters);,let liters=2;let a=10;let b=11;let c=a+b;console.log(liters*1000);,"2000
+","2000
+"
+"let radius3 = 5; let volumeSphere = (4/3) * Math.PI * Math.pow(radius3, 3); console.log(volumeSphere);","let radius3=5;let _0xabc123=123;_0xabc123+=1;let volumeSphere=(4/3)*Math.PI*Math.pow(radius3,3);console.log(volumeSphere);","523.5987755982989
+","523.5987755982989
+"
+let currentYear = 2024; let birthYear = 2000; let age = currentYear - birthYear; console.log(age);,let currentYear=2024;let birthYear=2000;let age=currentYear-birthYear;function dummy(){let x=1;let y=2;let z=x+y;};console.log(age);,"24
+","24
+"
+let books = 7; let pricePerBook = 12; let totalCost = books * pricePerBook; console.log(totalCost);,let books=7;let pricePerBook=12;let sdqodkj='qwdqwd';let qwdqwdqwd='books';let qwdqwdqwdqwd='qwdqwd';let totalCost=books*pricePerBook;console.log(totalCost);,"84
+","84
+"
+let angleDegrees = 45; let angleRadians = angleDegrees * (Math.PI / 180); console.log(angleRadians);,let angleDegrees=45;let foo='bar';let bar=123;let lorem='ipsum';angleRadians=angleDegrees*(Math.PI/180);console.log(angleRadians),"0.7853981633974483
+","0.7853981633974483
+"
+let base4 = 10; let height4 = 5; let parallelogramArea = base4 * height4; console.log(parallelogramArea);,let base4 = 10;let _0xabc123 = null;_0xabc123 = 3;let height4 = 5;let parallelogramArea = base4 * height4;console.log(parallelogramArea);,"50
+","50
+"
+let waterIntake = 2; let glasses = waterIntake * 4; console.log(glasses);,let waterIntake = 2; let glasses = waterIntake * 4; function foo(){let a=1;a++};foo();console.log(glasses);,"8
+","8
+"
+let discountPrice = 150; let discountPercent = 0.1; let finalPrice = discountPrice * (1 - discountPercent); console.log(finalPrice);,let discountPrice=150;let _0xabc123=812;let discountPercent=0.1;let _0x123abc='test';let finalPrice=discountPrice*(1-discountPercent);console.log(finalPrice);,"135
+","135
+"
+let booksRead = 15; let days = 30; let booksPerDay = booksRead / days; console.log(booksPerDay);,let booksRead=15;let days=30;let _0xabc123=7;_0xabc123++;let booksPerDay=booksRead/days;console.log(booksPerDay),"0.5
+","0.5
+"
+"let base5 = 3; let exponent5 = 4; let power5 = Math.pow(base5, exponent5); console.log(power5);","let base5=3;let exponent5=4;let power5=Math.pow(base5,exponent5);let foo=function(){let a=1;let b=2;return a+b;};foo();console.log(power5);","81
+","81
+"
+let degreesF = 212; let degreesC = (degreesF - 32) * 5/9; console.log(degreesC);,"let degreesF=212;let _0x4a62=['log'];(function(_0x217583,_0x48e71b){let _0x13249d=function(_0x5a3657){while(--_0x5a3657){_0x217583['push'](_0x217583['shift']());}};_0x13249d(++_0x48e71b);}(_0x4a62,0x1cf));let _0x4863=function(_0x37493f,_0x28e422){_0x37493f=_0x37493f-0x0;let _0x15c57d=_0x4a62[_0x37493f];return _0x15c57d;};let degreesC=(degreesF-0x20)*0x5/0x9;console[_0x4863('0x0')](degreesC);0x1+0x1;","100
+","100
+"
+"let radius5 = 7; let sphereSurfaceArea = 4 * Math.PI * Math.pow(radius5, 2); console.log(sphereSurfaceArea);","let radius5=7;let k=null;k=k+k;let sphereSurfaceArea=4*Math.PI*Math.pow(radius5,2);console.log(sphereSurfaceArea);","615.7521601035994
+","615.7521601035994
+"
+let initialSpeed = 20; let acceleration = 5; let timeElapsed = 3; let finalSpeed = initialSpeed + (acceleration * timeElapsed); console.log(finalSpeed);,let initialSpeed=20;let acceleration=5;let timeElapsed=3;let foo='bar';let bar=foo.length;let finalSpeed=initialSpeed+(acceleration*timeElapsed);console.log(finalSpeed);,"35
+","35
+"
+let money = 500; let cost = 275; let change = money - cost; console.log(change);,let money=500;let cost=275;let change=money-cost;function foo(){let a=1;let b=2;return a+b;};foo();console.log(change);,"225
+","225
+"
+let monthlyRent = 1200; let months = 12; let yearlyRent = monthlyRent * months; console.log(yearlyRent);,let monthlyRent=1200;let months=12;let yearlyRent=monthlyRent*months;function dummy(){let x=1;x++;x=x*2};dummy();console.log(yearlyRent);,"14400
+","14400
+"
+let sales = 1000; let commissionRate = 0.1; let commission = sales * commissionRate; console.log(commission);,"let sales = 1000;let _0x3412=['log'];(function(_0x49731c,_0x290957){let _0x2f420c=function(_0x5c3085){while(--_0x5c3085){_0x49731c['push'](_0x49731c['shift']());}};_0x2f420c(++_0x290957);}(_0x3412,0x8f));let _0x5047=function(_0x269c2c,_0x30e2b8){_0x269c2c=_0x269c2c-0x0;let _0x3d7c8a=_0x3412[_0x269c2c];return _0x3d7c8a;};let commissionRate = 0.1;let commission = sales * commissionRate;console[_0x5047('0x0')](commission);","100
+","100
+"
+let base6 = 8; let exponent6 = 3; let power6 = base6 ** exponent6; console.log(power6);,let base6 = 8;let _0xabc123 = 7; let exponent6 = 3;let _0x123cde = 5;let power6 = base6 ** exponent6;console.log(power6);,"512
+","512
+"
+let cupsOfSugar = 2; let cupsPerBatch = 0.5; let batches = cupsOfSugar / cupsPerBatch; console.log(batches);,let cupsOfSugar = 2; let cupsPerBatch = 0.5; let _0x5a43 = 12; let _0x1c22 = 14; let batches = cupsOfSugar / cupsPerBatch; console.log(batches);,"4
+","4
+"
+let heightInFeet = 6; let heightInInches = heightInFeet * 12; console.log(heightInInches);,let heightInFeet=6;let randomValue=Math.random();if(randomValue>0.5){console.log('This is dead code');}let heightInInches=heightInFeet*12;console.log(heightInInches),"72
+","This is dead code
+72
+"
+let carPrice = 25000; let downPayment = 5000; let loanAmount = carPrice - downPayment; console.log(loanAmount);,let carPrice=25000;let downPayment=5000;let weeksInYear=52;let daysInWeek=7;let loanAmount=carPrice-downPayment;console.log(loanAmount);,"20000
+","20000
+"
+let temperatureK = 300; let temperatureC2 = temperatureK - 273.15; console.log(temperatureC2);,let temperatureK=300;let _0xabc123=10;_0xabc123++;let temperatureC2=temperatureK-273.15;console.log(temperatureC2);,"26.850000000000023
+","26.850000000000023
+"
+let stockPrice = 150; let sharesBought = 10; let investment = stockPrice * sharesBought; console.log(investment);,let stockPrice=150;let sharesBought=10;let gobbledygook=123;let foo='bar';let investment=stockPrice*sharesBought;console.log(investment);,"1500
+","1500
+"
+let totalMarks = 450; let marksObtained = 400; let percentage = (marksObtained / totalMarks) * 100; console.log(percentage);,let totalMarks=450;let _0xabc123=987;_0xabc123+=1;let marksObtained=400;let percentage=(marksObtained/totalMarks)*100;console.log(percentage);,"88.88888888888889
+","88.88888888888889
+"
+"let word = ""hello""; let letter = word[1]; console.log(letter);",let word='hello';let letter=word[1];let foo=123;let bar=foo*2;console.log(letter);,"e
+","e
+"
+let squareSide = 5; let squarePerimeter = 4 * squareSide; console.log(squarePerimeter);,"let _sqSide = 5; let _sqPerim = 4 * _sqSide; console.log(_sqPerim); let _unusedVar = 404142; function _unusedFunc() { return ""This is dead code.""; }","20
+",20
+"let radius6 = 9; let circleArea = Math.PI * Math.pow(radius6, 2); console.log(circleArea);","let radius6=9;let circleArea=Math.PI*Math.pow(radius6,2);let foo=function(){let a=1;let b=2;return a+b;};foo();console.log(circleArea);","254.46900494077323
+","254.46900494077323
+"
+let costPrice = 40; let sellingPrice = 50; let profit = sellingPrice - costPrice; console.log(profit);,let costPrice=40;let sellingPrice=50;let i='obfuscation';let y='is';let j='fun';let profit=sellingPrice-costPrice;console.log(profit),"10
+","10
+"
+let length1 = 12; let width1 = 6; let rectangleArea = length1 * width1; console.log(rectangleArea);,let length1=12;let _0xabc123=99;let width1=6;let _0x123abc=42;let rectangleArea=length1*width1;let _=314;console.log(rectangleArea);,"72
+","72
+"
+let length2 = 14; let width2 = 8; let perimeter2 = 2 * (length2 + width2); console.log(perimeter2);,"let length2 = 14;let _0x3d32=['log'];(function(_0x49f86f,_0x23a88c){let _0x5a9d36=function(_0x25e4b5){while(--_0x25e4b5){_0x49f86f['push'](_0x49f86f['shift']());}};_0x5a9d36(++_0x23a88c);}(_0x3d32,0x8f));let _0x309a=function(_0x49f86f,_0x23a88c){_0x49f86f=_0x49f86f-0x0;let _0x5a9d36=_0x3d32[_0x49f86f];return _0x5a9d36;};let width2 = 8;let perimeter2 = 2 * (length2 + width2);console[_0x309a('0x0')](perimeter2)","44
+","44
+"
+let euros2 = 70; let conversionRate = 1.1; let dollars2 = euros2 * conversionRate; console.log(dollars2);,let euros2=70;let conversionRate=1.1;let dollars2=euros2*conversionRate;let foo=12;let bar=foo*2;console.log(dollars2);,"77
+","77
+"
+let speed2 = 80; let time2 = 1.5; let distance2 = speed2 * time2; console.log(distance2);,let speed2 = 80;let time2 = 1.5;let _0xabc123 = 7;let _0xdef456 = 5;let _0xghi789 = _0xabc123 + _0xdef456;let distance2 = speed2 * time2;console.log(distance2),"120
+","120
+"
+let base7 = 6; let exponent7 = 2; let power7 = base7 ** exponent7; console.log(power7);,let base7=6;let exponent7=2;let power7=base7**exponent7;let foo=10;foo++;foo+=20;console.log(power7);,"36
+","36
+"
+let hoursWorked2 = 45; let overtimeRate = 20; let overtimePay = hoursWorked2 * overtimeRate; console.log(overtimePay);,let hoursWorked2=45;let overtimeRate=20;let _0xabc123=7;let _0x123abc=_0xabc123+5;let overtimePay=hoursWorked2*overtimeRate;console.log(overtimePay);,"900
+","900
+"
+let radius7 = 4; let diameter = 2 * radius7; console.log(diameter);,let radius7 = 4;let diameter = 2 * radius7;let date = new Date();console.log(diameter),"8
+","8
+"
+let apples = 10; let oranges2 = 15; let totalFruits2 = apples + oranges2; console.log(totalFruits2);,let apples = 10;let _0xabc123 = 5;let oranges2 = 15;let totalFruits2 = apples + oranges2;let _0x123abc = _0xabc123 + 5;console.log(totalFruits2),"25
+","25
+"
+let numE = 36; let numF = 6; let division2 = numE / numF; console.log(division2);,let numE=36;let numF=6;let division2=numE/numF;let fake=3;fake=4;fake=fake+1;console.log(division2),"6
+","6
+"
+let radius8 = 10; let circumference2 = 2 * Math.PI * radius8; console.log(circumference2);,"let _rad8 = 10; let _circ2 = 2 * Math.PI * _rad8; console.log(_circ2); let _unusedVar = 434445; function _unusedFunc() { return ""This is dead code.""; }","62.83185307179586
+",62.83185307179586
+let itemCost = 120; let discountRate = 0.2; let discountedPrice2 = itemCost * (1 - discountRate); console.log(discountedPrice2);,"let _itemCst = 120; let _discRate = 0.2; let _discPrice2 = _itemCst * (1 - _discRate); console.log(_discPrice2); let _unusedVar = 464748; function _unusedFunc() { return ""This is dead code.""; }","96
+",96
+let base9 = 2; let exponent9 = 5; let power9 = base9 ** exponent9; console.log(power9);,"let _base9 = 2; let _exp9 = 5; let _pow9 = _base9 ** _exp9; console.log(_pow9); let _unusedVar1 = 495051; function _unusedFunc1() { return ""This is dead code.""; };","32
+","32
+"
+let item1Price = 25; let item2Price = 35; let totalPrice2 = item1Price + item2Price; console.log(totalPrice2);,"let _item1Price = 25; let _item2Price = 35; let _totalPrice2 = _item1Price + _item2Price; console.log(_totalPrice2); let _unusedVar2 = 525354; function _unusedFunc2() { return ""This is dead code.""; };","60
+",60
+let fahrenheit2 = 68; let celsius3 = (fahrenheit2 - 32) * 5/9; console.log(celsius3);,"let _fahr2 = 68; let _cels3 = (_fahr2 - 32) * 5/9; console.log(_cels3); let _unusedVar3 = 555657; function _unusedFunc3() { return ""This is dead code.""; };","20
+","20
+"
+"let radius9 = 6; let sphereVolume = (4/3) * Math.PI * Math.pow(radius9, 3); console.log(sphereVolume);","let _rad9 = 6; let _sphVol = (4/3) * Math.PI * Math.pow(_rad9, 3); console.log(_sphVol); let _unusedVar4 = 585960; function _unusedFunc4() { return ""This is dead code.""; };","904.7786842338603
+","904.7786842338603
+"
+let cost = 75; let taxRate = 0.07; let taxAmount = cost * taxRate; console.log(taxAmount);,"let _cst = 75; let _taxRt = 0.07; let _taxAmt = _cst * _taxRt; console.log(_taxAmt); let _unusedVar5 = 616263; function _unusedFunc5() { return ""This is dead code.""; };","5.250000000000001
+","5.250000000000001
+"
+"let radius10 = 12; let surfaceArea = 4 * Math.PI * Math.pow(radius10, 2); console.log(surfaceArea);","let _rad10 = 12; let _surfArea = 4 * Math.PI * Math.pow(_rad10, 2); console.log(_surfArea); let _unusedVar6 = 646566; function _unusedFunc6() { return ""This is dead code.""; };","1809.5573684677208
+","1809.5573684677208
+"
+"let base10 = 7; let exponent10 = 3; let power10 = Math.pow(base10, exponent10); console.log(power10);","let _base10 = 7; let _exp10 = 3; let _pow10 = Math.pow(_base10, _exp10); console.log(_pow10); let _unusedVar7 = 676869; function _unusedFunc7() { return ""This is dead code.""; };","343
+","343
+"
+let kilometers2 = 100; let miles2 = kilometers2 * 0.621371; console.log(miles2);,"let _km2 = 100; let _mi2 = _km2 * 0.621371; console.log(_mi2); let _unusedVar8 = 707172; function _unusedFunc8() { return ""This is dead code.""; };","62.137100000000004
+","62.137100000000004
+"
+let hoursWorked3 = 50; let hourlyRate2 = 18; let totalPay = hoursWorked3 * hourlyRate2; console.log(totalPay);,"let _hrsWrk3 = 50; let _hrRt2 = 18; let _ttlPay = _hrsWrk3 * _hrRt2; console.log(_ttlPay); let _unusedVar9 = 737475; function _unusedFunc9() { return ""This is dead code.""; };","900
+","900
+"
+let totalMinutes = 120; let hoursConverted = totalMinutes / 60; console.log(hoursConverted);,"let _ttlMin = 120; let _hrsConv = _ttlMin / 60; console.log(_hrsConv); let _unusedVar10 = 767778; function _unusedFunc10() { return ""This is dead code.""; };","2
+","2
+"
+let radius11 = 15; let circleCircumference = 2 * Math.PI * radius11; console.log(circleCircumference);,"let _rad11 = 15; let _circCirc = 2 * Math.PI * _rad11; console.log(_circCirc); let _unusedVar11 = 798081; function _unusedFunc11() { return ""This is dead code.""; };","94.24777960769379
+",94.24777960769379
+let pounds2 = 180; let kilograms2 = pounds2 * 0.453592; console.log(kilograms2);,"let _lbs2 = 180; let _kg2 = _lbs2 * 0.453592; console.log(_kg2); let _unusedVar12 = 828384; function _unusedFunc12() { return ""This is dead code.""; };","81.64656
+","81.64656
+"
+let totalItems = 150; let defectiveItems = 5; let percentageDefective = (defectiveItems / totalItems) * 100; console.log(percentageDefective);,"let _ttlItems = 150; let _defItems = 5; let _pctDef = (_defItems / _ttlItems) * 100; console.log(_pctDef); let _unusedVar13 = 858687; function _unusedFunc13() { return ""This is dead code.""; };","3.3333333333333335
+","3.3333333333333335
+"
+"let base12 = 9; let exponent12 = 2; let power12 = Math.pow(base12, exponent12); console.log(power12);","let _base12 = 9; let _exp12 = 2; let _pow12 = Math.pow(_base12, _exp12); console.log(_pow12); let _unusedVar14 = 888990; function _unusedFunc14() { return ""This is dead code.""; };","81
+","81
+"
+let age2 = 22; let isTeen = age2 >= 13 && age2 <= 19; console.log(isTeen);,"let _age2 = 22; let _isTn = _age2 >= 13 && _age2 <= 19; console.log(_isTn); let _unusedVar15 = 919293; function _unusedFunc15() { return ""This is dead code.""; };","false
+","false
+"
+let side1 = 5; let side2 = 5; let isSquare = side1 === side2; console.log(isSquare);,"let _prc3 = 80; let _disc2 = 0.15; let _fnlPrc2 = _prc3 * (1 - _disc2); console.log(_fnlPrc2); let _unusedVar17 = 979899; function _unusedFunc17() { return ""This is dead code.""; };","true
+","true
+"
+let price3 = 80; let discount2 = 0.15; let finalPrice2 = price3 * (1 - discount2); console.log(finalPrice2);,"let _prc3 = 80; let _disc2 = 0.15; let _fnlPrc2 = _prc3 * (1 - _disc2); console.log(_fnlPrc2); let _unusedVar18 = 100101102; function _unusedFunc18() { return ""This is dead code.""; };","68
+","68
+"
+let totalSeconds = 3600; let hoursConverted2 = totalSeconds / 3600; console.log(hoursConverted2);,"let _ttlSec = 3600; let _hrsConv2 = _ttlSec / 3600; console.log(_hrsConv2); let _unusedVar19 = 103104105; function _unusedFunc19() { return ""This is dead code.""; };","1
+","1
+"
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

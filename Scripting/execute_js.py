@@ -56,7 +56,7 @@ if __name__ == "__main__":
     script_dir = os.path.dirname(__file__)
     project_dir = os.path.join(script_dir, '..')
     data_dir = os.path.join(project_dir, 'Data')
-    csv_path = os.path.join(data_dir, 'code_and_obfuscated_output.csv')
+    csv_path = os.path.join(data_dir, 'new_code_snippets.csv')
 
     df = pd.read_csv(csv_path)
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     df = df[~df["output"].apply(has_bad_characters)]
     
-    df.to_csv(f"{data_dir}/code_snippets_with_output.csv", index = False)
+    df.to_csv(f"{data_dir}/new_code_outputs.csv", index = False)
 
 
 
