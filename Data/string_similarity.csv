@@ -1,4 +1,4 @@
-code,obfuscatedCode,originalOutput,obfuscatedOutput,similarity,stringSimilarity
+code,obfuscatedCode,originalOutput,obfuscatedOutput,cosineSimilarity,stringSimilarity
 "let weather = ""sunny""; if (weather === ""sunny"") { console.log(""It's a bright day!""); } else { console.log(""It might rain today.""); };","let weather = ""sunny"";if(weather === ""sunny""){console.log(""It's a bright day!"");var x = 1;x++;} else {console.log(""It might rain today."");x--;};","It's a bright day!
 ","It's a bright day!
 ",0.9714,0.8472
